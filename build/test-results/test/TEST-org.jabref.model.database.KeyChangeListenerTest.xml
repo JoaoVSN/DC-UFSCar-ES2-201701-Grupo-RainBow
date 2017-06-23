@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.model.database.KeyChangeListenerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:39:01" hostname="auri-inspiron" time="0.008">
+  <properties/>
+  <testcase name="testRelatedAllEntriesRemoved" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.004"/>
+  <testcase name="testRelatedEntryRemoved" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.0"/>
+  <testcase name="testRelatedChangedInSameEntry" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.001"/>
+  <testcase name="testCrossrefEntryRemoved" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.001"/>
+  <testcase name="testCrossrefChanged" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.001"/>
+  <testcase name="testCrossrefRemoved" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.0"/>
+  <testcase name="testRelatedChanged" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.importer.ImportDataTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:36:51" hostname="auri-inspiron" time="0.264">
+  <properties/>
+  <testcase name="testOpenNotExistingDirectory" classname="org.jabref.logic.importer.ImportDataTest" time="0.263"/>
+  <testcase name="testTestingEnvironment" classname="org.jabref.logic.importer.ImportDataTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

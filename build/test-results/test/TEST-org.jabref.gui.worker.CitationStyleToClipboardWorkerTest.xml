@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:58" hostname="auri-inspiron" time="0.217">
+  <properties/>
+  <testcase name="processText" classname="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" time="0.001"/>
+  <testcase name="processRtf" classname="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" time="0.0"/>
+  <testcase name="processPreviewHtml" classname="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" time="0.002"/>
+  <testcase name="processPreviewText" classname="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" time="0.001"/>
+  <testcase name="processHtmlAsHtml" classname="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" time="0.212"/>
+  <testcase name="processHtmlAsText" classname="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" time="0.001"/>
+  <testcase name="processXslFo" classname="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

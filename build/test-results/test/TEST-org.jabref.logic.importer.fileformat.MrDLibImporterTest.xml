@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.importer.fileformat.MrDLibImporterTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:37:15" hostname="auri-inspiron" time="0.01">
+  <properties/>
+  <testcase name="testImportDatabaseIsHtmlSetCorrectly" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.004"/>
+  <testcase name="testGetName" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.001"/>
+  <testcase name="testImportDatabaseMin" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.001"/>
+  <testcase name="testGetDescription" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.0"/>
+  <testcase name="testGetFileExtention" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.0"/>
+  <testcase name="testImportDatabaseIsYearSetCorrectly" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.002"/>
+  <testcase name="testImportDatabaseIsTitleSetCorrectly" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

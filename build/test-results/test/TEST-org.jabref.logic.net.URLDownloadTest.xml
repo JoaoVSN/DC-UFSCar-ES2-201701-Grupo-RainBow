@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.net.URLDownloadTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:18" hostname="auri-inspiron" time="11.936">
+  <properties/>
+  <testcase name="testDetermineMimeType" classname="org.jabref.logic.net.URLDownloadTest" time="0.364"/>
+  <testcase name="downloadToTemporaryFileKeepsName" classname="org.jabref.logic.net.URLDownloadTest" time="0.967"/>
+  <testcase name="testStringDownload" classname="org.jabref.logic.net.URLDownloadTest" time="0.761"/>
+  <testcase name="downloadOfFTPSucceeds" classname="org.jabref.logic.net.URLDownloadTest" time="6.761"/>
+  <testcase name="downloadOfHttpSucceeds" classname="org.jabref.logic.net.URLDownloadTest" time="0.208"/>
+  <testcase name="downloadToTemporaryFilePathWithoutFileSavesAsTmpFile" classname="org.jabref.logic.net.URLDownloadTest" time="0.76"/>
+  <testcase name="downloadOfHttpsSucceeds" classname="org.jabref.logic.net.URLDownloadTest" time="0.69"/>
+  <testcase name="testStringDownloadWithSetEncoding" classname="org.jabref.logic.net.URLDownloadTest" time="0.693"/>
+  <testcase name="testFileDownload" classname="org.jabref.logic.net.URLDownloadTest" time="0.731"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

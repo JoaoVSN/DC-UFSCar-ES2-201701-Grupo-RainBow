@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:17" hostname="auri-inspiron" time="0.025">
+  <properties/>
+  <testcase name="testCorrectOrderingOfTerms" classname="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" time="0.005"/>
+  <testcase name="testDoNotProtectAlreadyProtected" classname="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" time="0.005"/>
+  <testcase name="testCaseSensitivity" classname="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" time="0.003"/>
+  <testcase name="test" classname="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" time="0.007"/>
+  <testcase name="formatExample" classname="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" time="0.003"/>
+  <testcase name="testSingleWord" classname="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

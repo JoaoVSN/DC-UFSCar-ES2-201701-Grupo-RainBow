@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.util.BuildInfoTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:17" hostname="auri-inspiron" time="0.001">
+  <properties/>
+  <testcase name="testFileImport" classname="org.jabref.logic.util.BuildInfoTest" time="0.001"/>
+  <testcase name="testDefaults" classname="org.jabref.logic.util.BuildInfoTest" time="0.0"/>
+  <testcase name="azureInstrumentationKeyIsNotEmpty" classname="org.jabref.logic.util.BuildInfoTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

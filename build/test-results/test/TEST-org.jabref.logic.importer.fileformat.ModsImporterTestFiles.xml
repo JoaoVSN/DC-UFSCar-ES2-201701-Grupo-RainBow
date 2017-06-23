@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.importer.fileformat.ModsImporterTestFiles" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:37:28" hostname="auri-inspiron" time="0.414">
+  <properties/>
+  <testcase name="testImportEntries[MODSImporterTestMinimal.xml]" classname="org.jabref.logic.importer.fileformat.ModsImporterTestFiles" time="0.245"/>
+  <testcase name="testIsRecognizedFormat[MODSImporterTestMinimal.xml]" classname="org.jabref.logic.importer.fileformat.ModsImporterTestFiles" time="0.0"/>
+  <testcase name="testImportEntries[MODSImporterTestMods.xml]" classname="org.jabref.logic.importer.fileformat.ModsImporterTestFiles" time="0.059"/>
+  <testcase name="testIsRecognizedFormat[MODSImporterTestMods.xml]" classname="org.jabref.logic.importer.fileformat.ModsImporterTestFiles" time="0.0"/>
+  <testcase name="testImportEntries[MODSImporterTestModsCollection.xml]" classname="org.jabref.logic.importer.fileformat.ModsImporterTestFiles" time="0.057"/>
+  <testcase name="testIsRecognizedFormat[MODSImporterTestModsCollection.xml]" classname="org.jabref.logic.importer.fileformat.ModsImporterTestFiles" time="0.0"/>
+  <testcase name="testImportEntries[MODSImporterTestAllFields.xml]" classname="org.jabref.logic.importer.fileformat.ModsImporterTestFiles" time="0.053"/>
+  <testcase name="testIsRecognizedFormat[MODSImporterTestAllFields.xml]" classname="org.jabref.logic.importer.fileformat.ModsImporterTestFiles" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

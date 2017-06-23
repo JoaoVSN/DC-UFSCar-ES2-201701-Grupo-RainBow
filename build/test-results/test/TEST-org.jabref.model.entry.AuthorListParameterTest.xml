@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.model.entry.AuthorListParameterTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:39:01" hostname="auri-inspiron" time="0.001">
+  <properties/>
+  <testcase name="parseCorrectly[0: parse(Doe, John)=[Author{firstPart='John', firstAbbr='J.', vonPart='null', lastPart='Doe', jrPart='null'}]]" classname="org.jabref.model.entry.AuthorListParameterTest" time="0.0"/>
+  <testcase name="parseCorrectly[1: parse(von Berlichingen zu Hornberg, Johann Gottfried)=[Author{firstPart='Johann Gottfried', firstAbbr='J. G.', vonPart='von', lastPart='Berlichingen zu Hornberg', jrPart='null'}]]" classname="org.jabref.model.entry.AuthorListParameterTest" time="0.0"/>
+  <testcase name="parseCorrectly[2: parse(de la Vallée Poussin, Jean Charles Gabriel)=[Author{firstPart='Jean Charles Gabriel', firstAbbr='J. C. G.', vonPart='de la', lastPart='Vallée Poussin', jrPart='null'}]]" classname="org.jabref.model.entry.AuthorListParameterTest" time="0.0"/>
+  <testcase name="parseCorrectly[3: parse(de la Vallée Poussin, J. C. G.)=[Author{firstPart='J. C. G.', firstAbbr='J. C. G.', vonPart='de la', lastPart='Vallée Poussin', jrPart='null'}]]" classname="org.jabref.model.entry.AuthorListParameterTest" time="0.001"/>
+  <testcase name="parseCorrectly[4: parse({K}ent-{B}oswell, E. S.)=[Author{firstPart='E. S.', firstAbbr='E. S.', vonPart='null', lastPart='{K}ent-{B}oswell', jrPart='null'}]]" classname="org.jabref.model.entry.AuthorListParameterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

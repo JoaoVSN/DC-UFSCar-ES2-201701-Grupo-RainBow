@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.gui.util.RecursiveTreeItemTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:58" hostname="auri-inspiron" time="0.307">
+  <properties/>
+  <testcase name="addsAllChildrenOfChildNode" classname="org.jabref.gui.util.RecursiveTreeItemTest" time="0.299"/>
+  <testcase name="addsAllChildrenNodes" classname="org.jabref.gui.util.RecursiveTreeItemTest" time="0.001"/>
+  <testcase name="respectsFilter" classname="org.jabref.gui.util.RecursiveTreeItemTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

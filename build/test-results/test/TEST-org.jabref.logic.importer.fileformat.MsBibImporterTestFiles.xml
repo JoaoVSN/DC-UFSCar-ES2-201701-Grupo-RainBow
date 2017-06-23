@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" tests="28" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:37:06" hostname="auri-inspiron" time="0.059">
+  <properties/>
+  <testcase name="testImportEntries[MsBibImporterTest3.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.005"/>
+  <testcase name="testIsRecognizedFormat[MsBibImporterTest3.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.001"/>
+  <testcase name="testImportEntries[MsBibImporterTest6.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.005"/>
+  <testcase name="testIsRecognizedFormat[MsBibImporterTest6.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.001"/>
+  <testcase name="testImportEntries[MsBibImporterTest5.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.003"/>
+  <testcase name="testIsRecognizedFormat[MsBibImporterTest5.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.001"/>
+  <testcase name="testImportEntries[MsBibShorttitle.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.002"/>
+  <testcase name="testIsRecognizedFormat[MsBibShorttitle.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.001"/>
+  <testcase name="testImportEntries[MsBibImporterInvalidMonth.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.004"/>
+  <testcase name="testIsRecognizedFormat[MsBibImporterInvalidMonth.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.001"/>
+  <testcase name="testImportEntries[MsBibLCID.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.002"/>
+  <testcase name="testIsRecognizedFormat[MsBibLCID.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.001"/>
+  <testcase name="testImportEntries[MsBibMultiLocationAddressTest.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.003"/>
+  <testcase name="testIsRecognizedFormat[MsBibMultiLocationAddressTest.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.002"/>
+  <testcase name="testImportEntries[MsBibPatent.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.002"/>
+  <testcase name="testIsRecognizedFormat[MsBibPatent.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.001"/>
+  <testcase name="testImportEntries[MsBibLocationTest.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.003"/>
+  <testcase name="testIsRecognizedFormat[MsBibLocationTest.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.001"/>
+  <testcase name="testImportEntries[MsBibImporterTitleTest.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.002"/>
+  <testcase name="testIsRecognizedFormat[MsBibImporterTitleTest.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.001"/>
+  <testcase name="testImportEntries[MsBibImporterMsBibFieldsTest.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.003"/>
+  <testcase name="testIsRecognizedFormat[MsBibImporterMsBibFieldsTest.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.001"/>
+  <testcase name="testImportEntries[MsBibImporterTest4.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.003"/>
+  <testcase name="testIsRecognizedFormat[MsBibImporterTest4.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.001"/>
+  <testcase name="testImportEntries[MsBibExportFormatUmlauts.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.002"/>
+  <testcase name="testIsRecognizedFormat[MsBibExportFormatUmlauts.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.001"/>
+  <testcase name="testImportEntries[MsBibImporterTest7.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.003"/>
+  <testcase name="testIsRecognizedFormat[MsBibImporterTest7.xml]" classname="org.jabref.logic.importer.fileformat.MsBibImporterTestFiles" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

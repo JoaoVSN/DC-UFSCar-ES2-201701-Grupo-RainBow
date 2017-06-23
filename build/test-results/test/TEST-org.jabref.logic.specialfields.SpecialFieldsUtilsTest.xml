@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.specialfields.SpecialFieldsUtilsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:34" hostname="auri-inspiron" time="0.004">
+  <properties/>
+  <testcase name="syncSpecialFieldsFromKeywordCausesNoChangeWhenKeywordsAreEmpty" classname="org.jabref.logic.specialfields.SpecialFieldsUtilsTest" time="0.001"/>
+  <testcase name="syncKeywordsFromSpecialFieldsCausesChange" classname="org.jabref.logic.specialfields.SpecialFieldsUtilsTest" time="0.001"/>
+  <testcase name="syncSpecialFieldsFromKeywordCausesChange" classname="org.jabref.logic.specialfields.SpecialFieldsUtilsTest" time="0.001"/>
+  <testcase name="syncSpecialFieldsFromKeywordWritesToSpecialField" classname="org.jabref.logic.specialfields.SpecialFieldsUtilsTest" time="0.0"/>
+  <testcase name="syncKeywordsFromSpecialFieldsWritesToKeywords" classname="org.jabref.logic.specialfields.SpecialFieldsUtilsTest" time="0.0"/>
+  <testcase name="syncKeywordsFromSpecialFieldsForEmptyFieldCausesNoChange" classname="org.jabref.logic.specialfields.SpecialFieldsUtilsTest" time="0.0"/>
+  <testcase name="syncKeywordsFromSpecialFieldsOverwritesKeywords" classname="org.jabref.logic.specialfields.SpecialFieldsUtilsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

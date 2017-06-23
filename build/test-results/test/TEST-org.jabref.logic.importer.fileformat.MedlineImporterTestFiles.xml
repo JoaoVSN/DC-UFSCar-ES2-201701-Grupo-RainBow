@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.importer.fileformat.MedlineImporterTestFiles" tests="18" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:37:17" hostname="auri-inspiron" time="2.968">
+  <properties/>
+  <testcase name="testImportEntries[/home/auri/OneDrive/temp/jabref/build/classes/test/org/jabref/logic/importer/fileformat/MedlineImporterTestKeywordSingleEntry.xml]" classname="org.jabref.logic.importer.fileformat.MedlineImporterTestFiles" time="0.685"/>
+  <testcase name="testIsRecognizedFormat[/home/auri/OneDrive/temp/jabref/build/classes/test/org/jabref/logic/importer/fileformat/MedlineImporterTestKeywordSingleEntry.xml]" classname="org.jabref.logic.importer.fileformat.MedlineImporterTestFiles" time="0.0"/>
+  <testcase name="testImportEntries[/home/auri/OneDrive/temp/jabref/build/classes/test/org/jabref/logic/importer/fileformat/MedlineImporterTestMinimalEntry.xml]" classname="org.jabref.logic.importer.fileformat.MedlineImporterTestFiles" time="0.046"/>
+  <testcase name="testIsRecognizedFormat[/home/auri/OneDrive/temp/jabref/build/classes/test/org/jabref/logic/importer/fileformat/MedlineImporterTestMinimalEntry.xml]" classname="org.jabref.logic.importer.fileformat.MedlineImporterTestFiles" time="0.0"/>
+  <testcase name="testImportEntries[/home/auri/OneDrive/temp/jabref/build/classes/test/org/jabref/logic/importer/fileformat/MedlineImporterTestNbib.xml]" classname="org.jabref.logic.importer.fileformat.MedlineImporterTestFiles" time="1.694"/>
+  <testcase name="testIsRecognizedFormat[/home/auri/OneDrive/temp/jabref/build/classes/test/org/jabref/logic/importer/fileformat/MedlineImporterTestNbib.xml]" classname="org.jabref.logic.importer.fileformat.MedlineImporterTestFiles" time="0.0"/>
+  <testcase name="testImportEntries[/home/auri/OneDrive/temp/jabref/build/classes/test/org/jabref/logic/importer/fileformat/MedlineImporterTestDOI.xml]" classname="org.jabref.logic.importer.fileformat.MedlineImporterTestFiles" time="0.202"/>
+  <testcase name="testIsRecognizedFormat[/home/auri/OneDrive/temp/jabref/build/classes/test/org/jabref/logic/importer/fileformat/MedlineImporterTestDOI.xml]" classname="org.jabref.logic.importer.fileformat.MedlineImporterTestFiles" time="0.001"/>
+  <testcase name="testImportEntries[/home/auri/OneDrive/temp/jabref/build/classes/test/org/jabref/logic/importer/fileformat/MedlineImporterTestMalformedEntry.xml]" classname="org.jabref.logic.importer.fileformat.MedlineImporterTestFiles" time="0.078"/>
+  <testcase name="testIsRecognizedFormat[/home/auri/OneDrive/temp/jabref/build/classes/test/org/jabref/logic/importer/fileformat/MedlineImporterTestMalformedEntry.xml]" classname="org.jabref.logic.importer.fileformat.MedlineImporterTestFiles" time="0.0"/>
+  <testcase name="testImportEntries[/home/auri/OneDrive/temp/jabref/build/classes/test/org/jabref/logic/importer/fileformat/MedlineImporterTestPubmedBook.xml]" classname="org.jabref.logic.importer.fileformat.MedlineImporterTestFiles" time="0.059"/>
+  <testcase name="testIsRecognizedFormat[/home/auri/OneDrive/temp/jabref/build/classes/test/org/jabref/logic/importer/fileformat/MedlineImporterTestPubmedBook.xml]" classname="org.jabref.logic.importer.fileformat.MedlineImporterTestFiles" time="0.001"/>
+  <testcase name="testImportEntries[/home/auri/OneDrive/temp/jabref/build/classes/test/org/jabref/logic/importer/fileformat/MedlineImporterTestArticleID.xml]" classname="org.jabref.logic.importer.fileformat.MedlineImporterTestFiles" time="0.049"/>
+  <testcase name="testIsRecognizedFormat[/home/auri/OneDrive/temp/jabref/build/classes/test/org/jabref/logic/importer/fileformat/MedlineImporterTestArticleID.xml]" classname="org.jabref.logic.importer.fileformat.MedlineImporterTestFiles" time="0.0"/>
+  <testcase name="testImportEntries[/home/auri/OneDrive/temp/jabref/build/classes/test/org/jabref/logic/importer/fileformat/MedlineImporterTestBookArticleSet.xml]" classname="org.jabref.logic.importer.fileformat.MedlineImporterTestFiles" time="0.055"/>
+  <testcase name="testIsRecognizedFormat[/home/auri/OneDrive/temp/jabref/build/classes/test/org/jabref/logic/importer/fileformat/MedlineImporterTestBookArticleSet.xml]" classname="org.jabref.logic.importer.fileformat.MedlineImporterTestFiles" time="0.0"/>
+  <testcase name="testImportEntries[/home/auri/OneDrive/temp/jabref/build/classes/test/org/jabref/logic/importer/fileformat/MedlineImporterTestArticleNoISSN.xml]" classname="org.jabref.logic.importer.fileformat.MedlineImporterTestFiles" time="0.095"/>
+  <testcase name="testIsRecognizedFormat[/home/auri/OneDrive/temp/jabref/build/classes/test/org/jabref/logic/importer/fileformat/MedlineImporterTestArticleNoISSN.xml]" classname="org.jabref.logic.importer.fileformat.MedlineImporterTestFiles" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

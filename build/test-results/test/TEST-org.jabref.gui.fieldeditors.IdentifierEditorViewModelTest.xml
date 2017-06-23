@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.gui.fieldeditors.IdentifierEditorViewModelTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:41" hostname="auri-inspiron" time="0.017">
+  <properties/>
+  <testcase name="validIdentifierIsNotPresentIsTrueForEmptyText" classname="org.jabref.gui.fieldeditors.IdentifierEditorViewModelTest" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.l10n.LocalizationTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:35:18" hostname="auri-inspiron" time="0.045">
+  <properties/>
+  <testcase name="testSetKnownLanguage" classname="org.jabref.logic.l10n.LocalizationTest" time="0.0"/>
+  <testcase name="testKnownTranslation" classname="org.jabref.logic.l10n.LocalizationTest" time="0.001"/>
+  <testcase name="testUnsetLanguageTranslation" classname="org.jabref.logic.l10n.LocalizationTest" time="0.0"/>
+  <testcase name="testUnknownTranslation" classname="org.jabref.logic.l10n.LocalizationTest" time="0.043"/>
+  <testcase name="testKnownTranslationWithCountryModifier" classname="org.jabref.logic.l10n.LocalizationTest" time="0.0"/>
+  <testcase name="testSetUnknownLanguage" classname="org.jabref.logic.l10n.LocalizationTest" time="0.001"/>
+  <system-out><![CDATA[08:35:18.820 [Test worker] WARN  org.jabref.logic.l10n.Localization - Warning: could not get message translation for "WHATEVER" for locale en
+08:35:18.827 [Test worker] WARN  org.jabref.logic.l10n.Localization - Warning: no message translation for "WHATEVER" for locale en
+08:35:18.828 [Test worker] WARN  org.jabref.logic.l10n.Localization - Warning: could not get menu item translation for "WHATEVER" for locale en
+08:35:18.828 [Test worker] WARN  org.jabref.logic.l10n.Localization - Warning: no menu item translation for "WHATEVER" for locale en
+08:35:18.829 [Test worker] WARN  org.jabref.logic.l10n.Localization - Language WHATEVER is not supported by JabRef (Default:zh_CN)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

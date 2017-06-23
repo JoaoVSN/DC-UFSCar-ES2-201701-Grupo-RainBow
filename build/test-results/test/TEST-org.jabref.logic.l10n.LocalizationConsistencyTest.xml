@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.l10n.LocalizationConsistencyTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:35:04" hostname="auri-inspiron" time="13.572">
+  <properties/>
+  <testcase name="findMissingMenuLocalizationKeys" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="3.316"/>
+  <testcase name="findObsoleteLocalizationKeys" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="8.077"/>
+  <testcase name="allFilesMustHaveSameKeys" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="1.692"/>
+  <testcase name="keyValueShouldBeEqualForEnglishPropertiesMessages" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.043"/>
+  <testcase name="ensureNoDuplicates" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.036"/>
+  <testcase name="localizationParameterMustIncludeAString" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.128"/>
+  <testcase name="findMissingLocalizationKeys" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.219"/>
+  <testcase name="findObsoleteMenuLocalizationKeys" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.057"/>
+  <testcase name="keyValueShouldBeEqualForEnglishPropertiesMenu" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

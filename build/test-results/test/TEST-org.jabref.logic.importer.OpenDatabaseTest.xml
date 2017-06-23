@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.importer.OpenDatabaseTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:36:42" hostname="auri-inspiron" time="0.014">
+  <properties/>
+  <testcase name="useFallbackEncodingIfNoHeader" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.002"/>
+  <testcase name="correctlyParseEncodingWithoutNewline" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.001"/>
+  <testcase name="entriesAreParsedHeader" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.001"/>
+  <testcase name="entriesAreParsedHeaderAndSignature" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.002"/>
+  <testcase name="useSpecifiedEncodingWithSignature" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.002"/>
+  <testcase name="useFallbackEncodingIfUnknownHeader" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.002"/>
+  <testcase name="useSpecifiedEncoding" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.002"/>
+  <testcase name="entriesAreParsedNoHeader" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

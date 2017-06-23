@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.importer.fileformat.BiblioscapeImporterTestFiles" tests="16" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:37:06" hostname="auri-inspiron" time="0.025">
+  <properties/>
+  <testcase name="testImportEntries[BiblioscapeImporterTestOptionalFields]" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTestFiles" time="0.004"/>
+  <testcase name="testIsRecognizedFormat[BiblioscapeImporterTestOptionalFields]" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTestFiles" time="0.0"/>
+  <testcase name="testImportEntries[BiblioscapeImporterTestComments]" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTestFiles" time="0.003"/>
+  <testcase name="testIsRecognizedFormat[BiblioscapeImporterTestComments]" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTestFiles" time="0.0"/>
+  <testcase name="testImportEntries[BiblioscapeImporterTestUnknownFields]" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTestFiles" time="0.003"/>
+  <testcase name="testIsRecognizedFormat[BiblioscapeImporterTestUnknownFields]" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTestFiles" time="0.0"/>
+  <testcase name="testImportEntries[BiblioscapeImporterTestKeywords]" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTestFiles" time="0.003"/>
+  <testcase name="testIsRecognizedFormat[BiblioscapeImporterTestKeywords]" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTestFiles" time="0.0"/>
+  <testcase name="testImportEntries[BiblioscapeImporterTestJournalArticle]" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTestFiles" time="0.002"/>
+  <testcase name="testIsRecognizedFormat[BiblioscapeImporterTestJournalArticle]" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTestFiles" time="0.0"/>
+  <testcase name="testImportEntries[BiblioscapeImporterTestInbook]" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTestFiles" time="0.002"/>
+  <testcase name="testIsRecognizedFormat[BiblioscapeImporterTestInbook]" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTestFiles" time="0.0"/>
+  <testcase name="testImportEntries[BiblioscapeImporterTestUnknownType]" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTestFiles" time="0.002"/>
+  <testcase name="testIsRecognizedFormat[BiblioscapeImporterTestUnknownType]" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTestFiles" time="0.0"/>
+  <testcase name="testImportEntries[BiblioscapeImporterTestArticleST]" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTestFiles" time="0.002"/>
+  <testcase name="testIsRecognizedFormat[BiblioscapeImporterTestArticleST]" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTestFiles" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

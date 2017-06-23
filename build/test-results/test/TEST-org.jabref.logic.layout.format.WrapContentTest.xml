@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.layout.format.WrapContentTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:35:42" hostname="auri-inspiron" time="0.002">
+  <properties/>
+  <testcase name="testSimpleText" classname="org.jabref.logic.layout.format.WrapContentTest" time="0.001"/>
+  <testcase name="testEmptyStart" classname="org.jabref.logic.layout.format.WrapContentTest" time="0.0"/>
+  <testcase name="testEscaping" classname="org.jabref.logic.layout.format.WrapContentTest" time="0.0"/>
+  <testcase name="testNoArgumentSetExpectNothingAdded" classname="org.jabref.logic.layout.format.WrapContentTest" time="0.0"/>
+  <testcase name="testFormatEmptyExpectNothingAdded" classname="org.jabref.logic.layout.format.WrapContentTest" time="0.0"/>
+  <testcase name="testFormatNullExpectNothingAdded" classname="org.jabref.logic.layout.format.WrapContentTest" time="0.0"/>
+  <testcase name="testEmptyEnd" classname="org.jabref.logic.layout.format.WrapContentTest" time="0.0"/>
+  <testcase name="testNoProperArgumentExpectNothingAdded" classname="org.jabref.logic.layout.format.WrapContentTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

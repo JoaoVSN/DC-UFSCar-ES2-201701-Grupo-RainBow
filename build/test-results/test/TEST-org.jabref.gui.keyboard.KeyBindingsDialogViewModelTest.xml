@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.gui.keyboard.KeyBindingsDialogViewModelTest" tests="8" skipped="4" failures="0" errors="0" timestamp="2017-06-20T11:38:41" hostname="auri-inspiron" time="0.252">
+  <properties/>
+  <testcase name="testRandomNewKeyKeyBindingInRepository" classname="org.jabref.gui.keyboard.KeyBindingsDialogViewModelTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSaveNewKeyBindingsToPreferences" classname="org.jabref.gui.keyboard.KeyBindingsDialogViewModelTest" time="0.24"/>
+  <testcase name="testSetAllKeyBindingsToDefault" classname="org.jabref.gui.keyboard.KeyBindingsDialogViewModelTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSpecialKeysValidKeyBindingIsSaved" classname="org.jabref.gui.keyboard.KeyBindingsDialogViewModelTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testInvalidKeyBindingIsNotSaved" classname="org.jabref.gui.keyboard.KeyBindingsDialogViewModelTest" time="0.005"/>
+  <testcase name="testKeyBindingCategory" classname="org.jabref.gui.keyboard.KeyBindingsDialogViewModelTest" time="0.003"/>
+  <testcase name="testSaveNewSpecialKeysKeyBindingsToPreferences" classname="org.jabref.gui.keyboard.KeyBindingsDialogViewModelTest" time="0.004"/>
+  <testcase name="testSetSingleKeyBindingToDefault" classname="org.jabref.gui.keyboard.KeyBindingsDialogViewModelTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

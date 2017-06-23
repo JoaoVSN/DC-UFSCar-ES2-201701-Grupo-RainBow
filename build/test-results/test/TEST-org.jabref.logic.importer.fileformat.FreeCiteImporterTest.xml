@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.importer.fileformat.FreeCiteImporterTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:37:15" hostname="auri-inspiron" time="1.906">
+  <properties/>
+  <testcase name="freeCiteReturnsSomething" classname="org.jabref.logic.importer.fileformat.FreeCiteImporterTest" time="1.905"/>
+  <testcase name="testsGetExtensions" classname="org.jabref.logic.importer.fileformat.FreeCiteImporterTest" time="0.0"/>
+  <testcase name="testGetDescription" classname="org.jabref.logic.importer.fileformat.FreeCiteImporterTest" time="0.0"/>
+  <testcase name="testGetFormatName" classname="org.jabref.logic.importer.fileformat.FreeCiteImporterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

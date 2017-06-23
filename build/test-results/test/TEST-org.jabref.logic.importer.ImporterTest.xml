@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.importer.ImporterTest" tests="144" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:36:42" hostname="auri-inspiron" time="0.107">
+  <properties/>
+  <testcase name="getFormatterNameDoesNotReturnNull[0: Biblioscape]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotReturnNull[0: Biblioscape]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="isRecognizedFormatWithNullThrowsException[0: Biblioscape]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getDescriptionDoesNotReturnNull[0: Biblioscape]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getExtensionsDoesNotReturnNull[0: Biblioscape]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotContainWhitespace[0: Biblioscape]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="importDatabaseWithNullThrowsException[0: Biblioscape]" classname="org.jabref.logic.importer.ImporterTest" time="0.001"/>
+  <testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[0: Biblioscape]" classname="org.jabref.logic.importer.ImporterTest" time="0.085"/>
+  <testcase name="getFormatterNameDoesNotReturnNull[1: BibTeX]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotReturnNull[1: BibTeX]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="isRecognizedFormatWithNullThrowsException[1: BibTeX]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getDescriptionDoesNotReturnNull[1: BibTeX]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getExtensionsDoesNotReturnNull[1: BibTeX]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotContainWhitespace[1: BibTeX]" classname="org.jabref.logic.importer.ImporterTest" time="0.001"/>
+  <testcase name="importDatabaseWithNullThrowsException[1: BibTeX]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[1: BibTeX]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getFormatterNameDoesNotReturnNull[2: BibTeXML]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotReturnNull[2: BibTeXML]" classname="org.jabref.logic.importer.ImporterTest" time="0.001"/>
+  <testcase name="isRecognizedFormatWithNullThrowsException[2: BibTeXML]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getDescriptionDoesNotReturnNull[2: BibTeXML]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getExtensionsDoesNotReturnNull[2: BibTeXML]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotContainWhitespace[2: BibTeXML]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="importDatabaseWithNullThrowsException[2: BibTeXML]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[2: BibTeXML]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getFormatterNameDoesNotReturnNull[3: Copac]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotReturnNull[3: Copac]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="isRecognizedFormatWithNullThrowsException[3: Copac]" classname="org.jabref.logic.importer.ImporterTest" time="0.001"/>
+  <testcase name="getDescriptionDoesNotReturnNull[3: Copac]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getExtensionsDoesNotReturnNull[3: Copac]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotContainWhitespace[3: Copac]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="importDatabaseWithNullThrowsException[3: Copac]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[3: Copac]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getFormatterNameDoesNotReturnNull[4: Refer/Endnote]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotReturnNull[4: Refer/Endnote]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="isRecognizedFormatWithNullThrowsException[4: Refer/Endnote]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getDescriptionDoesNotReturnNull[4: Refer/Endnote]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getExtensionsDoesNotReturnNull[4: Refer/Endnote]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotContainWhitespace[4: Refer/Endnote]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="importDatabaseWithNullThrowsException[4: Refer/Endnote]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[4: Refer/Endnote]" classname="org.jabref.logic.importer.ImporterTest" time="0.001"/>
+  <testcase name="getFormatterNameDoesNotReturnNull[5: text citations]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotReturnNull[5: text citations]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="isRecognizedFormatWithNullThrowsException[5: text citations]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getDescriptionDoesNotReturnNull[5: text citations]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getExtensionsDoesNotReturnNull[5: text citations]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotContainWhitespace[5: text citations]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="importDatabaseWithNullThrowsException[5: text citations]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[5: text citations]" classname="org.jabref.logic.importer.ImporterTest" time="0.001"/>
+  <testcase name="getFormatterNameDoesNotReturnNull[6: INSPEC]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotReturnNull[6: INSPEC]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="isRecognizedFormatWithNullThrowsException[6: INSPEC]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getDescriptionDoesNotReturnNull[6: INSPEC]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getExtensionsDoesNotReturnNull[6: INSPEC]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotContainWhitespace[6: INSPEC]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="importDatabaseWithNullThrowsException[6: INSPEC]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[6: INSPEC]" classname="org.jabref.logic.importer.ImporterTest" time="0.001"/>
+  <testcase name="getFormatterNameDoesNotReturnNull[7: ISI]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotReturnNull[7: ISI]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="isRecognizedFormatWithNullThrowsException[7: ISI]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getDescriptionDoesNotReturnNull[7: ISI]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getExtensionsDoesNotReturnNull[7: ISI]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotContainWhitespace[7: ISI]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="importDatabaseWithNullThrowsException[7: ISI]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[7: ISI]" classname="org.jabref.logic.importer.ImporterTest" time="0.001"/>
+  <testcase name="getFormatterNameDoesNotReturnNull[8: Medline/PubMed]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotReturnNull[8: Medline/PubMed]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="isRecognizedFormatWithNullThrowsException[8: Medline/PubMed]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getDescriptionDoesNotReturnNull[8: Medline/PubMed]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getExtensionsDoesNotReturnNull[8: Medline/PubMed]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotContainWhitespace[8: Medline/PubMed]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="importDatabaseWithNullThrowsException[8: Medline/PubMed]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[8: Medline/PubMed]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getFormatterNameDoesNotReturnNull[9: Medline/PubMed Plain]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotReturnNull[9: Medline/PubMed Plain]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="isRecognizedFormatWithNullThrowsException[9: Medline/PubMed Plain]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getDescriptionDoesNotReturnNull[9: Medline/PubMed Plain]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getExtensionsDoesNotReturnNull[9: Medline/PubMed Plain]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotContainWhitespace[9: Medline/PubMed Plain]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="importDatabaseWithNullThrowsException[9: Medline/PubMed Plain]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[9: Medline/PubMed Plain]" classname="org.jabref.logic.importer.ImporterTest" time="0.001"/>
+  <testcase name="getFormatterNameDoesNotReturnNull[10: MODS]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotReturnNull[10: MODS]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="isRecognizedFormatWithNullThrowsException[10: MODS]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getDescriptionDoesNotReturnNull[10: MODS]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getExtensionsDoesNotReturnNull[10: MODS]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotContainWhitespace[10: MODS]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="importDatabaseWithNullThrowsException[10: MODS]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[10: MODS]" classname="org.jabref.logic.importer.ImporterTest" time="0.001"/>
+  <testcase name="getFormatterNameDoesNotReturnNull[11: MSBib]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotReturnNull[11: MSBib]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="isRecognizedFormatWithNullThrowsException[11: MSBib]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getDescriptionDoesNotReturnNull[11: MSBib]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getExtensionsDoesNotReturnNull[11: MSBib]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotContainWhitespace[11: MSBib]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="importDatabaseWithNullThrowsException[11: MSBib]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[11: MSBib]" classname="org.jabref.logic.importer.ImporterTest" time="0.001"/>
+  <testcase name="getFormatterNameDoesNotReturnNull[12: Ovid]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotReturnNull[12: Ovid]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="isRecognizedFormatWithNullThrowsException[12: Ovid]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getDescriptionDoesNotReturnNull[12: Ovid]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getExtensionsDoesNotReturnNull[12: Ovid]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotContainWhitespace[12: Ovid]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="importDatabaseWithNullThrowsException[12: Ovid]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[12: Ovid]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getFormatterNameDoesNotReturnNull[13: PDFcontent]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotReturnNull[13: PDFcontent]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="isRecognizedFormatWithNullThrowsException[13: PDFcontent]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getDescriptionDoesNotReturnNull[13: PDFcontent]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getExtensionsDoesNotReturnNull[13: PDFcontent]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotContainWhitespace[13: PDFcontent]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="importDatabaseWithNullThrowsException[13: PDFcontent]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[13: PDFcontent]" classname="org.jabref.logic.importer.ImporterTest" time="0.001"/>
+  <testcase name="getFormatterNameDoesNotReturnNull[14: XMP-annotated PDF]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotReturnNull[14: XMP-annotated PDF]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="isRecognizedFormatWithNullThrowsException[14: XMP-annotated PDF]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getDescriptionDoesNotReturnNull[14: XMP-annotated PDF]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getExtensionsDoesNotReturnNull[14: XMP-annotated PDF]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotContainWhitespace[14: XMP-annotated PDF]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="importDatabaseWithNullThrowsException[14: XMP-annotated PDF]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[14: XMP-annotated PDF]" classname="org.jabref.logic.importer.ImporterTest" time="0.001"/>
+  <testcase name="getFormatterNameDoesNotReturnNull[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotReturnNull[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0.001"/>
+  <testcase name="isRecognizedFormatWithNullThrowsException[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getDescriptionDoesNotReturnNull[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getExtensionsDoesNotReturnNull[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0.001"/>
+  <testcase name="getIdDoesNotContainWhitespace[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="importDatabaseWithNullThrowsException[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0.001"/>
+  <testcase name="getFormatterNameDoesNotReturnNull[16: RIS]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotReturnNull[16: RIS]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="isRecognizedFormatWithNullThrowsException[16: RIS]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getDescriptionDoesNotReturnNull[16: RIS]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getExtensionsDoesNotReturnNull[16: RIS]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotContainWhitespace[16: RIS]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="importDatabaseWithNullThrowsException[16: RIS]" classname="org.jabref.logic.importer.ImporterTest" time="0.001"/>
+  <testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[16: RIS]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getFormatterNameDoesNotReturnNull[17: SilverPlatter]" classname="org.jabref.logic.importer.ImporterTest" time="0.001"/>
+  <testcase name="getIdDoesNotReturnNull[17: SilverPlatter]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="isRecognizedFormatWithNullThrowsException[17: SilverPlatter]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getDescriptionDoesNotReturnNull[17: SilverPlatter]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getExtensionsDoesNotReturnNull[17: SilverPlatter]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdDoesNotContainWhitespace[17: SilverPlatter]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="importDatabaseWithNullThrowsException[17: SilverPlatter]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[17: SilverPlatter]" classname="org.jabref.logic.importer.ImporterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

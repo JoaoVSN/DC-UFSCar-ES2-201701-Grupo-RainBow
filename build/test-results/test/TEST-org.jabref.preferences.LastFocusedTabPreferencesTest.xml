@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.preferences.LastFocusedTabPreferencesTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:35:04" hostname="auri-inspiron" time="0.002">
+  <properties/>
+  <testcase name="testLastFocusedTab" classname="org.jabref.preferences.LastFocusedTabPreferencesTest" time="0.001"/>
+  <testcase name="testLastFocusedTabNull" classname="org.jabref.preferences.LastFocusedTabPreferencesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

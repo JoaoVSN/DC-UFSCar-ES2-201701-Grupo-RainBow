@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.bst.TestVM" tests="34" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:35:18" hostname="auri-inspiron" time="3.71">
+  <properties/>
+  <testcase name="testVMIfSkipPop" classname="org.jabref.logic.bst.TestVM" time="0.05"/>
+  <testcase name="testVMSimple" classname="org.jabref.logic.bst.TestVM" time="3.213"/>
+  <testcase name="testHypthenatedName" classname="org.jabref.logic.bst.TestVM" time="0.094"/>
+  <testcase name="testVMStringOps1" classname="org.jabref.logic.bst.TestVM" time="0.001"/>
+  <testcase name="testVMExecuteSimple" classname="org.jabref.logic.bst.TestVM" time="0.0"/>
+  <testcase name="testAbbrv" classname="org.jabref.logic.bst.TestVM" time="0.018"/>
+  <testcase name="testEmpty" classname="org.jabref.logic.bst.TestVM" time="0.003"/>
+  <testcase name="testLabel" classname="org.jabref.logic.bst.TestVM" time="0.003"/>
+  <testcase name="testQuote" classname="org.jabref.logic.bst.TestVM" time="0.0"/>
+  <testcase name="testNumNames" classname="org.jabref.logic.bst.TestVM" time="0.0"/>
+  <testcase name="testWhile" classname="org.jabref.logic.bst.TestVM" time="0.002"/>
+  <testcase name="testWidth" classname="org.jabref.logic.bst.TestVM" time="0.003"/>
+  <testcase name="testSort" classname="org.jabref.logic.bst.TestVM" time="0.008"/>
+  <testcase name="testType" classname="org.jabref.logic.bst.TestVM" time="0.006"/>
+  <testcase name="testVMExecuteSimple2" classname="org.jabref.logic.bst.TestVM" time="0.0"/>
+  <testcase name="testFormatName" classname="org.jabref.logic.bst.TestVM" time="0.001"/>
+  <testcase name="testVMArithmetic" classname="org.jabref.logic.bst.TestVM" time="0.0"/>
+  <testcase name="testVMChrToIntIntToChr" classname="org.jabref.logic.bst.TestVM" time="0.0"/>
+  <testcase name="testBuildIn" classname="org.jabref.logic.bst.TestVM" time="0.001"/>
+  <testcase name="testDuplicateEmptyPopSwapIf" classname="org.jabref.logic.bst.TestVM" time="0.0"/>
+  <testcase name="testCallType" classname="org.jabref.logic.bst.TestVM" time="0.007"/>
+  <testcase name="testVariables" classname="org.jabref.logic.bst.TestVM" time="0.001"/>
+  <testcase name="testMissing" classname="org.jabref.logic.bst.TestVM" time="0.005"/>
+  <testcase name="testVMIntToStr" classname="org.jabref.logic.bst.TestVM" time="0.0"/>
+  <testcase name="testFormatName2" classname="org.jabref.logic.bst.TestVM" time="0.006"/>
+  <testcase name="testTextLength" classname="org.jabref.logic.bst.TestVM" time="0.0"/>
+  <testcase name="testSubstring" classname="org.jabref.logic.bst.TestVM" time="0.001"/>
+  <testcase name="testChangeCase" classname="org.jabref.logic.bst.TestVM" time="0.001"/>
+  <testcase name="testVMFunction1" classname="org.jabref.logic.bst.TestVM" time="0.001"/>
+  <testcase name="testIterate" classname="org.jabref.logic.bst.TestVM" time="0.006"/>
+  <testcase name="testNumNames2" classname="org.jabref.logic.bst.TestVM" time="0.0"/>
+  <testcase name="testVMArithmetic2" classname="org.jabref.logic.bst.TestVM" time="0.227"/>
+  <testcase name="testVMSwap" classname="org.jabref.logic.bst.TestVM" time="0.0"/>
+  <testcase name="testVMChrToInt" classname="org.jabref.logic.bst.TestVM" time="0.0"/>
+  <system-out><![CDATA[08:35:22.246 [Test worker] WARN  org.jabref.logic.bst.VM - Warning (#1): empty title in canh05
+08:35:22.246 [Test worker] WARN  org.jabref.logic.bst.VM - Warning (#2): empty journal in canh05
+08:35:22.246 [Test worker] WARN  org.jabref.logic.bst.VM - Warning (#3): empty year in canh05
+08:35:22.371 [Test worker] ERROR org.jabref.logic.bst.VM - ERROR Can only compare two integers with + (1)
+2017-06-20 08:35:22,582 Test worker ERROR An exception occurred processing Appender applicationInsightsAppender java.lang.NullPointerException
+	at org.jabref.gui.logging.ApplicationInsightsAppender.append(ApplicationInsightsAppender.java:51)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:448)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:433)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+	at org.apache.logging.log4j.core.config.LoggerConfig.logParent(LoggerConfig.java:439)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:434)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:403)
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63)
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:146)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2091)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:1971)
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1829)
+	at org.apache.logging.log4j.jcl.Log4jLog.error(Log4jLog.java:111)
+	at org.jabref.logic.bst.VM$StackFunction.execute(VM.java:1088)
+	at org.jabref.logic.bst.VM.execute(VM.java:1132)
+	at org.jabref.logic.bst.VM.execute(VM.java:1044)
+	at org.jabref.logic.bst.VM.run(VM.java:874)
+	at org.jabref.logic.bst.TestVM.testVMArithmetic2(TestVM.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:147)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:129)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

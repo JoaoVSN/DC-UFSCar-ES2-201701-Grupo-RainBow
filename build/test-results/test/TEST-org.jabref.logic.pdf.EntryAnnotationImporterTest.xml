@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.pdf.EntryAnnotationImporterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:34" hostname="auri-inspiron" time="0.03">
+  <properties/>
+  <testcase name="readEntryExampleThesis" classname="org.jabref.logic.pdf.EntryAnnotationImporterTest" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

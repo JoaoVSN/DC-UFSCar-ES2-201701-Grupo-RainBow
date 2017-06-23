@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.openoffice.OOBibStyleTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:36:06" hostname="auri-inspiron" time="0.141">
+  <properties/>
+  <testcase name="testNumerical" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.002"/>
+  <testcase name="testGetCitationMarkerInParenthesisUniquefiers" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.004"/>
+  <testcase name="testCompareToEqual" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.004"/>
+  <testcase name="testGetCitationMarkerInTextUniquefiersThreeSameAuthor" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.003"/>
+  <testcase name="testEmptyEntryMarker" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.002"/>
+  <testcase name="testGetNumCitationMarker" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.002"/>
+  <testcase name="testEmptyStringPropertyAndOxfordComma" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.056"/>
+  <testcase name="testInstitutionAuthorMarker" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.003"/>
+  <testcase name="testNullYearMarker" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.005"/>
+  <testcase name="testNullAuthorMarker" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.003"/>
+  <testcase name="testVonAuthor" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.003"/>
+  <testcase name="testGetNumCitationMarkerUndefined" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.002"/>
+  <testcase name="testVonAuthorMarker" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.003"/>
+  <testcase name="testCompareToNotEqual" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.003"/>
+  <testcase name="testAuthorYearAsFile" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.003"/>
+  <testcase name="testGetCitationMarkerInTextUniquefiers" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.004"/>
+  <testcase name="testInstitutionAuthor" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.002"/>
+  <testcase name="testGetCitationMarker" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.01"/>
+  <testcase name="testGetCitProperty" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.002"/>
+  <testcase name="testEquals" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.004"/>
+  <testcase name="testLayout" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.01"/>
+  <testcase name="testNotEquals" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.003"/>
+  <testcase name="testGetCitationMarkerInParenthesisUniquefiersThreeSameAuthor" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.002"/>
+  <testcase name="testAuthorYear" classname="org.jabref.logic.openoffice.OOBibStyleTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

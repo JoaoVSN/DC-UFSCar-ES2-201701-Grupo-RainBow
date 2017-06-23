@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.model.entry.identifier.DOITest" tests="14" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:39:01" hostname="auri-inspiron" time="0.003">
+  <properties/>
+  <testcase name="rejectInvalidDirectoryIndicator" classname="org.jabref.model.entry.identifier.DOITest" time="0.0"/>
+  <testcase name="noDOIFoundInsideArbitraryText" classname="org.jabref.model.entry.identifier.DOITest" time="0.0"/>
+  <testcase name="correctlyDecodeHttpDOIs" classname="org.jabref.model.entry.identifier.DOITest" time="0.001"/>
+  <testcase name="acceptURNPrefix" classname="org.jabref.model.entry.identifier.DOITest" time="0.0"/>
+  <testcase name="constructCorrectURLForDoi" classname="org.jabref.model.entry.identifier.DOITest" time="0.0"/>
+  <testcase name="findDoiInsideArbitraryText" classname="org.jabref.model.entry.identifier.DOITest" time="0.0"/>
+  <testcase name="correctlyEncodeDOIs" classname="org.jabref.model.entry.identifier.DOITest" time="0.001"/>
+  <testcase name="rejectMissingDivider" classname="org.jabref.model.entry.identifier.DOITest" time="0.0"/>
+  <testcase name="acceptPlainDoi" classname="org.jabref.model.entry.identifier.DOITest" time="0.0"/>
+  <testcase name="acceptDoiPrefix" classname="org.jabref.model.entry.identifier.DOITest" time="0.0"/>
+  <testcase name="rejectEmbeddedDoi" classname="org.jabref.model.entry.identifier.DOITest" time="0.0"/>
+  <testcase name="ignoreLeadingAndTrailingWhitespaces" classname="org.jabref.model.entry.identifier.DOITest" time="0.0"/>
+  <testcase name="rejectInvalidDoiUri" classname="org.jabref.model.entry.identifier.DOITest" time="0.0"/>
+  <testcase name="acceptURLDoi" classname="org.jabref.model.entry.identifier.DOITest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

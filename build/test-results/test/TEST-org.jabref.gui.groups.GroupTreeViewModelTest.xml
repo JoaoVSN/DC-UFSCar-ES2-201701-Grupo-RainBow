@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.gui.groups.GroupTreeViewModelTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:59" hostname="auri-inspiron" time="0.883">
+  <properties/>
+  <testcase name="rootGroupIsAllEntriesByDefault" classname="org.jabref.gui.groups.GroupTreeViewModelTest" time="0.883"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

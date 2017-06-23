@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.importer.fileformat.BiblioscapeImporterTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:37:15" hostname="auri-inspiron" time="0.0">
+  <properties/>
+  <testcase name="testGetCLIID" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTest" time="0.0"/>
+  <testcase name="testsGetExtensions" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTest" time="0.0"/>
+  <testcase name="testGetDescription" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTest" time="0.0"/>
+  <testcase name="testImportEntriesAbortion" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTest" time="0.0"/>
+  <testcase name="testGetFormatName" classname="org.jabref.logic.importer.fileformat.BiblioscapeImporterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

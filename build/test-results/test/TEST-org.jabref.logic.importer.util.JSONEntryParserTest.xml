@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.importer.util.JSONEntryParserTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:36:42" hostname="auri-inspiron" time="0.013">
+  <properties/>
+  <testcase name="testBibJSONConverter" classname="org.jabref.logic.importer.util.JSONEntryParserTest" time="0.011"/>
+  <testcase name="testSpringerJSONToBibtex" classname="org.jabref.logic.importer.util.JSONEntryParserTest" time="0.001"/>
+  <system-out><![CDATA[08:36:42.478 [Test worker] INFO  org.jabref.logic.importer.util.JSONEntryParser - No author found.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

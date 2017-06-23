@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.journals.AbbreviationParserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:03" hostname="auri-inspiron" time="2.948">
+  <properties/>
+  <testcase name="testReadJournalListFromResource" classname="org.jabref.logic.journals.AbbreviationParserTest" time="2.948"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

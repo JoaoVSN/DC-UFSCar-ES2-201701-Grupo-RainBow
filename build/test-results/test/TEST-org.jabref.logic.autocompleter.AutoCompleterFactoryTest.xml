@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.autocompleter.AutoCompleterFactoryTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:34" hostname="auri-inspiron" time="0.02">
+  <properties/>
+  <testcase name="initFactoryWithNullPreferenceThrowsException" classname="org.jabref.logic.autocompleter.AutoCompleterFactoryTest" time="0.017"/>
+  <testcase name="getForEditorReturnsNameFieldAutoCompleter" classname="org.jabref.logic.autocompleter.AutoCompleterFactoryTest" time="0.0"/>
+  <testcase name="getForNullThrowsException" classname="org.jabref.logic.autocompleter.AutoCompleterFactoryTest" time="0.001"/>
+  <testcase name="getForJournalReturnsEntireFieldAutoCompleter" classname="org.jabref.logic.autocompleter.AutoCompleterFactoryTest" time="0.0"/>
+  <testcase name="getForAuthorReturnsNameFieldAutoCompleter" classname="org.jabref.logic.autocompleter.AutoCompleterFactoryTest" time="0.0"/>
+  <testcase name="getForUnknownFieldReturnsDefaultAutoCompleter" classname="org.jabref.logic.autocompleter.AutoCompleterFactoryTest" time="0.001"/>
+  <testcase name="getForPublisherReturnsEntireFieldAutoCompleter" classname="org.jabref.logic.autocompleter.AutoCompleterFactoryTest" time="0.0"/>
+  <testcase name="getForCrossrefReturnsBibtexKeyAutoCompleter" classname="org.jabref.logic.autocompleter.AutoCompleterFactoryTest" time="0.0"/>
+  <testcase name="getPersonAutoCompleterReturnsNameFieldAutoCompleter" classname="org.jabref.logic.autocompleter.AutoCompleterFactoryTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

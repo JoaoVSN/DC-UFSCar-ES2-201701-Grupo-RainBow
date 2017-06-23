@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.layout.format.AuthorLastFirstAbbreviatorTester" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:35:42" hostname="auri-inspiron" time="0.003">
+  <properties/>
+  <testcase name="testTwoAuthorsCommonName" classname="org.jabref.logic.layout.format.AuthorLastFirstAbbreviatorTester" time="0.0"/>
+  <testcase name="testOneAuthorCommonName" classname="org.jabref.logic.layout.format.AuthorLastFirstAbbreviatorTester" time="0.001"/>
+  <testcase name="testJrAuthor" classname="org.jabref.logic.layout.format.AuthorLastFirstAbbreviatorTester" time="0.001"/>
+  <testcase name="testFormat" classname="org.jabref.logic.layout.format.AuthorLastFirstAbbreviatorTester" time="0.0"/>
+  <testcase name="testOneAuthorSimpleName" classname="org.jabref.logic.layout.format.AuthorLastFirstAbbreviatorTester" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

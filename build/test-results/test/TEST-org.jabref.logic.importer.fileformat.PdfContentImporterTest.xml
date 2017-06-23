@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.importer.fileformat.PdfContentImporterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:37:27" hostname="auri-inspiron" time="0.003">
+  <properties/>
+  <testcase name="testsGetExtensions" classname="org.jabref.logic.importer.fileformat.PdfContentImporterTest" time="0.001"/>
+  <testcase name="testGetDescription" classname="org.jabref.logic.importer.fileformat.PdfContentImporterTest" time="0.0"/>
+  <testcase name="doesNotHandleEncryptedPdfs" classname="org.jabref.logic.importer.fileformat.PdfContentImporterTest" time="0.002"/>
+  <system-out><![CDATA[08:37:27.713 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - Cannot handle encrypted PDF: Error: The supplied password does not match either the owner or user password in the document.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

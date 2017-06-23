@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.exporter.ModsExportFormatTestFiles" tests="15" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:35:47" hostname="auri-inspiron" time="4.032">
+  <properties/>
+  <testcase name="testImportAsModsAndExportAsMods[ModsExportFormatTestTotalPages.bib]" classname="org.jabref.logic.exporter.ModsExportFormatTestFiles" time="0.835"/>
+  <testcase name="testExportAsModsAndThenImportAsMods[ModsExportFormatTestTotalPages.bib]" classname="org.jabref.logic.exporter.ModsExportFormatTestFiles" time="0.176"/>
+  <testcase name="testPerformExport[ModsExportFormatTestTotalPages.bib]" classname="org.jabref.logic.exporter.ModsExportFormatTestFiles" time="0.071"/>
+  <testcase name="testImportAsModsAndExportAsMods[ModsExportFormatTestBook.bib]" classname="org.jabref.logic.exporter.ModsExportFormatTestFiles" time="0.158"/>
+  <testcase name="testExportAsModsAndThenImportAsMods[ModsExportFormatTestBook.bib]" classname="org.jabref.logic.exporter.ModsExportFormatTestFiles" time="0.16"/>
+  <testcase name="testPerformExport[ModsExportFormatTestBook.bib]" classname="org.jabref.logic.exporter.ModsExportFormatTestFiles" time="0.095"/>
+  <testcase name="testImportAsModsAndExportAsMods[ModsExportFormatTestMultipleEntries.bib]" classname="org.jabref.logic.exporter.ModsExportFormatTestFiles" time="0.509"/>
+  <testcase name="testExportAsModsAndThenImportAsMods[ModsExportFormatTestMultipleEntries.bib]" classname="org.jabref.logic.exporter.ModsExportFormatTestFiles" time="0.273"/>
+  <testcase name="testPerformExport[ModsExportFormatTestMultipleEntries.bib]" classname="org.jabref.logic.exporter.ModsExportFormatTestFiles" time="0.285"/>
+  <testcase name="testImportAsModsAndExportAsMods[ModsExportFormatTestAllFields.bib]" classname="org.jabref.logic.exporter.ModsExportFormatTestFiles" time="0.418"/>
+  <testcase name="testExportAsModsAndThenImportAsMods[ModsExportFormatTestAllFields.bib]" classname="org.jabref.logic.exporter.ModsExportFormatTestFiles" time="0.12"/>
+  <testcase name="testPerformExport[ModsExportFormatTestAllFields.bib]" classname="org.jabref.logic.exporter.ModsExportFormatTestFiles" time="0.163"/>
+  <testcase name="testImportAsModsAndExportAsMods[ModsExportFormatTestOnlyRequiredFields.bib]" classname="org.jabref.logic.exporter.ModsExportFormatTestFiles" time="0.404"/>
+  <testcase name="testExportAsModsAndThenImportAsMods[ModsExportFormatTestOnlyRequiredFields.bib]" classname="org.jabref.logic.exporter.ModsExportFormatTestFiles" time="0.251"/>
+  <testcase name="testPerformExport[ModsExportFormatTestOnlyRequiredFields.bib]" classname="org.jabref.logic.exporter.ModsExportFormatTestFiles" time="0.108"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

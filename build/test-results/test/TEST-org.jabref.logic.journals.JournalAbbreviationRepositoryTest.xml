@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jabref.logic.journals.JournalAbbreviationRepositoryTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:17" hostname="auri-inspiron" time="0.041">
+  <properties/>
+  <testcase name="testDuplicates" classname="org.jabref.logic.journals.JournalAbbreviationRepositoryTest" time="0.001"/>
+  <testcase name="oneElement" classname="org.jabref.logic.journals.JournalAbbreviationRepositoryTest" time="0.039"/>
+  <testcase name="testDuplicatesIsoOnly" classname="org.jabref.logic.journals.JournalAbbreviationRepositoryTest" time="0.0"/>
+  <testcase name="empty" classname="org.jabref.logic.journals.JournalAbbreviationRepositoryTest" time="0.0"/>
+  <testcase name="testDuplicateKeys" classname="org.jabref.logic.journals.JournalAbbreviationRepositoryTest" time="0.001"/>
+  <testcase name="testSorting" classname="org.jabref.logic.journals.JournalAbbreviationRepositoryTest" time="0.0"/>
+  <system-out><![CDATA[08:38:17.105 [Test worker] INFO  org.jabref.logic.journals.JournalAbbreviationRepository - Duplicate journal abbreviation - old one will be overwritten by new one
+OLD: Abbreviation{name=Long Name, iso=L. N., medline=L N}
+NEW: Abbreviation{name=Long Name, iso=L. N., medline=L N}
+08:38:17.145 [Test worker] INFO  org.jabref.logic.journals.JournalAbbreviationRepository - Duplicate journal abbreviation - old one will be overwritten by new one
+OLD: Abbreviation{name=Long Name, iso=L. N., medline=L N}
+NEW: Abbreviation{name=Long Name, iso=LA. N., medline=LA N}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
