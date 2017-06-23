@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.remote.RemotePreferencesTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:35" hostname="auri-inspiron" time="0.001">
+<testsuite name="org.jabref.logic.remote.RemotePreferencesTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:39:07" hostname="jessicadias-VPCEH40EB" time="0.001">
   <properties/>
   <testcase name="testIsDifferentPortTrue" classname="org.jabref.logic.remote.RemotePreferencesTest" time="0.0"/>
-  <testcase name="testUseRemoteServer" classname="org.jabref.logic.remote.RemotePreferencesTest" time="0.0"/>
+  <testcase name="testUseRemoteServer" classname="org.jabref.logic.remote.RemotePreferencesTest" time="0.001"/>
   <testcase name="testIsDifferentPortFalse" classname="org.jabref.logic.remote.RemotePreferencesTest" time="0.0"/>
   <testcase name="testGetPort" classname="org.jabref.logic.remote.RemotePreferencesTest" time="0.0"/>
   <testcase name="testSetUseRemoteServer" classname="org.jabref.logic.remote.RemotePreferencesTest" time="0.0"/>

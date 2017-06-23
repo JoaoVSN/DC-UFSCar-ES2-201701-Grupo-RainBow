@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.importer.fileformat.MedlineImporterTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:37:27" hostname="auri-inspiron" time="0.106">
+<testsuite name="org.jabref.logic.importer.fileformat.MedlineImporterTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:23" hostname="jessicadias-VPCEH40EB" time="4.249">
   <properties/>
   <testcase name="testGetCLIId" classname="org.jabref.logic.importer.fileformat.MedlineImporterTest" time="0.0"/>
   <testcase name="testsGetExtensions" classname="org.jabref.logic.importer.fileformat.MedlineImporterTest" time="0.0"/>
   <testcase name="testGetDescription" classname="org.jabref.logic.importer.fileformat.MedlineImporterTest" time="0.0"/>
-  <testcase name="testIsRecognizedFormatReject" classname="org.jabref.logic.importer.fileformat.MedlineImporterTest" time="0.106"/>
+  <testcase name="testIsRecognizedFormatReject" classname="org.jabref.logic.importer.fileformat.MedlineImporterTest" time="4.247"/>
   <testcase name="testGetFormatName" classname="org.jabref.logic.importer.fileformat.MedlineImporterTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.net.MimeTypeDetectorTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:30" hostname="auri-inspiron" time="2.918">
+<testsuite name="org.jabref.logic.net.MimeTypeDetectorTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:17" hostname="jessicadias-VPCEH40EB" time="3.213">
   <properties/>
-  <testcase name="handlePermanentRedirections" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="2.03"/>
-  <testcase name="beAbleToUseHeadRequest" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.139"/>
-  <testcase name="beTrueForLocalPdfUri" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.006"/>
-  <testcase name="beTrueForPdfMimeType" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.403"/>
-  <testcase name="beFalseForUnreachableUrl" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.118"/>
-  <testcase name="beTrueForPDFMimeTypeVariations" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.053"/>
-  <testcase name="beAbleToUseGetRequest" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.136"/>
-  <system-out><![CDATA[08:38:32.924 [Test worker] INFO  org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:8080: The target server failed to respond
-08:38:32.925 [Test worker] INFO  org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://localhost:8080
-08:38:33.532 [Test worker] INFO  org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:8080: The target server failed to respond
-08:38:33.532 [Test worker] INFO  org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://localhost:8080
-08:38:33.603 [Test worker] INFO  org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:8080: The target server failed to respond
-08:38:33.604 [Test worker] INFO  org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://localhost:8080
+  <testcase name="handlePermanentRedirections" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="2.306"/>
+  <testcase name="beAbleToUseHeadRequest" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.093"/>
+  <testcase name="beTrueForLocalPdfUri" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.015"/>
+  <testcase name="beTrueForPdfMimeType" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.406"/>
+  <testcase name="beFalseForUnreachableUrl" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.098"/>
+  <testcase name="beTrueForPDFMimeTypeVariations" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.091"/>
+  <testcase name="beAbleToUseGetRequest" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.151"/>
+  <system-out><![CDATA[00:38:19.453 [Test worker] INFO  org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:8080: The target server failed to respond
+00:38:19.454 [Test worker] INFO  org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://localhost:8080
+00:38:20.103 [Test worker] INFO  org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:8080: The target server failed to respond
+00:38:20.103 [Test worker] INFO  org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://localhost:8080
+00:38:20.220 [Test worker] INFO  org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:8080: The target server failed to respond
+00:38:20.220 [Test worker] INFO  org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://localhost:8080
 ]]></system-out>
-  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.layout.format.FileLinkTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:35:41" hostname="auri-inspiron" time="0.005">
+<testsuite name="org.jabref.logic.layout.format.FileLinkTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:39:05" hostname="jessicadias-VPCEH40EB" time="0.005">
   <properties/>
-  <testcase name="testOnlyFilename" classname="org.jabref.logic.layout.format.FileLinkTest" time="0.003"/>
+  <testcase name="testOnlyFilename" classname="org.jabref.logic.layout.format.FileLinkTest" time="0.002"/>
   <testcase name="testMultipleFilesPick" classname="org.jabref.logic.layout.format.FileLinkTest" time="0.0"/>
   <testcase name="testEmpty" classname="org.jabref.logic.layout.format.FileLinkTest" time="0.0"/>
   <testcase name="testNull" classname="org.jabref.logic.layout.format.FileLinkTest" time="0.0"/>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.autocompleter.DefaultAutoCompleterTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:34" hostname="auri-inspiron" time="0.006">
+<testsuite name="org.jabref.logic.autocompleter.DefaultAutoCompleterTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:41" hostname="jessicadias-VPCEH40EB" time="0.087">
   <properties/>
-  <testcase name="completeValueReturnsValue" classname="org.jabref.logic.autocompleter.DefaultAutoCompleterTest" time="0.001"/>
+  <testcase name="completeValueReturnsValue" classname="org.jabref.logic.autocompleter.DefaultAutoCompleterTest" time="0.075"/>
   <testcase name="completePartOfWordReturnsNothing" classname="org.jabref.logic.autocompleter.DefaultAutoCompleterTest" time="0.001"/>
-  <testcase name="completeLowercaseValueReturnsValue" classname="org.jabref.logic.autocompleter.DefaultAutoCompleterTest" time="0.0"/>
-  <testcase name="completeBeginnigOfSecondWordReturnsWord" classname="org.jabref.logic.autocompleter.DefaultAutoCompleterTest" time="0.001"/>
-  <testcase name="completeAfterAddingNullReturnsNothing" classname="org.jabref.logic.autocompleter.DefaultAutoCompleterTest" time="0.0"/>
+  <testcase name="completeLowercaseValueReturnsValue" classname="org.jabref.logic.autocompleter.DefaultAutoCompleterTest" time="0.001"/>
+  <testcase name="completeBeginnigOfSecondWordReturnsWord" classname="org.jabref.logic.autocompleter.DefaultAutoCompleterTest" time="0.002"/>
+  <testcase name="completeAfterAddingNullReturnsNothing" classname="org.jabref.logic.autocompleter.DefaultAutoCompleterTest" time="0.002"/>
   <testcase name="initAutoCompleterWithNullFieldThrowsException" classname="org.jabref.logic.autocompleter.DefaultAutoCompleterTest" time="0.0"/>
-  <testcase name="completeAfterAddingEntryWithoutFieldReturnsNothing" classname="org.jabref.logic.autocompleter.DefaultAutoCompleterTest" time="0.0"/>
+  <testcase name="completeAfterAddingEntryWithoutFieldReturnsNothing" classname="org.jabref.logic.autocompleter.DefaultAutoCompleterTest" time="0.001"/>
   <testcase name="completeShortStringReturnsNothing" classname="org.jabref.logic.autocompleter.DefaultAutoCompleterTest" time="0.0"/>
   <testcase name="completeTooShortInputReturnsNothing" classname="org.jabref.logic.autocompleter.DefaultAutoCompleterTest" time="0.001"/>
   <testcase name="completeAfterAddingEmptyEntryReturnsNothing" classname="org.jabref.logic.autocompleter.DefaultAutoCompleterTest" time="0.0"/>

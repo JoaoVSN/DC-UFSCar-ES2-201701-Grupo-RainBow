@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.TypedBibEntryTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:33" hostname="auri-inspiron" time="0.0">
+<testsuite name="org.jabref.logic.TypedBibEntryTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:40:40" hostname="jessicadias-VPCEH40EB" time="0.001">
   <properties/>
   <testcase name="hasAllRequiredFieldsForUnknownTypeReturnsTrue" classname="org.jabref.logic.TypedBibEntryTest" time="0.0"/>
-  <testcase name="hasAllRequiredFieldsFail" classname="org.jabref.logic.TypedBibEntryTest" time="0.0"/>
+  <testcase name="hasAllRequiredFieldsFail" classname="org.jabref.logic.TypedBibEntryTest" time="0.001"/>
   <testcase name="hasAllRequiredFields" classname="org.jabref.logic.TypedBibEntryTest" time="0.0"/>
   <testcase name="getTypeForDisplayForUnknownTypeCapitalizeFirstLetter" classname="org.jabref.logic.TypedBibEntryTest" time="0.0"/>
   <testcase name="getTypeForDisplayReturnsTypeName" classname="org.jabref.logic.TypedBibEntryTest" time="0.0"/>

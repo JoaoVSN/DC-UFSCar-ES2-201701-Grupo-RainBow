@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:17" hostname="auri-inspiron" time="0.01">
+<testsuite name="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:39:07" hostname="jessicadias-VPCEH40EB" time="0.021">
   <properties/>
-  <testcase name="findFilesByExtensionInNonExistingDirectoryFindsNothing" classname="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" time="0.006"/>
-  <testcase name="testFindAssociatedFiles" classname="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" time="0.003"/>
-  <testcase name="findFilesByExtensionWithNullThrowsException" classname="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" time="0.001"/>
-  <system-out><![CDATA[08:38:17.779 [Test worker] ERROR org.jabref.logic.util.io.CiteKeyBasedFileFinder - Problem in finding files
-java.nio.file.NoSuchFileException: /tmp/junit5225684397274401720/asdfasdf/asdfasdf
-	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86) ~[?:1.8.0_131]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:1.8.0_131]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:1.8.0_131]
-	at sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55) ~[?:1.8.0_131]
-	at sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144) ~[?:1.8.0_131]
-	at sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99) ~[?:1.8.0_131]
-	at java.nio.file.Files.readAttributes(Files.java:1737) ~[?:1.8.0_131]
-	at java.nio.file.FileTreeWalker.getAttributes(FileTreeWalker.java:219) ~[?:1.8.0_131]
-	at java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:276) ~[?:1.8.0_131]
-	at java.nio.file.FileTreeWalker.walk(FileTreeWalker.java:322) ~[?:1.8.0_131]
-	at java.nio.file.FileTreeIterator.<init>(FileTreeIterator.java:72) ~[?:1.8.0_131]
-	at java.nio.file.Files.find(Files.java:3687) ~[?:1.8.0_131]
+  <testcase name="findFilesByExtensionInNonExistingDirectoryFindsNothing" classname="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" time="0.008"/>
+  <testcase name="testFindAssociatedFiles" classname="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" time="0.009"/>
+  <testcase name="findFilesByExtensionWithNullThrowsException" classname="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" time="0.002"/>
+  <system-out><![CDATA[00:39:07.330 [Test worker] ERROR org.jabref.logic.util.io.CiteKeyBasedFileFinder - Problem in finding files
+java.nio.file.NoSuchFileException: /tmp/junit96986599045160173/asdfasdf/asdfasdf
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86) ~[?:1.8.0_111]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:1.8.0_111]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:1.8.0_111]
+	at sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55) ~[?:1.8.0_111]
+	at sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144) ~[?:1.8.0_111]
+	at sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99) ~[?:1.8.0_111]
+	at java.nio.file.Files.readAttributes(Files.java:1737) ~[?:1.8.0_111]
+	at java.nio.file.FileTreeWalker.getAttributes(FileTreeWalker.java:219) ~[?:1.8.0_111]
+	at java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:276) ~[?:1.8.0_111]
+	at java.nio.file.FileTreeWalker.walk(FileTreeWalker.java:322) ~[?:1.8.0_111]
+	at java.nio.file.FileTreeIterator.<init>(FileTreeIterator.java:72) ~[?:1.8.0_111]
+	at java.nio.file.Files.find(Files.java:3687) ~[?:1.8.0_111]
 	at org.jabref.logic.util.io.CiteKeyBasedFileFinder.findFilesByExtension(CiteKeyBasedFileFinder.java:91) [main/:?]
 	at org.jabref.logic.util.io.CiteKeyBasedFileFinderTest.findFilesByExtensionInNonExistingDirectoryFindsNothing(CiteKeyBasedFileFinderTest.java:94) [test/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_131]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_111]
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
@@ -40,26 +40,26 @@ java.nio.file.NoSuchFileException: /tmp/junit5225684397274401720/asdfasdf/asdfas
 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
-	at org.mockito.internal.runners.DefaultInternalRunner$1.run(DefaultInternalRunner.java:78) [mockito-core-2.8.9.jar:?]
-	at org.mockito.internal.runners.DefaultInternalRunner.run(DefaultInternalRunner.java:84) [mockito-core-2.8.9.jar:?]
-	at org.mockito.internal.runners.StrictRunner.run(StrictRunner.java:39) [mockito-core-2.8.9.jar:?]
-	at org.mockito.junit.MockitoJUnitRunner.run(MockitoJUnitRunner.java:161) [mockito-core-2.8.9.jar:?]
+	at org.mockito.internal.runners.DefaultInternalRunner$1.run(DefaultInternalRunner.java:78) [mockito-core-2.8.47.jar:?]
+	at org.mockito.internal.runners.DefaultInternalRunner.run(DefaultInternalRunner.java:84) [mockito-core-2.8.47.jar:?]
+	at org.mockito.internal.runners.StrictRunner.run(StrictRunner.java:39) [mockito-core-2.8.47.jar:?]
+	at org.mockito.junit.MockitoJUnitRunner.run(MockitoJUnitRunner.java:161) [mockito-core-2.8.47.jar:?]
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-3.5.jar:3.5]
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-3.5.jar:3.5]
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-3.5.jar:3.5]
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-3.5.jar:3.5]
-	at sun.reflect.GeneratedMethodAccessor49.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at sun.reflect.GeneratedMethodAccessor29.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_111]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-3.5.jar:3.5]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-3.5.jar:3.5]
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-3.5.jar:3.5]
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-3.5.jar:3.5]
 	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) [?:?]
 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:109) [gradle-testing-base-3.5.jar:3.5]
-	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at sun.reflect.GeneratedMethodAccessor28.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_111]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-3.5.jar:3.5]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-3.5.jar:3.5]
 	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:147) [gradle-messaging-3.5.jar:3.5]
@@ -67,9 +67,9 @@ java.nio.file.NoSuchFileException: /tmp/junit5225684397274401720/asdfasdf/asdfas
 	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-3.5.jar:3.5]
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-3.5.jar:3.5]
 	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:46) [gradle-base-services-3.5.jar:3.5]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_131]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_131]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

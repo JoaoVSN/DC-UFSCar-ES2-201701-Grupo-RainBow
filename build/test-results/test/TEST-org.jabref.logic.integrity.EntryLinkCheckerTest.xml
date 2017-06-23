@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.integrity.EntryLinkCheckerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:17" hostname="auri-inspiron" time="0.002">
+<testsuite name="org.jabref.logic.integrity.EntryLinkCheckerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:21" hostname="jessicadias-VPCEH40EB" time="0.004">
   <properties/>
   <testcase name="testEntryLinkChecker" classname="org.jabref.logic.integrity.EntryLinkCheckerTest" time="0.0"/>
   <testcase name="testCheckNonExistingRelated" classname="org.jabref.logic.integrity.EntryLinkCheckerTest" time="0.001"/>
-  <testcase name="testCheckExistingRelated" classname="org.jabref.logic.integrity.EntryLinkCheckerTest" time="0.0"/>
+  <testcase name="testCheckExistingRelated" classname="org.jabref.logic.integrity.EntryLinkCheckerTest" time="0.001"/>
   <testcase name="testCheckNoFields" classname="org.jabref.logic.integrity.EntryLinkCheckerTest" time="0.0"/>
-  <testcase name="testCheckNonRelatedFieldsOnly" classname="org.jabref.logic.integrity.EntryLinkCheckerTest" time="0.0"/>
+  <testcase name="testCheckNonRelatedFieldsOnly" classname="org.jabref.logic.integrity.EntryLinkCheckerTest" time="0.001"/>
   <testcase name="testCheckNonExistingCrossref" classname="org.jabref.logic.integrity.EntryLinkCheckerTest" time="0.0"/>
-  <testcase name="testCheckExistingCrossref" classname="org.jabref.logic.integrity.EntryLinkCheckerTest" time="0.0"/>
+  <testcase name="testCheckExistingCrossref" classname="org.jabref.logic.integrity.EntryLinkCheckerTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

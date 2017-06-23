@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.importer.fetcher.GvkParserTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:36:51" hostname="auri-inspiron" time="0.067">
+<testsuite name="org.jabref.logic.importer.fetcher.GvkParserTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:46" hostname="jessicadias-VPCEH40EB" time="0.069">
   <properties/>
-  <testcase name="testGMP" classname="org.jabref.logic.importer.fetcher.GvkParserTest" time="0.06"/>
-  <testcase name="subTitleTest" classname="org.jabref.logic.importer.fetcher.GvkParserTest" time="0.002"/>
-  <testcase name="emptyResult" classname="org.jabref.logic.importer.fetcher.GvkParserTest" time="0.001"/>
-  <testcase name="resultFor797485368" classname="org.jabref.logic.importer.fetcher.GvkParserTest" time="0.004"/>
+  <testcase name="testGMP" classname="org.jabref.logic.importer.fetcher.GvkParserTest" time="0.053"/>
+  <testcase name="subTitleTest" classname="org.jabref.logic.importer.fetcher.GvkParserTest" time="0.005"/>
+  <testcase name="emptyResult" classname="org.jabref.logic.importer.fetcher.GvkParserTest" time="0.003"/>
+  <testcase name="resultFor797485368" classname="org.jabref.logic.importer.fetcher.GvkParserTest" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

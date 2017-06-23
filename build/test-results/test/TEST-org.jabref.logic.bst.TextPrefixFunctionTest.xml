@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.bst.TextPrefixFunctionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:35:22" hostname="auri-inspiron" time="0.001">
+<testsuite name="org.jabref.logic.bst.TextPrefixFunctionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:04" hostname="jessicadias-VPCEH40EB" time="0.001">
   <properties/>
   <testcase name="testPrefix" classname="org.jabref.logic.bst.TextPrefixFunctionTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

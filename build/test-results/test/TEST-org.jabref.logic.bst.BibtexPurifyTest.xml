@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.bst.BibtexPurifyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:35:22" hostname="auri-inspiron" time="0.001">
+<testsuite name="org.jabref.logic.bst.BibtexPurifyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:04" hostname="jessicadias-VPCEH40EB" time="0.003">
   <properties/>
-  <testcase name="testPurify" classname="org.jabref.logic.bst.BibtexPurifyTest" time="0.001"/>
+  <testcase name="testPurify" classname="org.jabref.logic.bst.BibtexPurifyTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

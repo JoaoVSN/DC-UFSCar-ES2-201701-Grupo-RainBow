@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:37:27" hostname="auri-inspiron" time="0.721">
+<testsuite name="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:27" hostname="jessicadias-VPCEH40EB" time="1.281">
   <properties/>
-  <testcase name="importConvertsToCorrectBibType[0]" classname="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" time="0.096"/>
-  <testcase name="importConvertsToCorrectBibType[1]" classname="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" time="0.079"/>
-  <testcase name="importConvertsToCorrectBibType[2]" classname="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" time="0.08"/>
-  <testcase name="importConvertsToCorrectBibType[3]" classname="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" time="0.077"/>
-  <testcase name="importConvertsToCorrectBibType[4]" classname="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" time="0.076"/>
-  <testcase name="importConvertsToCorrectBibType[5]" classname="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" time="0.076"/>
-  <testcase name="importConvertsToCorrectBibType[6]" classname="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" time="0.076"/>
-  <testcase name="importConvertsToCorrectBibType[7]" classname="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" time="0.08"/>
-  <testcase name="importConvertsToCorrectBibType[8]" classname="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" time="0.08"/>
+  <testcase name="importConvertsToCorrectBibType[0]" classname="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" time="0.192"/>
+  <testcase name="importConvertsToCorrectBibType[1]" classname="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" time="0.049"/>
+  <testcase name="importConvertsToCorrectBibType[2]" classname="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" time="0.038"/>
+  <testcase name="importConvertsToCorrectBibType[3]" classname="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" time="0.042"/>
+  <testcase name="importConvertsToCorrectBibType[4]" classname="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" time="0.058"/>
+  <testcase name="importConvertsToCorrectBibType[5]" classname="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" time="0.053"/>
+  <testcase name="importConvertsToCorrectBibType[6]" classname="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" time="0.056"/>
+  <testcase name="importConvertsToCorrectBibType[7]" classname="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" time="0.569"/>
+  <testcase name="importConvertsToCorrectBibType[8]" classname="org.jabref.logic.importer.fileformat.BibTeXMLImporterTestTypes" time="0.221"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

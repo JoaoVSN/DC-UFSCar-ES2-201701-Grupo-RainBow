@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.exporter.ExportFormatTest" tests="60" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:35:47" hostname="auri-inspiron" time="0.053">
+<testsuite name="org.jabref.logic.exporter.ExportFormatTest" tests="60" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:41:02" hostname="jessicadias-VPCEH40EB" time="0.05">
   <properties/>
-  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[0: MS Office 2007]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.002"/>
+  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[0: MS Office 2007]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
   <testcase name="testExportingNullEntriesThrowsNPE[0: MS Office 2007]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
-  <testcase name="testExportingNullDatabaseThrowsNPE[0: MS Office 2007]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.003"/>
-  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[1: BibO RDF]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
-  <testcase name="testExportingNullEntriesThrowsNPE[1: BibO RDF]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.002"/>
+  <testcase name="testExportingNullDatabaseThrowsNPE[0: MS Office 2007]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
+  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[1: BibO RDF]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
+  <testcase name="testExportingNullEntriesThrowsNPE[1: BibO RDF]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
   <testcase name="testExportingNullDatabaseThrowsNPE[1: BibO RDF]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
   <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[2: BibTeXML]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
   <testcase name="testExportingNullEntriesThrowsNPE[2: BibTeXML]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
-  <testcase name="testExportingNullDatabaseThrowsNPE[2: BibTeXML]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
-  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[3: DIN 1505]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
+  <testcase name="testExportingNullDatabaseThrowsNPE[2: BibTeXML]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
+  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[3: DIN 1505]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
   <testcase name="testExportingNullEntriesThrowsNPE[3: DIN 1505]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
   <testcase name="testExportingNullDatabaseThrowsNPE[3: DIN 1505]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
-  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[4: DocBook 4.4]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
+  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[4: DocBook 4.4]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
   <testcase name="testExportingNullEntriesThrowsNPE[4: DocBook 4.4]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
   <testcase name="testExportingNullDatabaseThrowsNPE[4: DocBook 4.4]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
-  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[5: Endnote]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.002"/>
-  <testcase name="testExportingNullEntriesThrowsNPE[5: Endnote]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
+  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[5: Endnote]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
+  <testcase name="testExportingNullEntriesThrowsNPE[5: Endnote]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
   <testcase name="testExportingNullDatabaseThrowsNPE[5: Endnote]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
-  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[6: Harvard RTF]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
+  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[6: Harvard RTF]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
   <testcase name="testExportingNullEntriesThrowsNPE[6: Harvard RTF]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
   <testcase name="testExportingNullDatabaseThrowsNPE[6: Harvard RTF]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
-  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[7: HTML]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
+  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[7: HTML]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
   <testcase name="testExportingNullEntriesThrowsNPE[7: HTML]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
-  <testcase name="testExportingNullDatabaseThrowsNPE[7: HTML]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
-  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[8: ISO 690 RTF]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
+  <testcase name="testExportingNullDatabaseThrowsNPE[7: HTML]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
+  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[8: ISO 690 RTF]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
   <testcase name="testExportingNullEntriesThrowsNPE[8: ISO 690 RTF]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
-  <testcase name="testExportingNullDatabaseThrowsNPE[8: ISO 690 RTF]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
+  <testcase name="testExportingNullDatabaseThrowsNPE[8: ISO 690 RTF]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
   <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[9: ISO 690]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
-  <testcase name="testExportingNullEntriesThrowsNPE[9: ISO 690]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
+  <testcase name="testExportingNullEntriesThrowsNPE[9: ISO 690]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
   <testcase name="testExportingNullDatabaseThrowsNPE[9: ISO 690]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
   <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[10: HTML list]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
-  <testcase name="testExportingNullEntriesThrowsNPE[10: HTML list]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
-  <testcase name="testExportingNullDatabaseThrowsNPE[10: HTML list]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
-  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[11: MIS Quarterly]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
-  <testcase name="testExportingNullEntriesThrowsNPE[11: MIS Quarterly]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
+  <testcase name="testExportingNullEntriesThrowsNPE[10: HTML list]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
+  <testcase name="testExportingNullDatabaseThrowsNPE[10: HTML list]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
+  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[11: MIS Quarterly]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
+  <testcase name="testExportingNullEntriesThrowsNPE[11: MIS Quarterly]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.002"/>
   <testcase name="testExportingNullDatabaseThrowsNPE[11: MIS Quarterly]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
   <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[12: MODS]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
   <testcase name="testExportingNullEntriesThrowsNPE[12: MODS]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
-  <testcase name="testExportingNullDatabaseThrowsNPE[12: MODS]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
-  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[13: OpenDocument spreadsheet]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
-  <testcase name="testExportingNullEntriesThrowsNPE[13: OpenDocument spreadsheet]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
-  <testcase name="testExportingNullDatabaseThrowsNPE[13: OpenDocument spreadsheet]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
-  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[14: OpenOffice/LibreOffice Calc]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
+  <testcase name="testExportingNullDatabaseThrowsNPE[12: MODS]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
+  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[13: OpenDocument spreadsheet]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
+  <testcase name="testExportingNullEntriesThrowsNPE[13: OpenDocument spreadsheet]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
+  <testcase name="testExportingNullDatabaseThrowsNPE[13: OpenDocument spreadsheet]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
+  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[14: OpenOffice/LibreOffice Calc]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
   <testcase name="testExportingNullEntriesThrowsNPE[14: OpenOffice/LibreOffice Calc]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
   <testcase name="testExportingNullDatabaseThrowsNPE[14: OpenOffice/LibreOffice Calc]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
   <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[15: OpenOffice/LibreOffice CSV]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
   <testcase name="testExportingNullEntriesThrowsNPE[15: OpenOffice/LibreOffice CSV]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
-  <testcase name="testExportingNullDatabaseThrowsNPE[15: OpenOffice/LibreOffice CSV]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
+  <testcase name="testExportingNullDatabaseThrowsNPE[15: OpenOffice/LibreOffice CSV]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.002"/>
   <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[16: RIS]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
-  <testcase name="testExportingNullEntriesThrowsNPE[16: RIS]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
-  <testcase name="testExportingNullDatabaseThrowsNPE[16: RIS]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
-  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[17: Simple HTML]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
-  <testcase name="testExportingNullEntriesThrowsNPE[17: Simple HTML]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
+  <testcase name="testExportingNullEntriesThrowsNPE[16: RIS]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
+  <testcase name="testExportingNullDatabaseThrowsNPE[16: RIS]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
+  <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[17: Simple HTML]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
+  <testcase name="testExportingNullEntriesThrowsNPE[17: Simple HTML]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
   <testcase name="testExportingNullDatabaseThrowsNPE[17: Simple HTML]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
   <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[18: HTML table]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
   <testcase name="testExportingNullEntriesThrowsNPE[18: HTML table]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
   <testcase name="testExportingNullDatabaseThrowsNPE[18: HTML table]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
   <testcase name="testExportingEmptyDatabaseYieldsEmptyFile[19: HTML table (with Abstract &amp; BibTeX)]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
   <testcase name="testExportingNullEntriesThrowsNPE[19: HTML table (with Abstract &amp; BibTeX)]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
-  <testcase name="testExportingNullDatabaseThrowsNPE[19: HTML table (with Abstract &amp; BibTeX)]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.001"/>
+  <testcase name="testExportingNullDatabaseThrowsNPE[19: HTML table (with Abstract &amp; BibTeX)]" classname="org.jabref.logic.exporter.ExportFormatTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.util.UpdateFieldTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:17" hostname="auri-inspiron" time="0.003">
+<testsuite name="org.jabref.logic.util.UpdateFieldTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:39:07" hostname="jessicadias-VPCEH40EB" time="0.004">
   <properties/>
   <testcase name="testUpdateFieldSetToNullCorrectFieldChangeContents" classname="org.jabref.logic.util.UpdateFieldTest" time="0.001"/>
   <testcase name="testUpdateFieldSameContentHasChanged" classname="org.jabref.logic.util.UpdateFieldTest" time="0.0"/>
@@ -16,10 +16,10 @@
   <testcase name="testUpdateFieldSameContentClears" classname="org.jabref.logic.util.UpdateFieldTest" time="0.0"/>
   <testcase name="testUpdateFieldSameValueNoChange" classname="org.jabref.logic.util.UpdateFieldTest" time="0.0"/>
   <testcase name="testUpdateFieldSetToNullClears" classname="org.jabref.logic.util.UpdateFieldTest" time="0.0"/>
-  <testcase name="testUpdateFieldSetToNullHasFieldChangeContents" classname="org.jabref.logic.util.UpdateFieldTest" time="0.001"/>
+  <testcase name="testUpdateFieldSetToNullHasFieldChangeContents" classname="org.jabref.logic.util.UpdateFieldTest" time="0.0"/>
   <testcase name="testUpdateFieldHasChanged" classname="org.jabref.logic.util.UpdateFieldTest" time="0.0"/>
   <testcase name="testUpdateFieldValidFieldChange" classname="org.jabref.logic.util.UpdateFieldTest" time="0.0"/>
-  <testcase name="testUpdateNonDisplayableFieldUpdates" classname="org.jabref.logic.util.UpdateFieldTest" time="0.0"/>
+  <testcase name="testUpdateNonDisplayableFieldUpdates" classname="org.jabref.logic.util.UpdateFieldTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

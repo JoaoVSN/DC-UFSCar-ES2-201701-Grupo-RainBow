@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" tests="18" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:35:44" hostname="auri-inspiron" time="2.948">
+<testsuite name="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" tests="18" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:41:02" hostname="jessicadias-VPCEH40EB" time="2.147">
   <properties/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestMisc.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.655"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestTechReport.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.176"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestArticleWithoutID.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.071"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestMasterThesis.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.183"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestBooklet.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.165"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestInCollection.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.158"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestInvalidInbook.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.1"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestInProceedings.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.181"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestBook.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.123"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestAuthor.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.112"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestUnpublished.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.1"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestProceedings.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.128"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestArticle.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.125"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestInbookLessFields.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.186"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestInBook.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.095"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestManual.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.141"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestPhdThesis.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.1"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestConference.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.143"/>
-  <system-out><![CDATA[08:35:45.639 [Test worker] ERROR org.jabref.logic.exporter.BibTeXMLExportFormat - Could not invoke method
+  <testcase name="testPerformExport[BibTeXMLExporterTestManual.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.117"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestInCollection.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.12"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestUnpublished.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.123"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestBooklet.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.125"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestMisc.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.111"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestTechReport.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.112"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestArticleWithoutID.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.135"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestInvalidInbook.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.113"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestBook.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.109"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestArticle.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.114"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestMasterThesis.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.11"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestInProceedings.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.123"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestAuthor.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.114"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestInbookLessFields.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.11"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestInBook.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.11"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestProceedings.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.112"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestPhdThesis.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.174"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestConference.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.111"/>
+  <system-out><![CDATA[00:41:02.443 [Test worker] ERROR org.jabref.logic.exporter.BibTeXMLExportFormat - Could not invoke method
 java.lang.IllegalArgumentException: argument type mismatch
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_131]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_111]
 	at org.jabref.logic.exporter.BibTeXMLExportFormat.parse(BibTeXMLExportFormat.java:216) [main/:?]
 	at org.jabref.logic.exporter.BibTeXMLExportFormat.performExport(BibTeXMLExportFormat.java:93) [main/:?]
 	at org.jabref.logic.exporter.BibTeXMLExporterTestFiles.testPerformExport(BibTeXMLExporterTestFiles.java:82) [test/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_131]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_111]
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
@@ -60,18 +60,18 @@ java.lang.IllegalArgumentException: argument type mismatch
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-3.5.jar:3.5]
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-3.5.jar:3.5]
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-3.5.jar:3.5]
-	at sun.reflect.GeneratedMethodAccessor49.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at sun.reflect.GeneratedMethodAccessor29.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_111]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-3.5.jar:3.5]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-3.5.jar:3.5]
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-3.5.jar:3.5]
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-3.5.jar:3.5]
 	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) [?:?]
 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:109) [gradle-testing-base-3.5.jar:3.5]
-	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at sun.reflect.GeneratedMethodAccessor28.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_111]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-3.5.jar:3.5]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-3.5.jar:3.5]
 	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:147) [gradle-messaging-3.5.jar:3.5]
@@ -79,86 +79,9 @@ java.lang.IllegalArgumentException: argument type mismatch
 	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-3.5.jar:3.5]
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-3.5.jar:3.5]
 	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:46) [gradle-base-services-3.5.jar:3.5]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_131]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_131]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
-2017-06-20 08:35:45,646 Test worker ERROR An exception occurred processing Appender applicationInsightsAppender java.lang.NullPointerException
-	at org.jabref.gui.logging.ApplicationInsightsAppender.append(ApplicationInsightsAppender.java:51)
-	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
-	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
-	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
-	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
-	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:448)
-	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:433)
-	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
-	at org.apache.logging.log4j.core.config.LoggerConfig.logParent(LoggerConfig.java:439)
-	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:434)
-	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
-	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:403)
-	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63)
-	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:146)
-	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2091)
-	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:1971)
-	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1829)
-	at org.apache.logging.log4j.jcl.Log4jLog.error(Log4jLog.java:116)
-	at org.jabref.logic.exporter.BibTeXMLExportFormat.parse(BibTeXMLExportFormat.java:220)
-	at org.jabref.logic.exporter.BibTeXMLExportFormat.performExport(BibTeXMLExportFormat.java:93)
-	at org.jabref.logic.exporter.BibTeXMLExporterTestFiles.testPerformExport(BibTeXMLExporterTestFiles.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:48)
-	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
-	at sun.reflect.GeneratedMethodAccessor49.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:109)
-	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:147)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:129)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:46)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:748)
-
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

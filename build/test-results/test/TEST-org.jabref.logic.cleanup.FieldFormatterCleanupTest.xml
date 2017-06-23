@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.cleanup.FieldFormatterCleanupTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:17" hostname="auri-inspiron" time="0.001">
+<testsuite name="org.jabref.logic.cleanup.FieldFormatterCleanupTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:20" hostname="jessicadias-VPCEH40EB" time="0.003">
   <properties/>
-  <testcase name="testInternalAllTextFieldsField" classname="org.jabref.logic.cleanup.FieldFormatterCleanupTest" time="0.001"/>
+  <testcase name="testInternalAllTextFieldsField" classname="org.jabref.logic.cleanup.FieldFormatterCleanupTest" time="0.002"/>
   <testcase name="testInternalAllField" classname="org.jabref.logic.cleanup.FieldFormatterCleanupTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

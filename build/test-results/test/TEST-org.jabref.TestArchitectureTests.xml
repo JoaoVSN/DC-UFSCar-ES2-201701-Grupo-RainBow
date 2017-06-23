@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.TestArchitectureTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:35" hostname="auri-inspiron" time="1.317">
+<testsuite name="org.jabref.TestArchitectureTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:36:48" hostname="jessicadias-VPCEH40EB" time="0.583">
   <properties/>
-  <testcase name="testsAreIndependent[tests independent of org.jabref.preferences.JabRefPreferences?]" classname="org.jabref.TestArchitectureTests" time="1.289"/>
-  <testcase name="testsAreIndependent[tests independent of org.jabref.Globals?]" classname="org.jabref.TestArchitectureTests" time="0.028"/>
+  <testcase name="testsAreIndependent[tests independent of org.jabref.preferences.JabRefPreferences?]" classname="org.jabref.TestArchitectureTests" time="0.528"/>
+  <testcase name="testsAreIndependent[tests independent of org.jabref.Globals?]" classname="org.jabref.TestArchitectureTests" time="0.054"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

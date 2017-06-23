@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.model.strings.StringUtilTest" tests="44" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:39:01" hostname="auri-inspiron" time="0.005">
+<testsuite name="org.jabref.model.strings.StringUtilTest" tests="44" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:24" hostname="jessicadias-VPCEH40EB" time="0.029">
   <properties/>
   <testcase name="testIntValueOfSingleDigit" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <testcase name="testIntValueOfExceptionIfStringContainsLetter" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
@@ -9,14 +9,14 @@
   <testcase name="testBoldHTML" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <testcase name="testIsInCitationMarks" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <testcase name="testUnifyLineBreaks" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
-  <testcase name="testLimitStringLengthNullInput" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
+  <testcase name="testLimitStringLengthNullInput" classname="org.jabref.model.strings.StringUtilTest" time="0.001"/>
   <testcase name="testRepeatSpaces" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <testcase name="testJoin" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <testcase name="testWrap" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <testcase name="testIntValueOfWithNullExceptionIfStringNull" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <testcase name="testPutBracesAroundCapitals" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <testcase name="testUnquote" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
-  <testcase name="testDecodeStringDoubleArray" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
+  <testcase name="testDecodeStringDoubleArray" classname="org.jabref.model.strings.StringUtilTest" time="0.005"/>
   <testcase name="testBooleanToBinaryString" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <testcase name="testCapitalizeFirst" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <testcase name="testGetPart" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
@@ -31,18 +31,18 @@
   <testcase name="testIntValueOfWithNullSingleDigit" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <testcase name="testQuoteNullQuotation" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <testcase name="testGetCorrectFileName" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
-  <testcase name="testIntValueOfExceptionfIfStringEmpty" classname="org.jabref.model.strings.StringUtilTest" time="0.001"/>
+  <testcase name="testIntValueOfExceptionfIfStringEmpty" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <testcase name="testIntValueOfExceptionIfStringNull" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
-  <testcase name="testRemoveBracesAroundCapitals" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
+  <testcase name="testRemoveBracesAroundCapitals" classname="org.jabref.model.strings.StringUtilTest" time="0.001"/>
   <testcase name="testIsInSquareBrackets" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <testcase name="testIntValueOfWithNullExceptionIfStringContainsLetter" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <testcase name="testFindEncodingsForString" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
-  <testcase name="testBoldHTMLReturnsOriginalTextIfNonNull" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
+  <testcase name="testBoldHTMLReturnsOriginalTextIfNonNull" classname="org.jabref.model.strings.StringUtilTest" time="0.001"/>
   <testcase name="testLimitStringLengthShort" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <testcase name="testQuoteMoreComplicated" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <testcase name="testRepeat" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <testcase name="testQuoteNullString" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
-  <testcase name="testReplaceSpecialCharacters" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
+  <testcase name="testReplaceSpecialCharacters" classname="org.jabref.model.strings.StringUtilTest" time="0.012"/>
   <testcase name="testStripBrackets" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <testcase name="testShaveString" classname="org.jabref.model.strings.StringUtilTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

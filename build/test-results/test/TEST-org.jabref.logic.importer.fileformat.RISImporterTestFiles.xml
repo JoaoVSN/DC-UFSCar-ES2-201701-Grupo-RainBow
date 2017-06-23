@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.importer.fileformat.RISImporterTestFiles" tests="22" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:37:10" hostname="auri-inspiron" time="0.025">
+<testsuite name="org.jabref.logic.importer.fileformat.RISImporterTestFiles" tests="22" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:38" hostname="jessicadias-VPCEH40EB" time="0.163">
   <properties/>
-  <testcase name="testImportEntries[RisImporterTest1]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.002"/>
+  <testcase name="testImportEntries[RisImporterTest1]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.009"/>
   <testcase name="testIsRecognizedFormat[RisImporterTest1]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.0"/>
-  <testcase name="testImportEntries[RisImporterTest3]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.002"/>
+  <testcase name="testImportEntries[RisImporterTest3]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.003"/>
   <testcase name="testIsRecognizedFormat[RisImporterTest3]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.0"/>
-  <testcase name="testImportEntries[RisImporterTest4a]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.003"/>
-  <testcase name="testIsRecognizedFormat[RisImporterTest4a]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.0"/>
-  <testcase name="testImportEntries[RisImporterTest4b]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.001"/>
-  <testcase name="testIsRecognizedFormat[RisImporterTest4b]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.0"/>
+  <testcase name="testImportEntries[RisImporterTest4a]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.002"/>
+  <testcase name="testIsRecognizedFormat[RisImporterTest4a]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.001"/>
+  <testcase name="testImportEntries[RisImporterTest4b]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.002"/>
+  <testcase name="testIsRecognizedFormat[RisImporterTest4b]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.001"/>
   <testcase name="testImportEntries[RisImporterTest4c]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.002"/>
-  <testcase name="testIsRecognizedFormat[RisImporterTest4c]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.0"/>
-  <testcase name="testImportEntries[RisImporterTest5a]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.002"/>
-  <testcase name="testIsRecognizedFormat[RisImporterTest5a]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.001"/>
-  <testcase name="testImportEntries[RisImporterTest5b]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.002"/>
-  <testcase name="testIsRecognizedFormat[RisImporterTest5b]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.0"/>
-  <testcase name="testImportEntries[RisImporterTest6]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.002"/>
+  <testcase name="testIsRecognizedFormat[RisImporterTest4c]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.001"/>
+  <testcase name="testImportEntries[RisImporterTest5a]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.006"/>
+  <testcase name="testIsRecognizedFormat[RisImporterTest5a]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.0"/>
+  <testcase name="testImportEntries[RisImporterTest5b]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.004"/>
+  <testcase name="testIsRecognizedFormat[RisImporterTest5b]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.001"/>
+  <testcase name="testImportEntries[RisImporterTest6]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.003"/>
   <testcase name="testIsRecognizedFormat[RisImporterTest6]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.001"/>
-  <testcase name="testImportEntries[RisImporterTestDoiAndJournalTitle]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.001"/>
-  <testcase name="testIsRecognizedFormat[RisImporterTestDoiAndJournalTitle]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.001"/>
-  <testcase name="testImportEntries[RisImporterTestScopus]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.001"/>
+  <testcase name="testImportEntries[RisImporterTestDoiAndJournalTitle]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.003"/>
+  <testcase name="testIsRecognizedFormat[RisImporterTestDoiAndJournalTitle]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.0"/>
+  <testcase name="testImportEntries[RisImporterTestScopus]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.003"/>
   <testcase name="testIsRecognizedFormat[RisImporterTestScopus]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.0"/>
   <testcase name="testImportEntries[RisImporterTestScience]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.002"/>
-  <testcase name="testIsRecognizedFormat[RisImporterTestScience]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.0"/>
+  <testcase name="testIsRecognizedFormat[RisImporterTestScience]" classname="org.jabref.logic.importer.fileformat.RISImporterTestFiles" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

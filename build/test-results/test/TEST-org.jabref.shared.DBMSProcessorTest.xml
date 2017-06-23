@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.shared.DBMSProcessorTest" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="auri-inspiron" time="0.0">
+<testsuite name="org.jabref.shared.DBMSProcessorTest" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="jessicadias-VPCEH40EB" time="0.0">
   <properties/>
-  <system-out><![CDATA[08:38:39.733 [Test worker] ERROR org.jabref.shared.DBMSConnection - Could not connect to database: Access denied for user 'root'@'localhost' (using password: NO) - Error code: 1045
-08:38:39.734 [Test worker] ERROR org.jabref.shared.DBMSConnection - Could not connect to database: No suitable driver found for jdbc:oracle:thin:@localhost:1521:xe - Error code: 0
-08:38:39.743 [Test worker] ERROR org.jabref.shared.DBMSConnection - Could not connect to database: Connection Error: password authentication failed for user "postgres" - Error code: 0
+  <system-out><![CDATA[00:36:48.240 [Test worker] ERROR org.jabref.shared.DBMSConnection - Could not connect to database: Access denied for user 'root'@'localhost' (using password: NO) - Error code: 1045
+00:36:48.241 [Test worker] ERROR org.jabref.shared.DBMSConnection - Could not connect to database: No suitable driver found for jdbc:oracle:thin:@localhost:1521:xe - Error code: 0
+00:36:48.249 [Test worker] ERROR org.jabref.shared.DBMSConnection - Could not connect to database: Connection Error: Conexão recusada: localhost/127.0.0.1:5432 - Error code: 0
 ]]></system-out>
-  <system-err><![CDATA[Tue Jun 20 08:38:39 BRT 2017 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.formatter.bibtexfields.ClearFormatterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:17" hostname="auri-inspiron" time="0.0">
+<testsuite name="org.jabref.logic.formatter.bibtexfields.ClearFormatterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:42" hostname="jessicadias-VPCEH40EB" time="0.001">
   <properties/>
   <testcase name="formatExample" classname="org.jabref.logic.formatter.bibtexfields.ClearFormatterTest" time="0.0"/>
   <testcase name="formatReturnsEmptyForSomeString" classname="org.jabref.logic.formatter.bibtexfields.ClearFormatterTest" time="0.0"/>

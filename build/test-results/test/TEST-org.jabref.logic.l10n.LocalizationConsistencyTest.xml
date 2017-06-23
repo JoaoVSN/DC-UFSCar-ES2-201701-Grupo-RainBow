@@ -1,15 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.l10n.LocalizationConsistencyTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:35:04" hostname="auri-inspiron" time="13.572">
+<testsuite name="org.jabref.logic.l10n.LocalizationConsistencyTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:35" hostname="jessicadias-VPCEH40EB" time="6.276">
   <properties/>
-  <testcase name="findMissingMenuLocalizationKeys" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="3.316"/>
-  <testcase name="findObsoleteLocalizationKeys" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="8.077"/>
-  <testcase name="allFilesMustHaveSameKeys" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="1.692"/>
-  <testcase name="keyValueShouldBeEqualForEnglishPropertiesMessages" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.043"/>
-  <testcase name="ensureNoDuplicates" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.036"/>
-  <testcase name="localizationParameterMustIncludeAString" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.128"/>
-  <testcase name="findMissingLocalizationKeys" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.219"/>
-  <testcase name="findObsoleteMenuLocalizationKeys" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.057"/>
+  <testcase name="findMissingMenuLocalizationKeys" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.27"/>
+  <testcase name="allFilesMustBeInLanguages" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.04"/>
+  <testcase name="findObsoleteLocalizationKeys" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="4.863"/>
+  <testcase name="allFilesMustHaveSameKeys" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.252"/>
+  <testcase name="keyValueShouldBeEqualForEnglishPropertiesMessages" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.022"/>
+  <testcase name="ensureNoDuplicates" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.103"/>
+  <testcase name="localizationParameterMustIncludeAString" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.211"/>
+  <testcase name="findMissingLocalizationKeys" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.434"/>
+  <testcase name="findObsoleteMenuLocalizationKeys" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.078"/>
   <testcase name="keyValueShouldBeEqualForEnglishPropertiesMenu" classname="org.jabref.logic.l10n.LocalizationConsistencyTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[Jun 23, 2017 12:37:38 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:39 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:39 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:39 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:40 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:40 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:40 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:40 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:40 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:40 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:40 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:40 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:40 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:41 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:41 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:41 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:41 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:41 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:41 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:41 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:41 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:41 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:41 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:41 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:41 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+Jun 23, 2017 12:37:41 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 8.0.112 by JavaFX runtime of version 8.0.111
+]]></system-err>
 </testsuite>

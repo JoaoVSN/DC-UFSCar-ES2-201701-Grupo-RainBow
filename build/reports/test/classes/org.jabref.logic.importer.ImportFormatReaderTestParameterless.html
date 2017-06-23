@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.010s</div>
+<div class="counter">0.288s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,17 +79,17 @@
 </thead>
 <tr>
 <td class="success">importFromFileWithUnknownFormatThrowsException</td>
-<td>0.001s</td>
+<td>0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">importUnknownFormatThrowsExceptionIfNoMatchingImporterWasFound</td>
-<td>0.008s</td>
+<td>0.210s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testNullImportUnknownFormat</td>
-<td>0.001s</td>
+<td>0.076s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -97,7 +97,7 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>08:37:29.097 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
+<pre>00:38:21.898 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
 java.io.IOException: Error: End-of-File, expected line
 	at org.apache.pdfbox.pdfparser.BaseParser.readLine(BaseParser.java:1519) ~[pdfbox-1.8.13.jar:1.8.13]
 	at org.apache.pdfbox.pdfparser.PDFParser.parseHeader(PDFParser.java:372) ~[pdfbox-1.8.13.jar:1.8.13]
@@ -111,10 +111,10 @@ java.io.IOException: Error: End-of-File, expected line
 	at org.jabref.logic.importer.fileformat.PdfXmpImporter.isRecognizedFormat(PdfXmpImporter.java:71) [main/:?]
 	at org.jabref.logic.importer.ImportFormatReader.importUnknownFormat(ImportFormatReader.java:189) [main/:?]
 	at org.jabref.logic.importer.ImportFormatReaderTestParameterless.importUnknownFormatThrowsExceptionIfNoMatchingImporterWasFound(ImportFormatReaderTestParameterless.java:32) [test/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_131]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_111]
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
@@ -134,18 +134,18 @@ java.io.IOException: Error: End-of-File, expected line
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-3.5.jar:3.5]
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-3.5.jar:3.5]
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-3.5.jar:3.5]
-	at sun.reflect.GeneratedMethodAccessor49.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at sun.reflect.GeneratedMethodAccessor29.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_111]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-3.5.jar:3.5]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-3.5.jar:3.5]
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-3.5.jar:3.5]
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-3.5.jar:3.5]
 	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) [?:?]
 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:109) [gradle-testing-base-3.5.jar:3.5]
-	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at sun.reflect.GeneratedMethodAccessor28.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_111]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-3.5.jar:3.5]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-3.5.jar:3.5]
 	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:147) [gradle-messaging-3.5.jar:3.5]
@@ -153,9 +153,9 @@ java.io.IOException: Error: End-of-File, expected line
 	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-3.5.jar:3.5]
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-3.5.jar:3.5]
 	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:46) [gradle-base-services-3.5.jar:3.5]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_131]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_131]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
 </pre>
 </span>
 </div>
@@ -167,7 +167,7 @@ java.io.IOException: Error: End-of-File, expected line
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 3.5</a> at 20/06/2017 08:39:14</p>
+<a href="http://www.gradle.org">Gradle 3.5</a> at 23/06/2017 00:41:06</p>
 </div>
 </div>
 </body>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.l10n.LanguagesTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:35:04" hostname="auri-inspiron" time="0.002">
+<testsuite name="org.jabref.logic.l10n.LanguagesTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:34" hostname="jessicadias-VPCEH40EB" time="0.002">
   <properties/>
-  <testcase name="convertKnownLanguageAndCountryOnly" classname="org.jabref.logic.l10n.LanguagesTest" time="0.0"/>
-  <testcase name="convertToKnownLocaleNull" classname="org.jabref.logic.l10n.LanguagesTest" time="0.001"/>
+  <testcase name="convertKnownLanguageAndCountryOnly" classname="org.jabref.logic.l10n.LanguagesTest" time="0.001"/>
+  <testcase name="convertToKnownLocaleNull" classname="org.jabref.logic.l10n.LanguagesTest" time="0.0"/>
   <testcase name="convertKnownLanguageAndUnknownCountry" classname="org.jabref.logic.l10n.LanguagesTest" time="0.0"/>
   <testcase name="convertKnownLanguageOnly" classname="org.jabref.logic.l10n.LanguagesTest" time="0.0"/>
   <testcase name="convertUnknownLanguage" classname="org.jabref.logic.l10n.LanguagesTest" time="0.0"/>
-  <testcase name="convertUnknownKnownLanguageAndUnknownCountry" classname="org.jabref.logic.l10n.LanguagesTest" time="0.0"/>
+  <testcase name="convertUnknownKnownLanguageAndUnknownCountry" classname="org.jabref.logic.l10n.LanguagesTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

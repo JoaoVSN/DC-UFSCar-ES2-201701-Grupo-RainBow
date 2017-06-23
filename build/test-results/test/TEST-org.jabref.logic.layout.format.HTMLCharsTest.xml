@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.layout.format.HTMLCharsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:35:42" hostname="auri-inspiron" time="0.003">
+<testsuite name="org.jabref.logic.layout.format.HTMLCharsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:39:05" hostname="jessicadias-VPCEH40EB" time="0.002">
   <properties/>
   <testcase name="testLaTeXHighlighting" classname="org.jabref.logic.layout.format.HTMLCharsTest" time="0.001"/>
-  <testcase name="testBasicFormat" classname="org.jabref.logic.layout.format.HTMLCharsTest" time="0.001"/>
+  <testcase name="testBasicFormat" classname="org.jabref.logic.layout.format.HTMLCharsTest" time="0.0"/>
   <testcase name="unknownCommandKeepsArgument" classname="org.jabref.logic.layout.format.HTMLCharsTest" time="0.0"/>
   <testcase name="unknownCommandWithEmptyArgumentIsKept" classname="org.jabref.logic.layout.format.HTMLCharsTest" time="0.0"/>
   <testcase name="unknownCommandIsKept" classname="org.jabref.logic.layout.format.HTMLCharsTest" time="0.0"/>
   <testcase name="testNewLine" classname="org.jabref.logic.layout.format.HTMLCharsTest" time="0.0"/>
-  <testcase name="testEquations" classname="org.jabref.logic.layout.format.HTMLCharsTest" time="0.001"/>
+  <testcase name="testEquations" classname="org.jabref.logic.layout.format.HTMLCharsTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.cleanup.RenamePdfCleanupTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:17" hostname="auri-inspiron" time="0.013">
+<testsuite name="org.jabref.logic.cleanup.RenamePdfCleanupTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:20" hostname="jessicadias-VPCEH40EB" time="0.026">
   <properties/>
-  <testcase name="cleanupRenamePdfRenamesFileInSameFolder" classname="org.jabref.logic.cleanup.RenamePdfCleanupTest" time="0.003"/>
-  <testcase name="cleanupRenamePdfRenamesFileStartingWithBibtexKey" classname="org.jabref.logic.cleanup.RenamePdfCleanupTest" time="0.002"/>
-  <testcase name="cleanupRenamePdfRenamesWithMultipleFiles" classname="org.jabref.logic.cleanup.RenamePdfCleanupTest" time="0.001"/>
-  <testcase name="cleanupRenamePdfRenamesFileEvenIfOnlyDifferenceIsCase" classname="org.jabref.logic.cleanup.RenamePdfCleanupTest" time="0.001"/>
-  <testcase name="cleanupGetTargetFilename" classname="org.jabref.logic.cleanup.RenamePdfCleanupTest" time="0.002"/>
-  <testcase name="cleanupSingleField" classname="org.jabref.logic.cleanup.RenamePdfCleanupTest" time="0.003"/>
+  <testcase name="cleanupRenamePdfRenamesFileInSameFolder" classname="org.jabref.logic.cleanup.RenamePdfCleanupTest" time="0.008"/>
+  <testcase name="cleanupRenamePdfRenamesFileStartingWithBibtexKey" classname="org.jabref.logic.cleanup.RenamePdfCleanupTest" time="0.004"/>
+  <testcase name="cleanupRenamePdfRenamesWithMultipleFiles" classname="org.jabref.logic.cleanup.RenamePdfCleanupTest" time="0.003"/>
+  <testcase name="cleanupRenamePdfRenamesFileEvenIfOnlyDifferenceIsCase" classname="org.jabref.logic.cleanup.RenamePdfCleanupTest" time="0.003"/>
+  <testcase name="cleanupGetTargetFilename" classname="org.jabref.logic.cleanup.RenamePdfCleanupTest" time="0.003"/>
+  <testcase name="cleanupSingleField" classname="org.jabref.logic.cleanup.RenamePdfCleanupTest" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

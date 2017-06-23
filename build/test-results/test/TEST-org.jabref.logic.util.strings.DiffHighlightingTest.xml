@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.util.strings.DiffHighlightingTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:17" hostname="auri-inspiron" time="0.023">
+<testsuite name="org.jabref.logic.util.strings.DiffHighlightingTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:39:07" hostname="jessicadias-VPCEH40EB" time="0.034">
   <properties/>
-  <testcase name="generateSymmetricHighlightingMultipleWordsDeleteTextWordDiff" classname="org.jabref.logic.util.strings.DiffHighlightingTest" time="0.021"/>
-  <testcase name="testGenerateDiffHighlightingSingleWordDeleteTextWordDiff" classname="org.jabref.logic.util.strings.DiffHighlightingTest" time="0.0"/>
-  <testcase name="generateSymmetricHighlightingSingleWordDeleteTextCharacterDiff" classname="org.jabref.logic.util.strings.DiffHighlightingTest" time="0.001"/>
+  <testcase name="generateSymmetricHighlightingMultipleWordsDeleteTextWordDiff" classname="org.jabref.logic.util.strings.DiffHighlightingTest" time="0.029"/>
+  <testcase name="testGenerateDiffHighlightingSingleWordDeleteTextWordDiff" classname="org.jabref.logic.util.strings.DiffHighlightingTest" time="0.001"/>
+  <testcase name="generateSymmetricHighlightingSingleWordDeleteTextCharacterDiff" classname="org.jabref.logic.util.strings.DiffHighlightingTest" time="0.0"/>
   <testcase name="testGenerateDiffHighlightingSingleWordAddTextWordDiff" classname="org.jabref.logic.util.strings.DiffHighlightingTest" time="0.0"/>
   <testcase name="testGenerateDiffHighlightingBothNullReturnsNull" classname="org.jabref.logic.util.strings.DiffHighlightingTest" time="0.0"/>
   <testcase name="generateSymmetricHighlightingSingleWordDeleteTextWordDiff" classname="org.jabref.logic.util.strings.DiffHighlightingTest" time="0.0"/>
-  <testcase name="generateSymmetricHighlightingSingleWordAddTextCharacterDiff" classname="org.jabref.logic.util.strings.DiffHighlightingTest" time="0.0"/>
+  <testcase name="generateSymmetricHighlightingSingleWordAddTextCharacterDiff" classname="org.jabref.logic.util.strings.DiffHighlightingTest" time="0.001"/>
   <testcase name="testGenerateDiffHighlightingSingleWordDeleteTextCharacterDiff" classname="org.jabref.logic.util.strings.DiffHighlightingTest" time="0.0"/>
   <testcase name="generateSymmetricHighlightingSingleWordAddTextWordDiff" classname="org.jabref.logic.util.strings.DiffHighlightingTest" time="0.0"/>
   <testcase name="testGenerateDiffHighlightingSingleWordAddTextCharacterDiff" classname="org.jabref.logic.util.strings.DiffHighlightingTest" time="0.0"/>
-  <testcase name="generateSymmetricHighlightingMultipleWordsDeleteTextCharacterDiff" classname="org.jabref.logic.util.strings.DiffHighlightingTest" time="0.0"/>
+  <testcase name="generateSymmetricHighlightingMultipleWordsDeleteTextCharacterDiff" classname="org.jabref.logic.util.strings.DiffHighlightingTest" time="0.001"/>
   <testcase name="testNullSeparatorThrowsNPE" classname="org.jabref.logic.util.strings.DiffHighlightingTest" time="0.0"/>
-  <testcase name="testGenerateDiffHighlightingNoDiff" classname="org.jabref.logic.util.strings.DiffHighlightingTest" time="0.0"/>
+  <testcase name="testGenerateDiffHighlightingNoDiff" classname="org.jabref.logic.util.strings.DiffHighlightingTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

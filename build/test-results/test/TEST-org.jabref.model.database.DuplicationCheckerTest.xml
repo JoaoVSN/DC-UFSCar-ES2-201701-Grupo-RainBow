@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.model.database.DuplicationCheckerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:39:01" hostname="auri-inspiron" time="0.003">
+<testsuite name="org.jabref.model.database.DuplicationCheckerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:25" hostname="jessicadias-VPCEH40EB" time="0.012">
   <properties/>
-  <testcase name="addEmptyCiteKey" classname="org.jabref.model.database.DuplicationCheckerTest" time="0.0"/>
-  <testcase name="addEntry" classname="org.jabref.model.database.DuplicationCheckerTest" time="0.0"/>
-  <testcase name="removeEmptyCiteKey" classname="org.jabref.model.database.DuplicationCheckerTest" time="0.0"/>
-  <testcase name="removeMultipleCiteKeys" classname="org.jabref.model.database.DuplicationCheckerTest" time="0.001"/>
-  <testcase name="addAndRemoveEntry" classname="org.jabref.model.database.DuplicationCheckerTest" time="0.0"/>
-  <testcase name="changeCiteKey" classname="org.jabref.model.database.DuplicationCheckerTest" time="0.0"/>
-  <testcase name="setCiteKeySameKeyDifferentEntries" classname="org.jabref.model.database.DuplicationCheckerTest" time="0.0"/>
+  <testcase name="addEmptyCiteKey" classname="org.jabref.model.database.DuplicationCheckerTest" time="0.001"/>
+  <testcase name="addEntry" classname="org.jabref.model.database.DuplicationCheckerTest" time="0.001"/>
+  <testcase name="removeEmptyCiteKey" classname="org.jabref.model.database.DuplicationCheckerTest" time="0.002"/>
+  <testcase name="removeMultipleCiteKeys" classname="org.jabref.model.database.DuplicationCheckerTest" time="0.002"/>
+  <testcase name="addAndRemoveEntry" classname="org.jabref.model.database.DuplicationCheckerTest" time="0.002"/>
+  <testcase name="changeCiteKey" classname="org.jabref.model.database.DuplicationCheckerTest" time="0.001"/>
+  <testcase name="setCiteKeySameKeyDifferentEntries" classname="org.jabref.model.database.DuplicationCheckerTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

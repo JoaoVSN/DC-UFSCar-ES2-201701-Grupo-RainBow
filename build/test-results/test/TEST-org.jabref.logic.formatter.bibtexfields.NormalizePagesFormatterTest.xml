@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:17" hostname="auri-inspiron" time="0.002">
+<testsuite name="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:42" hostname="jessicadias-VPCEH40EB" time="0.012">
   <properties/>
-  <testcase name="removePagePrefix" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.0"/>
+  <testcase name="removePagePrefix" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.001"/>
   <testcase name="replaceLongDashWithDoubleDash" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.0"/>
-  <testcase name="ignoreWhitespaceInPageNumbers" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.0"/>
+  <testcase name="ignoreWhitespaceInPageNumbers" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.001"/>
   <testcase name="formatPageNumbersCommaSeparated" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.0"/>
-  <testcase name="formatPageNumbers" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.0"/>
+  <testcase name="formatPageNumbers" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.001"/>
   <testcase name="formatPageNumbersRegexNotMatching" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.0"/>
   <testcase name="formatACMPages" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.0"/>
   <testcase name="removeWhitespaceSinglePage" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.0"/>
@@ -14,11 +14,11 @@
   <testcase name="removePagesPrefix" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.0"/>
   <testcase name="keepFormattedACMPages" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.001"/>
   <testcase name="formatPageNumbersPlusRange" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.0"/>
-  <testcase name="removeWhitespacePageRange" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.0"/>
+  <testcase name="removeWhitespacePageRange" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.001"/>
   <testcase name="doNotRemoveLetters" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.0"/>
   <testcase name="formatSinglePageResultsInNoChange" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.0"/>
   <testcase name="ignoreWhitespaceInPageNumbersWithDoubleDash" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.0"/>
-  <testcase name="formatPageNumbersRemoveUnexpectedLiterals" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.0"/>
+  <testcase name="formatPageNumbersRemoveUnexpectedLiterals" classname="org.jabref.logic.formatter.bibtexfields.NormalizePagesFormatterTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

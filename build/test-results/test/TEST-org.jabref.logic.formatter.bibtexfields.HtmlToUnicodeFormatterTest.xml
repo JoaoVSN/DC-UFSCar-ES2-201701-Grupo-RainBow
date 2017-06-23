@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.formatter.bibtexfields.HtmlToUnicodeFormatterTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:17" hostname="auri-inspiron" time="0.063">
+<testsuite name="org.jabref.logic.formatter.bibtexfields.HtmlToUnicodeFormatterTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:42" hostname="jessicadias-VPCEH40EB" time="0.002">
   <properties/>
-  <testcase name="testGreekLetter" classname="org.jabref.logic.formatter.bibtexfields.HtmlToUnicodeFormatterTest" time="0.062"/>
+  <testcase name="testGreekLetter" classname="org.jabref.logic.formatter.bibtexfields.HtmlToUnicodeFormatterTest" time="0.0"/>
   <testcase name="testBasic" classname="org.jabref.logic.formatter.bibtexfields.HtmlToUnicodeFormatterTest" time="0.0"/>
   <testcase name="testUmlauts" classname="org.jabref.logic.formatter.bibtexfields.HtmlToUnicodeFormatterTest" time="0.0"/>
   <testcase name="testHTMLRemoveTags" classname="org.jabref.logic.formatter.bibtexfields.HtmlToUnicodeFormatterTest" time="0.0"/>
   <testcase name="formatExample" classname="org.jabref.logic.formatter.bibtexfields.HtmlToUnicodeFormatterTest" time="0.0"/>
-  <testcase name="formatMultipleHtmlCharacters" classname="org.jabref.logic.formatter.bibtexfields.HtmlToUnicodeFormatterTest" time="0.001"/>
+  <testcase name="formatMultipleHtmlCharacters" classname="org.jabref.logic.formatter.bibtexfields.HtmlToUnicodeFormatterTest" time="0.0"/>
   <testcase name="formatCombinedAccent" classname="org.jabref.logic.formatter.bibtexfields.HtmlToUnicodeFormatterTest" time="0.0"/>
   <testcase name="formatWithoutHtmlCharactersReturnsSameString" classname="org.jabref.logic.formatter.bibtexfields.HtmlToUnicodeFormatterTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

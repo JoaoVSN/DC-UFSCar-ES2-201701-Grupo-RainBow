@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.pdf.PdfAnnotationImporterTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:33" hostname="auri-inspiron" time="0.551">
+<testsuite name="org.jabref.logic.pdf.PdfAnnotationImporterTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:39:07" hostname="jessicadias-VPCEH40EB" time="0.184">
   <properties/>
-  <testcase name="invalidDirectory" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.0"/>
-  <testcase name="twoAnnotationsThesisExample" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.327"/>
-  <testcase name="strikeoutWithNoteMinimal" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.091"/>
-  <testcase name="highlightWithNoteMinimal" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.043"/>
+  <testcase name="invalidDirectory" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.001"/>
+  <testcase name="twoAnnotationsThesisExample" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.071"/>
+  <testcase name="strikeoutWithNoteMinimal" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.029"/>
+  <testcase name="highlightWithNoteMinimal" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.033"/>
   <testcase name="invalidPath" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.001"/>
   <testcase name="invalidDocumentType" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.0"/>
-  <testcase name="popupNoteMinimal" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.018"/>
-  <testcase name="inlineNoteMinimal" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.002"/>
+  <testcase name="popupNoteMinimal" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.003"/>
+  <testcase name="inlineNoteMinimal" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.003"/>
   <testcase name="noAnnotationsEncrypted" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.001"/>
-  <testcase name="underlineWithNoteMinimal" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.01"/>
-  <testcase name="highlightNoNoteMinimal" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.011"/>
-  <testcase name="noAnnotationsWriteProtected" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.008"/>
-  <testcase name="noAnnotationsMinimal" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.009"/>
-  <testcase name="squigglyWithNoteMinimal" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.004"/>
-  <testcase name="polygonNoNoteMinimal" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.009"/>
-  <testcase name="highlightMinimalFoxit" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.016"/>
-  <system-out><![CDATA[08:38:33.686 [Test worker] WARN  org.jabref.logic.pdf.PdfAnnotationImporter - File 'src/test/resources/pdfs' does not end with .pdf!
-08:38:34.148 [Test worker] WARN  org.jabref.logic.pdf.PdfAnnotationImporter - File '/asdf/does/not/exist.pdf' does not exist!
-08:38:34.149 [Test worker] WARN  org.jabref.logic.pdf.PdfAnnotationImporter - File 'src/test/resources/pdfs/write-protected.docx' does not end with .pdf!
+  <testcase name="underlineWithNoteMinimal" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.006"/>
+  <testcase name="highlightNoNoteMinimal" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.006"/>
+  <testcase name="noAnnotationsWriteProtected" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.005"/>
+  <testcase name="noAnnotationsMinimal" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.002"/>
+  <testcase name="squigglyWithNoteMinimal" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.008"/>
+  <testcase name="polygonNoNoteMinimal" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.004"/>
+  <testcase name="highlightMinimalFoxit" classname="org.jabref.logic.pdf.PdfAnnotationImporterTest" time="0.008"/>
+  <system-out><![CDATA[00:39:07.393 [Test worker] WARN  org.jabref.logic.pdf.PdfAnnotationImporter - File 'src/test/resources/pdfs' does not end with .pdf!
+00:39:07.528 [Test worker] WARN  org.jabref.logic.pdf.PdfAnnotationImporter - File '/asdf/does/not/exist.pdf' does not exist!
+00:39:07.528 [Test worker] WARN  org.jabref.logic.pdf.PdfAnnotationImporter - File 'src/test/resources/pdfs/write-protected.docx' does not end with .pdf!
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.openoffice.OOPreFormatterTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:36:06" hostname="auri-inspiron" time="0.002">
+<testsuite name="org.jabref.logic.openoffice.OOPreFormatterTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:33" hostname="jessicadias-VPCEH40EB" time="0.025">
   <properties/>
-  <testcase name="testUnsupportedSpecialCommands" classname="org.jabref.logic.openoffice.OOPreFormatterTest" time="0.001"/>
-  <testcase name="testFormatting" classname="org.jabref.logic.openoffice.OOPreFormatterTest" time="0.0"/>
+  <testcase name="testUnsupportedSpecialCommands" classname="org.jabref.logic.openoffice.OOPreFormatterTest" time="0.022"/>
+  <testcase name="testFormatting" classname="org.jabref.logic.openoffice.OOPreFormatterTest" time="0.002"/>
   <testcase name="testPlainFormat" classname="org.jabref.logic.openoffice.OOPreFormatterTest" time="0.0"/>
   <testcase name="testFormatStripLatexCommands" classname="org.jabref.logic.openoffice.OOPreFormatterTest" time="0.0"/>
   <testcase name="testSpecialCommands" classname="org.jabref.logic.openoffice.OOPreFormatterTest" time="0.001"/>

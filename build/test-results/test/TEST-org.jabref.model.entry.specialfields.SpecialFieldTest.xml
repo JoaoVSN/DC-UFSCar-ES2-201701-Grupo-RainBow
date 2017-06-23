@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.model.entry.specialfields.SpecialFieldTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:39:01" hostname="auri-inspiron" time="0.001">
+<testsuite name="org.jabref.model.entry.specialfields.SpecialFieldTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:25" hostname="jessicadias-VPCEH40EB" time="0.0">
   <properties/>
-  <testcase name="getSpecialFieldInstanceFromFieldNameValid" classname="org.jabref.model.entry.specialfields.SpecialFieldTest" time="0.001"/>
+  <testcase name="getSpecialFieldInstanceFromFieldNameValid" classname="org.jabref.model.entry.specialfields.SpecialFieldTest" time="0.0"/>
   <testcase name="isSpecialFieldFalseForInvalidField" classname="org.jabref.model.entry.specialfields.SpecialFieldTest" time="0.0"/>
   <testcase name="isSpecialFieldTrueForValidField" classname="org.jabref.model.entry.specialfields.SpecialFieldTest" time="0.0"/>
   <testcase name="getSpecialFieldInstanceFromFieldNameEmptyForInvalidField" classname="org.jabref.model.entry.specialfields.SpecialFieldTest" time="0.0"/>

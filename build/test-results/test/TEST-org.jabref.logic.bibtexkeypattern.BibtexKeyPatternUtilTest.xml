@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" tests="47" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:34" hostname="auri-inspiron" time="0.052">
+<testsuite name="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" tests="47" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:05" hostname="jessicadias-VPCEH40EB" time="0.118">
   <properties/>
-  <testcase name="testAndInAuthorName" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
+  <testcase name="testAndInAuthorName" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.01"/>
   <testcase name="firstAuthorVonAndLastNoVonInName" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
   <testcase name="keywordsNKeywordsSeparatedBySpace" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
-  <testcase name="testMakeLabelAndCheckLegalKeys" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.01"/>
+  <testcase name="testMakeLabelAndCheckLegalKeys" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.023"/>
   <testcase name="testFirstAuthorNull" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
-  <testcase name="authNM" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
-  <testcase name="testMakeLabelAndCheckLegalKeysAccentGrave" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.004"/>
-  <testcase name="testInstituteOfTechnology" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
+  <testcase name="authNM" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.002"/>
+  <testcase name="testMakeLabelAndCheckLegalKeysAccentGrave" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.009"/>
+  <testcase name="testInstituteOfTechnology" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.004"/>
   <testcase name="testCheckLegalKeyEnforceLegal" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
-  <testcase name="testLastPage" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
-  <testcase name="veryShortTitle" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.003"/>
-  <testcase name="firstAuthorVonAndLast" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
-  <testcase name="testUniversity" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
+  <testcase name="testLastPage" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
+  <testcase name="veryShortTitle" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.011"/>
+  <testcase name="firstAuthorVonAndLast" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
+  <testcase name="testUniversity" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.002"/>
   <testcase name="lastAuthorForenameInitials" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
   <testcase name="testAuthEaEmptyReturnsEmpty" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
-  <testcase name="testNAuthors1EmptyReturnEmpty" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
-  <testcase name="testAllAuthors" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
+  <testcase name="testNAuthors1EmptyReturnEmpty" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
+  <testcase name="testAllAuthors" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
   <testcase name="testCheckLegalNullInNullOut" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
-  <testcase name="camel" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.002"/>
+  <testcase name="camel" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.003"/>
   <testcase name="title" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.003"/>
   <testcase name="testDepartment" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.002"/>
-  <testcase name="testLastPageNull" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
-  <testcase name="keywordNKeywordsSeparatedBySpace" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
+  <testcase name="testLastPageNull" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
+  <testcase name="keywordNKeywordsSeparatedBySpace" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.002"/>
   <testcase name="testSpecialLatexCharacterInAuthorName" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.002"/>
   <testcase name="testFirstPageNull" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
   <testcase name="oneAuthorPlusIni" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
   <testcase name="testFirstPage" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
-  <testcase name="testAuthIniNNull" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
-  <testcase name="testNAuthors1" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
-  <testcase name="testNAuthors3" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
+  <testcase name="testAuthIniNNull" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
+  <testcase name="testNAuthors1" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
+  <testcase name="testNAuthors3" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
   <testcase name="authorsAlpha" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
   <testcase name="testAuthIniNEmptyReturnsEmpty" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
   <testcase name="testApplyModifiers" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
-  <testcase name="testCheckLegalKeyDoNotEnforceLegal" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
+  <testcase name="testCheckLegalKeyDoNotEnforceLegal" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
   <testcase name="lastAuthor" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
-  <testcase name="testAndAuthorNames" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.002"/>
+  <testcase name="testAndAuthorNames" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.003"/>
   <testcase name="authAuthEa" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
-  <testcase name="shortTitle" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
-  <testcase name="testSchool" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
+  <testcase name="shortTitle" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.002"/>
+  <testcase name="testSchool" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.003"/>
   <testcase name="testAuthShortEmptyReturnsEmpty" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
-  <testcase name="testCheckLegalKey" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.003"/>
+  <testcase name="testCheckLegalKey" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.004"/>
   <testcase name="testFirstAuthor" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
   <testcase name="firstAuthorForenameInitials" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
-  <testcase name="testAuthShort" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
-  <testcase name="authNMThrowsNPE" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.001"/>
+  <testcase name="testAuthShort" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.002"/>
+  <testcase name="authNMThrowsNPE" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
   <testcase name="testAuthEtAl" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
-  <testcase name="testAuthIniN" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.0"/>
+  <testcase name="testAuthIniN" classname="org.jabref.logic.bibtexkeypattern.BibtexKeyPatternUtilTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

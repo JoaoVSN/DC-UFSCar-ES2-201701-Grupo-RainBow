@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.model.database.BibDatabaseModeDetectionTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:39:01" hostname="auri-inspiron" time="0.004">
+<testsuite name="org.jabref.model.database.BibDatabaseModeDetectionTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:25" hostname="jessicadias-VPCEH40EB" time="0.025">
   <properties/>
-  <testcase name="detectUndistinguishableAsBibtex" classname="org.jabref.model.database.BibDatabaseModeDetectionTest" time="0.0"/>
-  <testcase name="detectMixedModeAsBiblatex" classname="org.jabref.model.database.BibDatabaseModeDetectionTest" time="0.0"/>
-  <testcase name="ignoreUnknownTypesForBibtexDecision" classname="org.jabref.model.database.BibDatabaseModeDetectionTest" time="0.001"/>
-  <testcase name="detectUnknownTypeAsBibtex" classname="org.jabref.model.database.BibDatabaseModeDetectionTest" time="0.001"/>
-  <testcase name="ignoreUnknownTypesForBiblatexDecision" classname="org.jabref.model.database.BibDatabaseModeDetectionTest" time="0.0"/>
-  <testcase name="detectBiblatex" classname="org.jabref.model.database.BibDatabaseModeDetectionTest" time="0.001"/>
+  <testcase name="detectUndistinguishableAsBibtex" classname="org.jabref.model.database.BibDatabaseModeDetectionTest" time="0.007"/>
+  <testcase name="detectMixedModeAsBiblatex" classname="org.jabref.model.database.BibDatabaseModeDetectionTest" time="0.003"/>
+  <testcase name="ignoreUnknownTypesForBibtexDecision" classname="org.jabref.model.database.BibDatabaseModeDetectionTest" time="0.005"/>
+  <testcase name="detectUnknownTypeAsBibtex" classname="org.jabref.model.database.BibDatabaseModeDetectionTest" time="0.002"/>
+  <testcase name="ignoreUnknownTypesForBiblatexDecision" classname="org.jabref.model.database.BibDatabaseModeDetectionTest" time="0.003"/>
+  <testcase name="detectBiblatex" classname="org.jabref.model.database.BibDatabaseModeDetectionTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

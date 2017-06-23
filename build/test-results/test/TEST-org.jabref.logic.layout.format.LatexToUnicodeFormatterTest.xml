@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" tests="34" skipped="1" failures="0" errors="0" timestamp="2017-06-20T11:35:42" hostname="auri-inspiron" time="0.114">
+<testsuite name="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" tests="34" skipped="1" failures="0" errors="0" timestamp="2017-06-23T03:39:05" hostname="jessicadias-VPCEH40EB" time="0.1">
   <properties/>
-  <testcase name="testConversionOfUnderscoreWithBraces" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.029"/>
-  <testcase name="unknownCommandKeepsArgument" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
-  <testcase name="testUpperCaseIWithDiaresis" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.002"/>
-  <testcase name="testChi" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
+  <testcase name="testConversionOfUnderscoreWithBraces" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.046"/>
+  <testcase name="unknownCommandKeepsArgument" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
+  <testcase name="testUpperCaseIWithDiaresis" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
+  <testcase name="testChi" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
   <testcase name="testFormatTextit" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.003"/>
-  <testcase name="testFormatUmlaut" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.002"/>
+  <testcase name="testFormatUmlaut" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
   <testcase name="testDoubleCombiningAccents" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
   <testcase name="testIWithDiaresis" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
   <testcase name="testApostrophC" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
   <testcase name="testApostrophN" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
-  <testcase name="testApostrophO" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
+  <testcase name="testApostrophO" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
   <testcase name="testCombiningAccentsCase1" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
   <testcase name="testCombiningAccentsCase2" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testPreservationOfSingleUnderscore" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
-  <testcase name="formatExample" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
-  <testcase name="unknownCommandWithEmptyArgumentIsIgnored" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
+  <testcase name="testPreservationOfSingleUnderscore" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
+  <testcase name="formatExample" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.002"/>
+  <testcase name="unknownCommandWithEmptyArgumentIsIgnored" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
   <testcase name="testConversionOfOrdinal1st" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.002"/>
   <testcase name="testConversionOfOrdinal2nd" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
-  <testcase name="testConversionOfOrdinal3rd" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
-  <testcase name="testConversionOfOrdinal4th" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
+  <testcase name="testConversionOfOrdinal3rd" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
+  <testcase name="testConversionOfOrdinal4th" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
   <testcase name="testConversionOfOrdinal9th" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
-  <testcase name="testPlainFormat" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
-  <testcase name="testFormatStripLatexCommands" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
-  <testcase name="testIWithDiaresisAndEscapedI" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
-  <testcase name="testEquationsMoreComplicatedFormatting" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
-  <testcase name="testAcuteNLongVersion" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.002"/>
-  <testcase name="testSWithCaron" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
-  <testcase name="testPolishName" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
-  <testcase name="testIWithDiaresisAndUnnecessaryBraces" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
-  <testcase name="testAcuteNShortVersion" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.029"/>
-  <testcase name="testTildeN" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
+  <testcase name="testPlainFormat" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
+  <testcase name="testFormatStripLatexCommands" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
+  <testcase name="testIWithDiaresisAndEscapedI" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
+  <testcase name="testEquationsMoreComplicatedFormatting" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
+  <testcase name="testAcuteNLongVersion" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
+  <testcase name="testSWithCaron" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
+  <testcase name="testPolishName" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
+  <testcase name="testIWithDiaresisAndUnnecessaryBraces" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
+  <testcase name="testAcuteNShortVersion" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.026"/>
+  <testcase name="testTildeN" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
   <testcase name="testEquationsSingleSymbol" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>
   <testcase name="testEscapedDollarSign" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.0"/>
   <testcase name="unknownCommandIsIgnored" classname="org.jabref.logic.layout.format.LatexToUnicodeFormatterTest" time="0.001"/>

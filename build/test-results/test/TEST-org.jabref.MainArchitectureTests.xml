@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.MainArchitectureTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:38:39" hostname="auri-inspiron" time="1.748">
+<testsuite name="org.jabref.MainArchitectureTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:25" hostname="jessicadias-VPCEH40EB" time="7.887">
   <properties/>
-  <testcase name="firstPackageIsIndependentOfSecondPackage[0 -- is org.jabref.logic independent of java.awt?]" classname="org.jabref.MainArchitectureTests" time="1.241"/>
-  <testcase name="firstPackageIsIndependentOfSecondPackage[1 -- is org.jabref.logic independent of javax.swing?]" classname="org.jabref.MainArchitectureTests" time="0.061"/>
-  <testcase name="firstPackageIsIndependentOfSecondPackage[2 -- is org.jabref.logic independent of javafx?]" classname="org.jabref.MainArchitectureTests" time="0.057"/>
-  <testcase name="firstPackageIsIndependentOfSecondPackage[3 -- is org.jabref.logic independent of org.jabref.gui?]" classname="org.jabref.MainArchitectureTests" time="0.058"/>
-  <testcase name="firstPackageIsIndependentOfSecondPackage[4 -- is org.jabref.logic independent of org.jabref.Globals?]" classname="org.jabref.MainArchitectureTests" time="0.057"/>
-  <testcase name="firstPackageIsIndependentOfSecondPackage[5 -- is org.jabref.model independent of java.awt?]" classname="org.jabref.MainArchitectureTests" time="0.045"/>
-  <testcase name="firstPackageIsIndependentOfSecondPackage[6 -- is org.jabref.model independent of javax.swing?]" classname="org.jabref.MainArchitectureTests" time="0.043"/>
-  <testcase name="firstPackageIsIndependentOfSecondPackage[7 -- is org.jabref.model independent of javafx?]" classname="org.jabref.MainArchitectureTests" time="0.044"/>
-  <testcase name="firstPackageIsIndependentOfSecondPackage[8 -- is org.jabref.model independent of org.jabref.gui?]" classname="org.jabref.MainArchitectureTests" time="0.053"/>
-  <testcase name="firstPackageIsIndependentOfSecondPackage[9 -- is org.jabref.model independent of org.jabref.logic?]" classname="org.jabref.MainArchitectureTests" time="0.044"/>
-  <testcase name="firstPackageIsIndependentOfSecondPackage[10 -- is org.jabref.model independent of org.jabref.Globals?]" classname="org.jabref.MainArchitectureTests" time="0.044"/>
+  <testcase name="firstPackageIsIndependentOfSecondPackage[0 -- is org.jabref.logic independent of java.awt?]" classname="org.jabref.MainArchitectureTests" time="6.932"/>
+  <testcase name="firstPackageIsIndependentOfSecondPackage[1 -- is org.jabref.logic independent of javax.swing?]" classname="org.jabref.MainArchitectureTests" time="0.102"/>
+  <testcase name="firstPackageIsIndependentOfSecondPackage[2 -- is org.jabref.logic independent of javafx?]" classname="org.jabref.MainArchitectureTests" time="0.139"/>
+  <testcase name="firstPackageIsIndependentOfSecondPackage[3 -- is org.jabref.logic independent of org.jabref.gui?]" classname="org.jabref.MainArchitectureTests" time="0.154"/>
+  <testcase name="firstPackageIsIndependentOfSecondPackage[4 -- is org.jabref.logic independent of org.jabref.Globals?]" classname="org.jabref.MainArchitectureTests" time="0.09"/>
+  <testcase name="firstPackageIsIndependentOfSecondPackage[5 -- is org.jabref.model independent of java.awt?]" classname="org.jabref.MainArchitectureTests" time="0.111"/>
+  <testcase name="firstPackageIsIndependentOfSecondPackage[6 -- is org.jabref.model independent of javax.swing?]" classname="org.jabref.MainArchitectureTests" time="0.066"/>
+  <testcase name="firstPackageIsIndependentOfSecondPackage[7 -- is org.jabref.model independent of javafx?]" classname="org.jabref.MainArchitectureTests" time="0.083"/>
+  <testcase name="firstPackageIsIndependentOfSecondPackage[8 -- is org.jabref.model independent of org.jabref.gui?]" classname="org.jabref.MainArchitectureTests" time="0.056"/>
+  <testcase name="firstPackageIsIndependentOfSecondPackage[9 -- is org.jabref.model independent of org.jabref.logic?]" classname="org.jabref.MainArchitectureTests" time="0.069"/>
+  <testcase name="firstPackageIsIndependentOfSecondPackage[10 -- is org.jabref.model independent of org.jabref.Globals?]" classname="org.jabref.MainArchitectureTests" time="0.082"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

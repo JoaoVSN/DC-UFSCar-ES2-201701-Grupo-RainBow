@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.importer.fileformat.InspecImportTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-20T11:37:10" hostname="auri-inspiron" time="0.003">
+<testsuite name="org.jabref.logic.importer.fileformat.InspecImportTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:35" hostname="jessicadias-VPCEH40EB" time="0.012">
   <properties/>
   <testcase name="importConferencePaperGivesInproceedings" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.001"/>
-  <testcase name="importMiscGivesMisc" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.0"/>
+  <testcase name="importMiscGivesMisc" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.001"/>
   <testcase name="testGetCLIId" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.0"/>
   <testcase name="testCompleteBibtexEntryOnJournalPaperImport" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.001"/>
   <testcase name="testsGetExtensions" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.0"/>
   <testcase name="testGetDescription" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.0"/>
-  <testcase name="testIsRecognizedFormatAccept" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.0"/>
-  <testcase name="testIsRecognizedFormatReject" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.001"/>
+  <testcase name="testIsRecognizedFormatAccept" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.002"/>
+  <testcase name="testIsRecognizedFormatReject" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.005"/>
   <testcase name="testGetFormatName" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
