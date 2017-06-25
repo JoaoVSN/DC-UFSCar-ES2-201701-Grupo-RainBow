@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:42" hostname="jessicadias-VPCEH40EB" time="0.052">
+<testsuite name="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:28" hostname="jessicadias-VPCEH40EB" time="0.056">
   <properties/>
   <testcase name="completeBeginningOfNameReturnsCompleteName" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.005"/>
-  <testcase name="completeBeginningOfFirstNameReturnsCompleteNameWithJr" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.003"/>
-  <testcase name="completeBeginningOfLastNameReturnsNameAndNameWithInitialFirstname" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.003"/>
-  <testcase name="completeShortNameReturnsName" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.001"/>
-  <testcase name="completeLowercaseNameReturnsName" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.003"/>
-  <testcase name="completeVonReturnsNameWithInitialFirstnameIfPref" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.004"/>
-  <testcase name="completeAfterAddingNullReturnsNothing" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.0"/>
-  <testcase name="initAutoCompleterWithNullFieldThrowsException" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.001"/>
+  <testcase name="completeBeginningOfFirstNameReturnsCompleteNameWithJr" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.004"/>
+  <testcase name="completeBeginningOfLastNameReturnsNameAndNameWithInitialFirstname" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.002"/>
+  <testcase name="completeShortNameReturnsName" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.002"/>
+  <testcase name="completeLowercaseNameReturnsName" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.001"/>
+  <testcase name="completeVonReturnsNameWithInitialFirstnameIfPref" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.002"/>
+  <testcase name="completeAfterAddingNullReturnsNothing" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.001"/>
+  <testcase name="initAutoCompleterWithNullFieldThrowsException" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.0"/>
   <testcase name="completeAfterAddingEntryWithoutFieldReturnsNothing" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.001"/>
   <testcase name="completeBeginningOfLastNameReturnsNothingIfPref" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.001"/>
   <testcase name="completeBeginningOfLastNameReturnsNameWithUmlauts" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.002"/>
   <testcase name="completeBeginningOfLastNameReturnsNameIfPref" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.002"/>
   <testcase name="completeTooShortInputReturnsNothing" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.002"/>
-  <testcase name="completeAfterAddingEmptyEntryReturnsNothing" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.0"/>
+  <testcase name="completeAfterAddingEmptyEntryReturnsNothing" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.001"/>
   <testcase name="completePartOfNameReturnsNothing" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.002"/>
-  <testcase name="completeWithoutAddingAnythingReturnsNothing" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.001"/>
-  <testcase name="completeNameReturnsName" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.002"/>
+  <testcase name="completeWithoutAddingAnythingReturnsNothing" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.0"/>
+  <testcase name="completeNameReturnsName" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.001"/>
   <testcase name="completeReturnsMultipleResults" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.002"/>
-  <testcase name="completeBeginningOfLastNameReturnsNameWithInitialFirstnameIfPref" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.002"/>
+  <testcase name="completeBeginningOfLastNameReturnsNameWithInitialFirstnameIfPref" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.001"/>
   <testcase name="completeBeginningOfFirstNameReturnsCompleteNameWithVon" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.002"/>
   <testcase name="completeBeginnigOfNameReturnsName" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.001"/>
   <testcase name="completeEmptyStringReturnsNothing" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.002"/>
   <testcase name="completeBeginningOfFirstNameReturnsNothingIfPref" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.002"/>
-  <testcase name="initAutoCompleterWithNullPreferenceThrowsException" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.0"/>
-  <testcase name="completeBeginningOfLastNameReturnsNameWithJrIfPref" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.001"/>
+  <testcase name="initAutoCompleterWithNullPreferenceThrowsException" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.001"/>
+  <testcase name="completeBeginningOfLastNameReturnsNameWithJrIfPref" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.002"/>
   <testcase name="completeNullReturnsNothing" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.001"/>
   <testcase name="completeBeginningOfFirstNameReturnsCompleteName" classname="org.jabref.logic.autocompleter.NameFieldAutoCompleterTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>

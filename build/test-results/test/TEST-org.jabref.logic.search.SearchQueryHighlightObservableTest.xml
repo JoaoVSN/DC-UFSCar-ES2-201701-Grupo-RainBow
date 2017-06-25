@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.search.SearchQueryHighlightObservableTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:41:04" hostname="jessicadias-VPCEH40EB" time="0.022">
+<testsuite name="org.jabref.logic.search.SearchQueryHighlightObservableTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:38:08" hostname="jessicadias-VPCEH40EB" time="0.011">
   <properties/>
-  <testcase name="addSearchListenerNotifiesRegisteredListener" classname="org.jabref.logic.search.SearchQueryHighlightObservableTest" time="0.017"/>
+  <testcase name="addSearchListenerNotifiesRegisteredListener" classname="org.jabref.logic.search.SearchQueryHighlightObservableTest" time="0.007"/>
   <testcase name="addSearchListenerNotifiesListenerAboutPreviousPattern" classname="org.jabref.logic.search.SearchQueryHighlightObservableTest" time="0.001"/>
   <testcase name="addSearchListenerNotifiesRegisteredListenerAboutGrammarBasedSearches" classname="org.jabref.logic.search.SearchQueryHighlightObservableTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

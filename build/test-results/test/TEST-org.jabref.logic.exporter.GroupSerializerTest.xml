@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.exporter.GroupSerializerTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:41:01" hostname="jessicadias-VPCEH40EB" time="0.009">
+<testsuite name="org.jabref.logic.exporter.GroupSerializerTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:38:05" hostname="jessicadias-VPCEH40EB" time="0.009">
   <properties/>
   <testcase name="serializeSingleExplicitGroupWithEscapedSlash" classname="org.jabref.logic.exporter.GroupSerializerTest" time="0.002"/>
   <testcase name="serializeSingleSearchGroup" classname="org.jabref.logic.exporter.GroupSerializerTest" time="0.002"/>
   <testcase name="getTreeAsStringInSimpleTree" classname="org.jabref.logic.exporter.GroupSerializerTest" time="0.0"/>
-  <testcase name="serializeSingleSearchGroupWithRegex" classname="org.jabref.logic.exporter.GroupSerializerTest" time="0.001"/>
-  <testcase name="serializeSingleSimpleKeywordGroup" classname="org.jabref.logic.exporter.GroupSerializerTest" time="0.001"/>
+  <testcase name="serializeSingleSearchGroupWithRegex" classname="org.jabref.logic.exporter.GroupSerializerTest" time="0.002"/>
+  <testcase name="serializeSingleSimpleKeywordGroup" classname="org.jabref.logic.exporter.GroupSerializerTest" time="0.0"/>
   <testcase name="serializeSingleAutomaticPersonGroup" classname="org.jabref.logic.exporter.GroupSerializerTest" time="0.0"/>
   <testcase name="serializeSingleAllEntriesGroup" classname="org.jabref.logic.exporter.GroupSerializerTest" time="0.0"/>
   <testcase name="serializeSingleRegexKeywordGroup" classname="org.jabref.logic.exporter.GroupSerializerTest" time="0.0"/>
   <testcase name="getTreeAsStringInComplexTree" classname="org.jabref.logic.exporter.GroupSerializerTest" time="0.002"/>
-  <testcase name="serializeSingleExplicitGroupWithIconAndDescription" classname="org.jabref.logic.exporter.GroupSerializerTest" time="0.0"/>
+  <testcase name="serializeSingleExplicitGroupWithIconAndDescription" classname="org.jabref.logic.exporter.GroupSerializerTest" time="0.001"/>
   <testcase name="serializeSingleExplicitGroup" classname="org.jabref.logic.exporter.GroupSerializerTest" time="0.0"/>
   <testcase name="serializeSingleAutomaticKeywordGroup" classname="org.jabref.logic.exporter.GroupSerializerTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

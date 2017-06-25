@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.cli.AuxCommandLineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:36:41" hostname="jessicadias-VPCEH40EB" time="2.969">
+<testsuite name="org.jabref.cli.AuxCommandLineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:34:46" hostname="jessicadias-VPCEH40EB" time="2.448">
   <properties/>
-  <testcase name="test" classname="org.jabref.cli.AuxCommandLineTest" time="2.969"/>
+  <testcase name="test" classname="org.jabref.cli.AuxCommandLineTest" time="2.448"/>
   <system-out><![CDATA[keys in library 3
 found in AUX file 2
 resolved 2

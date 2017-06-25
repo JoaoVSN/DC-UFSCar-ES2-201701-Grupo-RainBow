@@ -847,6 +847,8 @@ public class BasePanel extends JPanel implements ClipboardOwner, FileUpdateListe
     private void copyTitle() {
         List<BibEntry> selectedBibEntries = mainTable.getSelectedEntries();
         if (!selectedBibEntries.isEmpty()) {
+            storeCurrentEdit();
+
             // Collect all non-null titles.
             List<String> titles = selectedBibEntries.stream()
                     .filter(bibEntry -> bibEntry.getTitle().isPresent())
@@ -875,6 +877,7 @@ public class BasePanel extends JPanel implements ClipboardOwner, FileUpdateListe
     private void copyCiteKey() {
         List<BibEntry> bes = mainTable.getSelectedEntries();
         if (!bes.isEmpty()) {
+            storeCurrentEdit();
             List<String> keys = new ArrayList<>(bes.size());
             // Collect all non-null keys.
             for (BibEntry be : bes) {
@@ -902,6 +905,7 @@ public class BasePanel extends JPanel implements ClipboardOwner, FileUpdateListe
     private void copyKey() {
         List<BibEntry> bes = mainTable.getSelectedEntries();
         if (!bes.isEmpty()) {
+            storeCurrentEdit();
             List<String> keys = new ArrayList<>(bes.size());
             // Collect all non-null keys.
             for (BibEntry be : bes) {
@@ -928,6 +932,8 @@ public class BasePanel extends JPanel implements ClipboardOwner, FileUpdateListe
     private void copyKeyAndTitle() {
         List<BibEntry> bes = mainTable.getSelectedEntries();
         if (!bes.isEmpty()) {
+            storeCurrentEdit();
+
             // OK: in a future version, this string should be configurable to allow arbitrary exports
             StringReader sr = new StringReader(
                     "\\bibtexkey - \\begin{title}\\format[RemoveBrackets]{\\title}\\end{title}\n");
@@ -1255,7 +1261,7 @@ public class BasePanel extends JPanel implements ClipboardOwner, FileUpdateListe
                     break;
                 case SHOWING_EDITOR:
                 case WILL_SHOW_EDITOR:
-                    entryEditorClosing(getCurrentEditor());
+                    getCurrentEditor().close();
                     break;
                 default:
                     LOGGER.warn("unknown BasePanelMode: '" + mode + "', doing nothing");
@@ -1455,13 +1461,13 @@ public class BasePanel extends JPanel implements ClipboardOwner, FileUpdateListe
 
         String visName = null;
         if ((getShowing() != null) && isShowingEditor()) {
-            visName = ((EntryEditor) splitPane.getBottomComponent()).getVisibleTabName();
+            visName = ((EntryEditor) splitPane.getBottomComponent()).getVisiblePanelName();
         }
 
         // We must instantiate a new editor.
         EntryEditor entryEditor = new EntryEditor(frame, BasePanel.this, be);
         if (visName != null) {
-            entryEditor.setVisibleTab(visName);
+            entryEditor.setVisiblePanel(visName);
         }
         showEntryEditor(entryEditor);
 
@@ -1476,6 +1482,8 @@ public class BasePanel extends JPanel implements ClipboardOwner, FileUpdateListe
      * @return A suitable entry editor.
      */
     public EntryEditor getEntryEditor(BibEntry entry) {
+        // We must instantiate a new editor. First make sure the old one stores its last edit:
+        storeCurrentEdit();
         // Then start the new one:
         return new EntryEditor(frame, BasePanel.this, entry);
     }
@@ -1586,12 +1594,24 @@ public class BasePanel extends JPanel implements ClipboardOwner, FileUpdateListe
 
     public void updateEntryEditorIfShowing() {
         if (mode == BasePanelMode.SHOWING_EDITOR) {
-            if (!currentEditor.getDisplayedBibEntryType().equals(currentEditor.getEntry().getType())) {
+            if (currentEditor.getDisplayedBibEntryType().equals(currentEditor.getEntry().getType())) {
+                currentEditor.updateSource();
+            } else {
                 // The entry has changed type, so we must get a new editor.
                 newEntryShowing(null);
                 final EntryEditor newEditor = getEntryEditor(currentEditor.getEntry());
                 showEntryEditor(newEditor);
             }
+        }
+    }
+
+    /**
+     * If an entry editor is showing, make sure its currently focused field stores its changes, if any.
+     */
+    public void storeCurrentEdit() {
+        if (isShowingEditor()) {
+            final EntryEditor editor = (EntryEditor) splitPane.getBottomComponent();
+            editor.storeCurrentEdit();
         }
     }
 
@@ -1625,6 +1645,12 @@ public class BasePanel extends JPanel implements ClipboardOwner, FileUpdateListe
     public void markNonUndoableBaseChanged() {
         nonUndoableChange = true;
         markBaseChanged();
+    }
+
+    public void rebuildAllEntryEditors() {
+        if (currentEditor != null) {
+            currentEditor.rebuildPanels();
+        }
     }
 
     private synchronized void markChangedOrUnChanged() {
@@ -2167,6 +2193,8 @@ public class BasePanel extends JPanel implements ClipboardOwner, FileUpdateListe
                     // Check if it is the preamble:
                     if ((preambleEditor != null) && (focused == preambleEditor.getFieldEditor())) {
                         preambleEditor.storeCurrentEdit();
+                    } else {
+                        storeCurrentEdit();
                     }
                 }
                 getUndoManager().undo();
@@ -2241,6 +2269,11 @@ public class BasePanel extends JPanel implements ClipboardOwner, FileUpdateListe
             try {
 
                 JComponent focused = Globals.getFocusListener().getFocused();
+                if ((focused != null) && (focused instanceof FieldEditor) && focused.hasFocus()) {
+                    // User is currently editing a field:
+                    storeCurrentEdit();
+                }
+
                 getUndoManager().redo();
                 markBaseChanged();
                 frame.output(Localization.lang("Redo"));

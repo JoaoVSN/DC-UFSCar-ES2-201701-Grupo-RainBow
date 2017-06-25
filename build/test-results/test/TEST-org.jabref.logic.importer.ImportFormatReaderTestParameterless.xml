@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.importer.ImportFormatReaderTestParameterless" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:21" hostname="jessicadias-VPCEH40EB" time="0.29">
+<testsuite name="org.jabref.logic.importer.ImportFormatReaderTestParameterless" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:09" hostname="jessicadias-VPCEH40EB" time="0.193">
   <properties/>
-  <testcase name="testNullImportUnknownFormat" classname="org.jabref.logic.importer.ImportFormatReaderTestParameterless" time="0.076"/>
+  <testcase name="testNullImportUnknownFormat" classname="org.jabref.logic.importer.ImportFormatReaderTestParameterless" time="0.069"/>
   <testcase name="importFromFileWithUnknownFormatThrowsException" classname="org.jabref.logic.importer.ImportFormatReaderTestParameterless" time="0.002"/>
-  <testcase name="importUnknownFormatThrowsExceptionIfNoMatchingImporterWasFound" classname="org.jabref.logic.importer.ImportFormatReaderTestParameterless" time="0.21"/>
-  <system-out><![CDATA[00:38:21.898 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
+  <testcase name="importUnknownFormatThrowsExceptionIfNoMatchingImporterWasFound" classname="org.jabref.logic.importer.ImportFormatReaderTestParameterless" time="0.122"/>
+  <system-out><![CDATA[02:36:09.209 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
 java.io.IOException: Error: End-of-File, expected line
 	at org.apache.pdfbox.pdfparser.BaseParser.readLine(BaseParser.java:1519) ~[pdfbox-1.8.13.jar:1.8.13]
 	at org.apache.pdfbox.pdfparser.PDFParser.parseHeader(PDFParser.java:372) ~[pdfbox-1.8.13.jar:1.8.13]

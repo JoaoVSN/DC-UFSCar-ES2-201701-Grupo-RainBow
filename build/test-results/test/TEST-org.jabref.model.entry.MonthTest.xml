@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.model.entry.MonthTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:24" hostname="jessicadias-VPCEH40EB" time="0.005">
+<testsuite name="org.jabref.model.entry.MonthTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:23" hostname="jessicadias-VPCEH40EB" time="0.011">
   <properties/>
   <testcase name="parseReturnsEmptyOptionalForInvalidInput" classname="org.jabref.model.entry.MonthTest" time="0.001"/>
   <testcase name="parseCorrectlyByFullName" classname="org.jabref.model.entry.MonthTest" time="0.0"/>
-  <testcase name="parseCorrectlyByTwoDigitNumber" classname="org.jabref.model.entry.MonthTest" time="0.0"/>
+  <testcase name="parseCorrectlyByTwoDigitNumber" classname="org.jabref.model.entry.MonthTest" time="0.004"/>
   <testcase name="parseCorrectlyByBibtexName" classname="org.jabref.model.entry.MonthTest" time="0.001"/>
   <testcase name="parseReturnsEmptyOptionalForEmptyInput" classname="org.jabref.model.entry.MonthTest" time="0.0"/>
-  <testcase name="parseCorrectlyByShortName" classname="org.jabref.model.entry.MonthTest" time="0.0"/>
+  <testcase name="parseCorrectlyByShortName" classname="org.jabref.model.entry.MonthTest" time="0.001"/>
   <testcase name="parseCorrectlyByNumber" classname="org.jabref.model.entry.MonthTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

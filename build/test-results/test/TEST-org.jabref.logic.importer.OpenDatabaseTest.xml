@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.importer.OpenDatabaseTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:52" hostname="jessicadias-VPCEH40EB" time="0.034">
+<testsuite name="org.jabref.logic.importer.OpenDatabaseTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:28" hostname="jessicadias-VPCEH40EB" time="0.029">
   <properties/>
-  <testcase name="useFallbackEncodingIfNoHeader" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.013"/>
+  <testcase name="useFallbackEncodingIfNoHeader" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.003"/>
   <testcase name="correctlyParseEncodingWithoutNewline" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.003"/>
   <testcase name="entriesAreParsedHeader" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.003"/>
-  <testcase name="entriesAreParsedHeaderAndSignature" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.003"/>
+  <testcase name="entriesAreParsedHeaderAndSignature" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.002"/>
   <testcase name="useSpecifiedEncodingWithSignature" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.003"/>
-  <testcase name="useFallbackEncodingIfUnknownHeader" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.002"/>
-  <testcase name="useSpecifiedEncoding" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.003"/>
-  <testcase name="entriesAreParsedNoHeader" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.002"/>
+  <testcase name="useFallbackEncodingIfUnknownHeader" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.003"/>
+  <testcase name="useSpecifiedEncoding" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.002"/>
+  <testcase name="entriesAreParsedNoHeader" classname="org.jabref.logic.importer.OpenDatabaseTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

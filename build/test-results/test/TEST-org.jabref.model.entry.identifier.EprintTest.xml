@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.model.entry.identifier.EprintTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:24" hostname="jessicadias-VPCEH40EB" time="0.014">
+<testsuite name="org.jabref.model.entry.identifier.EprintTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:22" hostname="jessicadias-VPCEH40EB" time="0.006">
   <properties/>
   <testcase name="acceptPlainEprintWithVersion" classname="org.jabref.model.entry.identifier.EprintTest" time="0.001"/>
   <testcase name="rejectEmbeddedEprint" classname="org.jabref.model.entry.identifier.EprintTest" time="0.001"/>
   <testcase name="acceptPlainEprint" classname="org.jabref.model.entry.identifier.EprintTest" time="0.0"/>
   <testcase name="acceptArxivPrefix" classname="org.jabref.model.entry.identifier.EprintTest" time="0.0"/>
-  <testcase name="acceptURLEprint" classname="org.jabref.model.entry.identifier.EprintTest" time="0.004"/>
-  <testcase name="ignoreLeadingAndTrailingWhitespaces" classname="org.jabref.model.entry.identifier.EprintTest" time="0.002"/>
-  <testcase name="constructCorrectURLForEprint" classname="org.jabref.model.entry.identifier.EprintTest" time="0.002"/>
-  <testcase name="acceptLegacyEprint" classname="org.jabref.model.entry.identifier.EprintTest" time="0.001"/>
-  <testcase name="rejectInvalidEprint" classname="org.jabref.model.entry.identifier.EprintTest" time="0.0"/>
+  <testcase name="acceptURLEprint" classname="org.jabref.model.entry.identifier.EprintTest" time="0.001"/>
+  <testcase name="ignoreLeadingAndTrailingWhitespaces" classname="org.jabref.model.entry.identifier.EprintTest" time="0.001"/>
+  <testcase name="constructCorrectURLForEprint" classname="org.jabref.model.entry.identifier.EprintTest" time="0.001"/>
+  <testcase name="acceptLegacyEprint" classname="org.jabref.model.entry.identifier.EprintTest" time="0.0"/>
+  <testcase name="rejectInvalidEprint" classname="org.jabref.model.entry.identifier.EprintTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.journals.AbbreviationParserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:40:27" hostname="jessicadias-VPCEH40EB" time="12.97">
+<testsuite name="org.jabref.logic.journals.AbbreviationParserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:37:37" hostname="jessicadias-VPCEH40EB" time="8.906">
   <properties/>
-  <testcase name="testReadJournalListFromResource" classname="org.jabref.logic.journals.AbbreviationParserTest" time="12.97"/>
+  <testcase name="testReadJournalListFromResource" classname="org.jabref.logic.journals.AbbreviationParserTest" time="8.906"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

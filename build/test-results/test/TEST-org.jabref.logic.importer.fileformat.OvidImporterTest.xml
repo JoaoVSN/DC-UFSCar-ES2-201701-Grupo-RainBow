@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.importer.fileformat.OvidImporterTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:38" hostname="jessicadias-VPCEH40EB" time="0.019">
+<testsuite name="org.jabref.logic.importer.fileformat.OvidImporterTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:19" hostname="jessicadias-VPCEH40EB" time="0.018">
   <properties/>
   <testcase name="testGetCLIId" classname="org.jabref.logic.importer.fileformat.OvidImporterTest" time="0.0"/>
   <testcase name="testsGetExtensions" classname="org.jabref.logic.importer.fileformat.OvidImporterTest" time="0.0"/>
@@ -7,10 +7,10 @@
   <testcase name="testImportEmpty" classname="org.jabref.logic.importer.fileformat.OvidImporterTest" time="0.001"/>
   <testcase name="testIsRecognizedFormatAccept" classname="org.jabref.logic.importer.fileformat.OvidImporterTest" time="0.001"/>
   <testcase name="testImportEntries1" classname="org.jabref.logic.importer.fileformat.OvidImporterTest" time="0.002"/>
-  <testcase name="testImportEntries2" classname="org.jabref.logic.importer.fileformat.OvidImporterTest" time="0.001"/>
+  <testcase name="testImportEntries2" classname="org.jabref.logic.importer.fileformat.OvidImporterTest" time="0.0"/>
   <testcase name="testImportSingleEntries" classname="org.jabref.logic.importer.fileformat.OvidImporterTest" time="0.013"/>
   <testcase name="testGetFormatName" classname="org.jabref.logic.importer.fileformat.OvidImporterTest" time="0.0"/>
-  <testcase name="testIsRecognizedFormatRejected" classname="org.jabref.logic.importer.fileformat.OvidImporterTest" time="0.001"/>
+  <testcase name="testIsRecognizedFormatRejected" classname="org.jabref.logic.importer.fileformat.OvidImporterTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

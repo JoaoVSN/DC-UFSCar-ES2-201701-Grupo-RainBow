@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.importer.fileformat.SilverPlatterImporterTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:29" hostname="jessicadias-VPCEH40EB" time="0.008">
+<testsuite name="org.jabref.logic.importer.fileformat.SilverPlatterImporterTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:11" hostname="jessicadias-VPCEH40EB" time="0.008">
   <properties/>
-  <testcase name="testImportEntries[0: SilverPlatterImporterTest1]" classname="org.jabref.logic.importer.fileformat.SilverPlatterImporterTest" time="0.003"/>
+  <testcase name="testImportEntries[0: SilverPlatterImporterTest1]" classname="org.jabref.logic.importer.fileformat.SilverPlatterImporterTest" time="0.004"/>
   <testcase name="testIsRecognizedFormat[0: SilverPlatterImporterTest1]" classname="org.jabref.logic.importer.fileformat.SilverPlatterImporterTest" time="0.0"/>
-  <testcase name="testsGetExtensions[0: SilverPlatterImporterTest1]" classname="org.jabref.logic.importer.fileformat.SilverPlatterImporterTest" time="0.0"/>
+  <testcase name="testsGetExtensions[0: SilverPlatterImporterTest1]" classname="org.jabref.logic.importer.fileformat.SilverPlatterImporterTest" time="0.001"/>
   <testcase name="testGetDescription[0: SilverPlatterImporterTest1]" classname="org.jabref.logic.importer.fileformat.SilverPlatterImporterTest" time="0.0"/>
-  <testcase name="testImportEntries[1: SilverPlatterImporterTest2]" classname="org.jabref.logic.importer.fileformat.SilverPlatterImporterTest" time="0.003"/>
+  <testcase name="testImportEntries[1: SilverPlatterImporterTest2]" classname="org.jabref.logic.importer.fileformat.SilverPlatterImporterTest" time="0.002"/>
   <testcase name="testIsRecognizedFormat[1: SilverPlatterImporterTest2]" classname="org.jabref.logic.importer.fileformat.SilverPlatterImporterTest" time="0.0"/>
-  <testcase name="testsGetExtensions[1: SilverPlatterImporterTest2]" classname="org.jabref.logic.importer.fileformat.SilverPlatterImporterTest" time="0.001"/>
+  <testcase name="testsGetExtensions[1: SilverPlatterImporterTest2]" classname="org.jabref.logic.importer.fileformat.SilverPlatterImporterTest" time="0.0"/>
   <testcase name="testGetDescription[1: SilverPlatterImporterTest2]" classname="org.jabref.logic.importer.fileformat.SilverPlatterImporterTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

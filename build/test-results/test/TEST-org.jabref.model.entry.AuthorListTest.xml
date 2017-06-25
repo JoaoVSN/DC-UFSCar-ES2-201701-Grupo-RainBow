@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.model.entry.AuthorListTest" tests="33" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:24" hostname="jessicadias-VPCEH40EB" time="0.113">
+<testsuite name="org.jabref.model.entry.AuthorListTest" tests="33" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:22" hostname="jessicadias-VPCEH40EB" time="0.084">
   <properties/>
-  <testcase name="testCompanyAuthor" classname="org.jabref.model.entry.AuthorListTest" time="0.006"/>
+  <testcase name="testCompanyAuthor" classname="org.jabref.model.entry.AuthorListTest" time="0.004"/>
   <testcase name="parseNameWithHyphenInLastName" classname="org.jabref.model.entry.AuthorListTest" time="0.0"/>
-  <testcase name="testGetAuthorsFirstFirstAnds" classname="org.jabref.model.entry.AuthorListTest" time="0.006"/>
-  <testcase name="testFixAuthorForAlphabetization" classname="org.jabref.model.entry.AuthorListTest" time="0.003"/>
+  <testcase name="testGetAuthorsFirstFirstAnds" classname="org.jabref.model.entry.AuthorListTest" time="0.017"/>
+  <testcase name="testFixAuthorForAlphabetization" classname="org.jabref.model.entry.AuthorListTest" time="0.007"/>
   <testcase name="testGetAuthorsLastOnly" classname="org.jabref.model.entry.AuthorListTest" time="0.001"/>
-  <testcase name="parseNameWithBracesAroundLastName" classname="org.jabref.model.entry.AuthorListTest" time="0.0"/>
-  <testcase name="testGetEmptyAuthor" classname="org.jabref.model.entry.AuthorListTest" time="0.0"/>
-  <testcase name="testSize" classname="org.jabref.model.entry.AuthorListTest" time="0.039"/>
+  <testcase name="parseNameWithBracesAroundLastName" classname="org.jabref.model.entry.AuthorListTest" time="0.001"/>
+  <testcase name="testGetEmptyAuthor" classname="org.jabref.model.entry.AuthorListTest" time="0.001"/>
+  <testcase name="testSize" classname="org.jabref.model.entry.AuthorListTest" time="0.027"/>
   <testcase name="testGetAuthorsLastFirstNoComma" classname="org.jabref.model.entry.AuthorListTest" time="0.004"/>
   <testcase name="createCorrectInitials" classname="org.jabref.model.entry.AuthorListTest" time="0.0"/>
-  <testcase name="correctNamesWithOneComma" classname="org.jabref.model.entry.AuthorListTest" time="0.003"/>
-  <testcase name="testFixAuthorFirstNameFirstCommas" classname="org.jabref.model.entry.AuthorListTest" time="0.003"/>
+  <testcase name="correctNamesWithOneComma" classname="org.jabref.model.entry.AuthorListTest" time="0.001"/>
+  <testcase name="testFixAuthorFirstNameFirstCommas" classname="org.jabref.model.entry.AuthorListTest" time="0.002"/>
   <testcase name="testGetAuthorsNatbib" classname="org.jabref.model.entry.AuthorListTest" time="0.0"/>
-  <testcase name="parseNameWithBracesAroundFirstName" classname="org.jabref.model.entry.AuthorListTest" time="0.0"/>
+  <testcase name="parseNameWithBracesAroundFirstName" classname="org.jabref.model.entry.AuthorListTest" time="0.001"/>
   <testcase name="testGetAuthorsForAlphabetization" classname="org.jabref.model.entry.AuthorListTest" time="0.0"/>
-  <testcase name="testFixAuthorLastNameFirstCommasOxfordComma" classname="org.jabref.model.entry.AuthorListTest" time="0.001"/>
-  <testcase name="testGetAuthorList" classname="org.jabref.model.entry.AuthorListTest" time="0.0"/>
+  <testcase name="testFixAuthorLastNameFirstCommasOxfordComma" classname="org.jabref.model.entry.AuthorListTest" time="0.0"/>
+  <testcase name="testGetAuthorList" classname="org.jabref.model.entry.AuthorListTest" time="0.001"/>
   <testcase name="testGetAuthorsLastFirstOxfordComma" classname="org.jabref.model.entry.AuthorListTest" time="0.0"/>
   <testcase name="parseNameWithHyphenInFirstName" classname="org.jabref.model.entry.AuthorListTest" time="0.0"/>
-  <testcase name="testGetAuthorsLastFirstAndsCaching" classname="org.jabref.model.entry.AuthorListTest" time="0.004"/>
-  <testcase name="testFixAuthorLastNameFirst" classname="org.jabref.model.entry.AuthorListTest" time="0.002"/>
+  <testcase name="testGetAuthorsLastFirstAndsCaching" classname="org.jabref.model.entry.AuthorListTest" time="0.003"/>
+  <testcase name="testFixAuthorLastNameFirst" classname="org.jabref.model.entry.AuthorListTest" time="0.001"/>
   <testcase name="testFixAuthorLastNameFirstCommasNoComma" classname="org.jabref.model.entry.AuthorListTest" time="0.0"/>
   <testcase name="testGetAuthor" classname="org.jabref.model.entry.AuthorListTest" time="0.001"/>
   <testcase name="parseNameWithBraces" classname="org.jabref.model.entry.AuthorListTest" time="0.0"/>
@@ -31,9 +31,9 @@
   <testcase name="testGetAuthorsLastFirstAnds" classname="org.jabref.model.entry.AuthorListTest" time="0.0"/>
   <testcase name="testFixAuthorLastNameOnlyCommas" classname="org.jabref.model.entry.AuthorListTest" time="0.001"/>
   <testcase name="testIsEmpty" classname="org.jabref.model.entry.AuthorListTest" time="0.0"/>
-  <testcase name="testRemoveStartAndEndBraces" classname="org.jabref.model.entry.AuthorListTest" time="0.024"/>
-  <testcase name="testAbbreviationWithRelax" classname="org.jabref.model.entry.AuthorListTest" time="0.001"/>
-  <testcase name="testFixAuthorFirstNameFirst" classname="org.jabref.model.entry.AuthorListTest" time="0.0"/>
+  <testcase name="testRemoveStartAndEndBraces" classname="org.jabref.model.entry.AuthorListTest" time="0.001"/>
+  <testcase name="testAbbreviationWithRelax" classname="org.jabref.model.entry.AuthorListTest" time="0.0"/>
+  <testcase name="testFixAuthorFirstNameFirst" classname="org.jabref.model.entry.AuthorListTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

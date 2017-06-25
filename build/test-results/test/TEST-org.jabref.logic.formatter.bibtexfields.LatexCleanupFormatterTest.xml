@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.formatter.bibtexfields.LatexCleanupFormatterTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:42" hostname="jessicadias-VPCEH40EB" time="0.003">
+<testsuite name="org.jabref.logic.formatter.bibtexfields.LatexCleanupFormatterTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:28" hostname="jessicadias-VPCEH40EB" time="0.002">
   <properties/>
   <testcase name="escapePercentSignOnlyOnce" classname="org.jabref.logic.formatter.bibtexfields.LatexCleanupFormatterTest" time="0.001"/>
   <testcase name="escapePercentSignOnlnyOnceWithNumber" classname="org.jabref.logic.formatter.bibtexfields.LatexCleanupFormatterTest" time="0.0"/>
-  <testcase name="test" classname="org.jabref.logic.formatter.bibtexfields.LatexCleanupFormatterTest" time="0.0"/>
+  <testcase name="test" classname="org.jabref.logic.formatter.bibtexfields.LatexCleanupFormatterTest" time="0.001"/>
   <testcase name="formatExample" classname="org.jabref.logic.formatter.bibtexfields.LatexCleanupFormatterTest" time="0.0"/>
   <testcase name="preservePercentSign" classname="org.jabref.logic.formatter.bibtexfields.LatexCleanupFormatterTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

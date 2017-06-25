@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.util.VersionTest" tests="36" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:39:06" hostname="jessicadias-VPCEH40EB" time="0.004">
+<testsuite name="org.jabref.logic.util.VersionTest" tests="36" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:32" hostname="jessicadias-VPCEH40EB" time="0.003">
   <properties/>
   <testcase name="betaShouldBeUpdatedToStable" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
   <testcase name="versionNotNewerMinor" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
@@ -8,23 +8,23 @@
   <testcase name="initVersionFromWrongStringResultsInUnknownVersion" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
   <testcase name="versionNewerMinor" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
   <testcase name="versionNewerPatch" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
-  <testcase name="alphaShouldBeUpdatedToStables" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
+  <testcase name="alphaShouldBeUpdatedToStables" classname="org.jabref.logic.util.VersionTest" time="0.001"/>
   <testcase name="versionNewerThanDevTwoDigits" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
   <testcase name="changelogWithThreeDigits" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
   <testcase name="stableShouldNotBeUpdatedToAlpha" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
   <testcase name="versionNewerThanDevThreeDigits" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
-  <testcase name="versionNotNewerThan" classname="org.jabref.logic.util.VersionTest" time="0.001"/>
+  <testcase name="versionNotNewerThan" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
   <testcase name="unknownVersionAsNull" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
   <testcase name="versionOneDigitDevVersion" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
   <testcase name="stableNewerThanBeta" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
   <testcase name="versionEmpty" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
   <testcase name="betaNewerThanAlpha" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
-  <testcase name="unknownVersionIsNotNewerThanValidVersion" classname="org.jabref.logic.util.VersionTest" time="0.001"/>
+  <testcase name="unknownVersionIsNotNewerThanValidVersion" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
   <testcase name="versionThreeDigits" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
   <testcase name="versionNewerThanDevVersion" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
   <testcase name="unknownVersionAsString" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
   <testcase name="versionThreeDigitDevVersion" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
-  <testcase name="alphaShouldBeUpdatedToBeta" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
+  <testcase name="alphaShouldBeUpdatedToBeta" classname="org.jabref.logic.util.VersionTest" time="0.001"/>
   <testcase name="versionNull" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
   <testcase name="versionTwoDigits" classname="org.jabref.logic.util.VersionTest" time="0.0"/>
   <testcase name="stableShouldNotBeUpdatedToBeta" classname="org.jabref.logic.util.VersionTest" time="0.0"/>

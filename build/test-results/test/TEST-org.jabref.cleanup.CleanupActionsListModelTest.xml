@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.cleanup.CleanupActionsListModelTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:36:48" hostname="jessicadias-VPCEH40EB" time="0.129">
+<testsuite name="org.jabref.cleanup.CleanupActionsListModelTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:34:52" hostname="jessicadias-VPCEH40EB" time="0.128">
   <properties/>
-  <testcase name="removedAtIndexMinus1DoesNothing" classname="org.jabref.cleanup.CleanupActionsListModelTest" time="0.046"/>
-  <testcase name="removedAtIndexOkay" classname="org.jabref.cleanup.CleanupActionsListModelTest" time="0.015"/>
+  <testcase name="removedAtIndexMinus1DoesNothing" classname="org.jabref.cleanup.CleanupActionsListModelTest" time="0.037"/>
+  <testcase name="removedAtIndexOkay" classname="org.jabref.cleanup.CleanupActionsListModelTest" time="0.024"/>
   <testcase name="removedAtIndexgreaterListSizeDoesNothing" classname="org.jabref.cleanup.CleanupActionsListModelTest" time="0.0"/>
-  <testcase name="resetFiresItemsChanged" classname="org.jabref.cleanup.CleanupActionsListModelTest" time="0.064"/>
+  <testcase name="resetFiresItemsChanged" classname="org.jabref.cleanup.CleanupActionsListModelTest" time="0.06"/>
   <testcase name="resetSetsFormattersToPassedList" classname="org.jabref.cleanup.CleanupActionsListModelTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

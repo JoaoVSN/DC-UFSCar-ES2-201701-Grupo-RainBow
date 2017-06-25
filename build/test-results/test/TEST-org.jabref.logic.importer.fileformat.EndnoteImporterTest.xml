@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.importer.fileformat.EndnoteImporterTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:34" hostname="jessicadias-VPCEH40EB" time="0.164">
+<testsuite name="org.jabref.logic.importer.fileformat.EndnoteImporterTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:18" hostname="jessicadias-VPCEH40EB" time="0.051">
   <properties/>
-  <testcase name="testGetCLIId" classname="org.jabref.logic.importer.fileformat.EndnoteImporterTest" time="0.001"/>
+  <testcase name="testGetCLIId" classname="org.jabref.logic.importer.fileformat.EndnoteImporterTest" time="0.0"/>
   <testcase name="testImportEntriesBookExample" classname="org.jabref.logic.importer.fileformat.EndnoteImporterTest" time="0.002"/>
-  <testcase name="testIsRecognizedFormat" classname="org.jabref.logic.importer.fileformat.EndnoteImporterTest" time="0.002"/>
+  <testcase name="testIsRecognizedFormat" classname="org.jabref.logic.importer.fileformat.EndnoteImporterTest" time="0.001"/>
   <testcase name="testsGetExtensions" classname="org.jabref.logic.importer.fileformat.EndnoteImporterTest" time="0.0"/>
   <testcase name="testGetDescription" classname="org.jabref.logic.importer.fileformat.EndnoteImporterTest" time="0.0"/>
-  <testcase name="testIsRecognizedFormatReject" classname="org.jabref.logic.importer.fileformat.EndnoteImporterTest" time="0.009"/>
-  <testcase name="testImportEntries0" classname="org.jabref.logic.importer.fileformat.EndnoteImporterTest" time="0.146"/>
+  <testcase name="testIsRecognizedFormatReject" classname="org.jabref.logic.importer.fileformat.EndnoteImporterTest" time="0.003"/>
+  <testcase name="testImportEntries0" classname="org.jabref.logic.importer.fileformat.EndnoteImporterTest" time="0.044"/>
   <testcase name="testImportEntries1" classname="org.jabref.logic.importer.fileformat.EndnoteImporterTest" time="0.001"/>
   <testcase name="testGetFormatName" classname="org.jabref.logic.importer.fileformat.EndnoteImporterTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

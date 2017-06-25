@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" tests="18" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:41:02" hostname="jessicadias-VPCEH40EB" time="2.147">
+<testsuite name="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" tests="18" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:38:05" hostname="jessicadias-VPCEH40EB" time="2.303">
   <properties/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestManual.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.117"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestInCollection.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.12"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestUnpublished.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.123"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestBooklet.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.125"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestManual.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.206"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestInCollection.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.13"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestUnpublished.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.124"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestBooklet.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.113"/>
   <testcase name="testPerformExport[BibTeXMLExporterTestMisc.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.111"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestTechReport.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.112"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestArticleWithoutID.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.135"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestInvalidInbook.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.113"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestBook.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.109"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestArticle.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.114"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestMasterThesis.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.11"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestInProceedings.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.123"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestAuthor.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.114"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestInbookLessFields.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.11"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestInBook.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.11"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestProceedings.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.112"/>
-  <testcase name="testPerformExport[BibTeXMLExporterTestPhdThesis.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.174"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestTechReport.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.113"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestArticleWithoutID.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.154"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestInvalidInbook.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.11"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestBook.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.175"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestArticle.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.118"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestMasterThesis.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.113"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestInProceedings.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.111"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestAuthor.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.109"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestInbookLessFields.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.114"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestInBook.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.168"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestProceedings.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.11"/>
+  <testcase name="testPerformExport[BibTeXMLExporterTestPhdThesis.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.111"/>
   <testcase name="testPerformExport[BibTeXMLExporterTestConference.bib]" classname="org.jabref.logic.exporter.BibTeXMLExporterTestFiles" time="0.111"/>
-  <system-out><![CDATA[00:41:02.443 [Test worker] ERROR org.jabref.logic.exporter.BibTeXMLExportFormat - Could not invoke method
+  <system-out><![CDATA[02:38:05.728 [Test worker] ERROR org.jabref.logic.exporter.BibTeXMLExportFormat - Could not invoke method
 java.lang.IllegalArgumentException: argument type mismatch
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_111]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_111]

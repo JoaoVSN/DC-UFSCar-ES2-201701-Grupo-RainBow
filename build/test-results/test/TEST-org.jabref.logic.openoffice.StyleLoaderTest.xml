@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.openoffice.StyleLoaderTest" tests="16" skipped="2" failures="0" errors="0" timestamp="2017-06-23T03:37:34" hostname="jessicadias-VPCEH40EB" time="0.441">
+<testsuite name="org.jabref.logic.openoffice.StyleLoaderTest" tests="16" skipped="2" failures="0" errors="0" timestamp="2017-06-25T05:35:25" hostname="jessicadias-VPCEH40EB" time="0.275">
   <properties/>
-  <testcase name="testRemoveInternalStyleReturnsFalseAndDoNotRemove" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.205"/>
+  <testcase name="testRemoveInternalStyleReturnsFalseAndDoNotRemove" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.125"/>
   <testcase name="testInitalizeWithOneExternalFile" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.012"/>
-  <testcase name="testGetStoredUsedStyle" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.011"/>
-  <testcase name="throwNPEWithNullPreferences" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.067"/>
-  <testcase name="testAddStyleLeadsToOneMoreStyle" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.024"/>
-  <testcase name="testAddNullStyleThrowsNPE" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.012"/>
-  <testcase name="testAddInvalidStyleLeadsToNoMoreStyle" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.033"/>
-  <testcase name="testGetDefaultUsedStyleWhenEmpty" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.011"/>
-  <testcase name="testGtDefaultUsedStyleWhenIncorrect" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.001">
+  <testcase name="testGetStoredUsedStyle" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.007"/>
+  <testcase name="throwNPEWithNullPreferences" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.035"/>
+  <testcase name="testAddStyleLeadsToOneMoreStyle" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.014"/>
+  <testcase name="testAddNullStyleThrowsNPE" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.008"/>
+  <testcase name="testAddInvalidStyleLeadsToNoMoreStyle" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.025"/>
+  <testcase name="testGetDefaultUsedStyleWhenEmpty" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.012"/>
+  <testcase name="testGtDefaultUsedStyleWhenIncorrect" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="throwNPEWithNullLayoutPreferences" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.002"/>
-  <testcase name="throwNPEWithNullCharset" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.001"/>
+  <testcase name="throwNPEWithNullLayoutPreferences" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.001"/>
+  <testcase name="throwNPEWithNullCharset" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.0"/>
   <testcase name="testInitalizeWithOneExternalFileRemoveStyleUpdatesPreferences" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testGetStylesWithEmptyExternal" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.013"/>
-  <testcase name="testInitalizeWithOneExternalFileRemoveStyle" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.016"/>
-  <testcase name="testInitalizeWithIncorrectExternalFile" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.011"/>
-  <testcase name="testAddSameStyleTwiceLeadsToOneMoreStyle" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.018"/>
-  <system-out><![CDATA[00:37:34.609 [Test worker] INFO  org.jabref.logic.openoffice.StyleLoader - Cannot find external style file DefinitelyNotAValidFileNameOrWeAreExtremelyUnlucky
+  <testcase name="testGetStylesWithEmptyExternal" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.008"/>
+  <testcase name="testInitalizeWithOneExternalFileRemoveStyle" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.011"/>
+  <testcase name="testInitalizeWithIncorrectExternalFile" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.005"/>
+  <testcase name="testAddSameStyleTwiceLeadsToOneMoreStyle" classname="org.jabref.logic.openoffice.StyleLoaderTest" time="0.01"/>
+  <system-out><![CDATA[02:35:25.447 [Test worker] INFO  org.jabref.logic.openoffice.StyleLoader - Cannot find external style file DefinitelyNotAValidFileNameOrWeAreExtremelyUnlucky
 java.io.FileNotFoundException: DefinitelyNotAValidFileNameOrWeAreExtremelyUnlucky (Arquivo ou diretório não encontrado)
 	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_111]
 	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_111]
@@ -74,7 +74,7 @@ java.io.FileNotFoundException: DefinitelyNotAValidFileNameOrWeAreExtremelyUnluck
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
-00:37:34.707 [Test worker] INFO  org.jabref.logic.openoffice.StyleLoader - External style file /home/jessicadias/Documentos/Github/jabref-master/build/resources/main/resource/openoffice/default_authoryear.jstyle already existing.
+02:35:25.512 [Test worker] INFO  org.jabref.logic.openoffice.StyleLoader - External style file /home/jessicadias/Documentos/Github/DC-UFSCar-ES2-201701-Grupo-RainBow/build/resources/main/resource/openoffice/default_authoryear.jstyle already existing.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

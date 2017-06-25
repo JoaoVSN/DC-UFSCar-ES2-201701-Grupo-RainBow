@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.model.groups.WordKeywordGroupTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:22" hostname="jessicadias-VPCEH40EB" time="0.017">
+<testsuite name="org.jabref.model.groups.WordKeywordGroupTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:22" hostname="jessicadias-VPCEH40EB" time="0.013">
   <properties/>
-  <testcase name="addChangesFieldIfNotEmptyBefore" classname="org.jabref.model.groups.WordKeywordGroupTest" time="0.005"/>
+  <testcase name="addChangesFieldIfNotEmptyBefore" classname="org.jabref.model.groups.WordKeywordGroupTest" time="0.003"/>
   <testcase name="addChangesFieldIfEmptyBefore" classname="org.jabref.model.groups.WordKeywordGroupTest" time="0.001"/>
-  <testcase name="containsDoesNotFindWordIfCaseDiffers" classname="org.jabref.model.groups.WordKeywordGroupTest" time="0.003"/>
-  <testcase name="containsFindsSameWord" classname="org.jabref.model.groups.WordKeywordGroupTest" time="0.0"/>
+  <testcase name="containsDoesNotFindWordIfCaseDiffers" classname="org.jabref.model.groups.WordKeywordGroupTest" time="0.0"/>
+  <testcase name="containsFindsSameWord" classname="org.jabref.model.groups.WordKeywordGroupTest" time="0.001"/>
   <testcase name="containsFindsSameComplexWord" classname="org.jabref.model.groups.WordKeywordGroupTest" time="0.0"/>
-  <testcase name="containsFindsComplexWordInSentence" classname="org.jabref.model.groups.WordKeywordGroupTest" time="0.001"/>
+  <testcase name="containsFindsComplexWordInSentence" classname="org.jabref.model.groups.WordKeywordGroupTest" time="0.0"/>
   <testcase name="containsDoesNotFindsWordInSentenceIfCaseDiffers" classname="org.jabref.model.groups.WordKeywordGroupTest" time="0.001"/>
   <testcase name="containsFindsWordInCommaSeparatedList" classname="org.jabref.model.groups.WordKeywordGroupTest" time="0.0"/>
-  <testcase name="addDoesNotAddDuplicate" classname="org.jabref.model.groups.WordKeywordGroupTest" time="0.001"/>
+  <testcase name="addDoesNotAddDuplicate" classname="org.jabref.model.groups.WordKeywordGroupTest" time="0.0"/>
   <testcase name="containsFindsWordInSentence" classname="org.jabref.model.groups.WordKeywordGroupTest" time="0.001"/>
   <testcase name="removeRemovesNameFromField" classname="org.jabref.model.groups.WordKeywordGroupTest" time="0.001"/>
   <testcase name="containsFindsWordInSemicolonSeparatedList" classname="org.jabref.model.groups.WordKeywordGroupTest" time="0.0"/>

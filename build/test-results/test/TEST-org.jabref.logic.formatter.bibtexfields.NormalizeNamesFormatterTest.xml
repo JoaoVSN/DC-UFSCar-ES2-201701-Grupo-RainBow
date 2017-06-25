@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:42" hostname="jessicadias-VPCEH40EB" time="0.029">
+<testsuite name="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:28" hostname="jessicadias-VPCEH40EB" time="0.028">
   <properties/>
-  <testcase name="threeAuthorsSeperatedByAndWithLatex" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
+  <testcase name="threeAuthorsSeperatedByAndWithLatex" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.0"/>
   <testcase name="testUpperCaseSensitiveList" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
   <testcase name="testNameAffixe" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
-  <testcase name="testAvoidNameAffixes" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.002"/>
+  <testcase name="testAvoidNameAffixes" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
   <testcase name="lastThenJuniorThenFirst" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
-  <testcase name="initialThenLast" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
+  <testcase name="initialThenLast" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.0"/>
   <testcase name="initialDotThenLast" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
-  <testcase name="testMultipleNameAffixes" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
-  <testcase name="threeAuthorsSeperatedByAndWithDash" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
+  <testcase name="testMultipleNameAffixes" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.0"/>
+  <testcase name="threeAuthorsSeperatedByAndWithDash" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.0"/>
   <testcase name="testCommaSeperatedNames" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
-  <testcase name="testNormalizeAuthorList" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
-  <testcase name="lastThenInitials" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
-  <testcase name="testMultipleSpaces" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
-  <testcase name="formatExample" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.0"/>
-  <testcase name="threeAuthorsSeperatedByAnd" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.0"/>
-  <testcase name="testAvoidSpecialCharacter" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.002"/>
-  <testcase name="testAndInName" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
-  <testcase name="testConcatenationOfAuthorsWithCommas" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.0"/>
+  <testcase name="testNormalizeAuthorList" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.002"/>
+  <testcase name="lastThenInitials" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.0"/>
+  <testcase name="testMultipleSpaces" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.0"/>
+  <testcase name="formatExample" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
+  <testcase name="threeAuthorsSeperatedByAnd" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
+  <testcase name="testAvoidSpecialCharacter" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.008"/>
+  <testcase name="testAndInName" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.0"/>
+  <testcase name="testConcatenationOfAuthorsWithCommas" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
   <testcase name="testOneCommaUntouched" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.0"/>
   <testcase name="lastThenInitial" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.0"/>
-  <testcase name="twoAuthorsSeperatedByColon" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
-  <testcase name="testSemiCorrectNamesWithSemicolon" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
+  <testcase name="twoAuthorsSeperatedByColon" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.0"/>
+  <testcase name="testSemiCorrectNamesWithSemicolon" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.0"/>
   <testcase name="initialsThenLast" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.0"/>
-  <testcase name="testAvoidPreposition" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
-  <testcase name="testPreposition" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.0"/>
-  <testcase name="threeAuthorsSeperatedByColon" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
-  <testcase name="testOddCountOfCommas" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.0"/>
+  <testcase name="testAvoidPreposition" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.0"/>
+  <testcase name="testPreposition" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
+  <testcase name="threeAuthorsSeperatedByColon" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.0"/>
+  <testcase name="testOddCountOfCommas" classname="org.jabref.logic.formatter.bibtexfields.NormalizeNamesFormatterTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

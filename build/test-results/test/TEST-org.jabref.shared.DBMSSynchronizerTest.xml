@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="org.jabref.shared.DBMSSynchronizerTest" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="jessicadias-VPCEH40EB" time="0.0">
   <properties/>
-  <system-out><![CDATA[2017-06-23 00:36:45,779 Test worker ERROR An exception occurred processing Appender GuiLogger java.lang.IllegalStateException: Toolkit not initialized
+  <system-out><![CDATA[2017-06-25 02:34:50,304 Test worker ERROR An exception occurred processing Appender GuiLogger java.lang.IllegalStateException: Toolkit not initialized
 	at com.sun.javafx.application.PlatformImpl.runLater(PlatformImpl.java:273)
 	at com.sun.javafx.application.PlatformImpl.runLater(PlatformImpl.java:268)
 	at javafx.application.Platform.runLater(Platform.java:83)
@@ -73,8 +73,8 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 
-00:36:45.621 [Test worker] ERROR org.jabref.shared.DBMSConnection - Could not connect to database: Access denied for user 'root'@'localhost' (using password: NO) - Error code: 1045
-2017-06-23 00:36:46,524 Test worker ERROR An exception occurred processing Appender applicationInsightsAppender java.lang.NullPointerException
+02:34:50.284 [Test worker] ERROR org.jabref.shared.DBMSConnection - Could not connect to database: Access denied for user 'root'@'localhost' (using password: NO) - Error code: 1045
+2017-06-25 02:34:50,444 Test worker ERROR An exception occurred processing Appender applicationInsightsAppender java.lang.NullPointerException
 	at org.jabref.gui.logging.ApplicationInsightsAppender.append(ApplicationInsightsAppender.java:51)
 	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
 	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
@@ -145,7 +145,7 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 
-2017-06-23 00:36:46,540 Test worker ERROR An exception occurred processing Appender GuiLogger java.lang.IllegalStateException: Toolkit not initialized
+2017-06-25 02:34:50,500 Test worker ERROR An exception occurred processing Appender GuiLogger java.lang.IllegalStateException: Toolkit not initialized
 	at com.sun.javafx.application.PlatformImpl.runLater(PlatformImpl.java:273)
 	at com.sun.javafx.application.PlatformImpl.runLater(PlatformImpl.java:268)
 	at javafx.application.Platform.runLater(Platform.java:83)
@@ -217,8 +217,8 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 
-00:36:46.540 [Test worker] ERROR org.jabref.shared.DBMSConnection - Could not connect to database: No suitable driver found for jdbc:oracle:thin:@localhost:1521:xe - Error code: 0
-2017-06-23 00:36:46,554 Test worker ERROR An exception occurred processing Appender applicationInsightsAppender java.lang.NullPointerException
+02:34:50.500 [Test worker] ERROR org.jabref.shared.DBMSConnection - Could not connect to database: No suitable driver found for jdbc:oracle:thin:@localhost:1521:xe - Error code: 0
+2017-06-25 02:34:50,507 Test worker ERROR An exception occurred processing Appender applicationInsightsAppender java.lang.NullPointerException
 	at org.jabref.gui.logging.ApplicationInsightsAppender.append(ApplicationInsightsAppender.java:51)
 	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
 	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
@@ -289,7 +289,7 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 
-2017-06-23 00:36:48,070 Test worker ERROR An exception occurred processing Appender GuiLogger java.lang.IllegalStateException: Toolkit not initialized
+2017-06-25 02:34:51,829 Test worker ERROR An exception occurred processing Appender GuiLogger java.lang.IllegalStateException: Toolkit not initialized
 	at com.sun.javafx.application.PlatformImpl.runLater(PlatformImpl.java:273)
 	at com.sun.javafx.application.PlatformImpl.runLater(PlatformImpl.java:268)
 	at javafx.application.Platform.runLater(Platform.java:83)
@@ -361,8 +361,8 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 
-00:36:48.069 [Test worker] ERROR org.jabref.shared.DBMSConnection - Could not connect to database: Connection Error: Conexão recusada: localhost/127.0.0.1:5432 - Error code: 0
-2017-06-23 00:36:48,094 Test worker ERROR An exception occurred processing Appender applicationInsightsAppender java.lang.NullPointerException
+02:34:51.829 [Test worker] ERROR org.jabref.shared.DBMSConnection - Could not connect to database: Connection Error: Conexão recusada: localhost/127.0.0.1:5432 - Error code: 0
+2017-06-25 02:34:51,850 Test worker ERROR An exception occurred processing Appender applicationInsightsAppender java.lang.NullPointerException
 	at org.jabref.gui.logging.ApplicationInsightsAppender.append(ApplicationInsightsAppender.java:51)
 	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
 	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)

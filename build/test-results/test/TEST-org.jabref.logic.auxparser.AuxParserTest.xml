@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.auxparser.AuxParserTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:04" hostname="jessicadias-VPCEH40EB" time="0.079">
+<testsuite name="org.jabref.logic.auxparser.AuxParserTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:51" hostname="jessicadias-VPCEH40EB" time="0.077">
   <properties/>
-  <testcase name="testCrossRef" classname="org.jabref.logic.auxparser.AuxParserTest" time="0.037"/>
-  <testcase name="duplicateBibDatabaseConfiguration" classname="org.jabref.logic.auxparser.AuxParserTest" time="0.013"/>
-  <testcase name="testFileNotFound" classname="org.jabref.logic.auxparser.AuxParserTest" time="0.005"/>
-  <testcase name="testNotAllFound" classname="org.jabref.logic.auxparser.AuxParserTest" time="0.007"/>
-  <testcase name="testNormal" classname="org.jabref.logic.auxparser.AuxParserTest" time="0.005"/>
-  <testcase name="testNestedAux" classname="org.jabref.logic.auxparser.AuxParserTest" time="0.01"/>
-  <system-out><![CDATA[00:38:04.772 [Test worker] INFO  org.jabref.logic.auxparser.AuxParser - Cannot locate input file
+  <testcase name="testCrossRef" classname="org.jabref.logic.auxparser.AuxParserTest" time="0.016"/>
+  <testcase name="duplicateBibDatabaseConfiguration" classname="org.jabref.logic.auxparser.AuxParserTest" time="0.011"/>
+  <testcase name="testFileNotFound" classname="org.jabref.logic.auxparser.AuxParserTest" time="0.009"/>
+  <testcase name="testNotAllFound" classname="org.jabref.logic.auxparser.AuxParserTest" time="0.01"/>
+  <testcase name="testNormal" classname="org.jabref.logic.auxparser.AuxParserTest" time="0.013"/>
+  <testcase name="testNestedAux" classname="org.jabref.logic.auxparser.AuxParserTest" time="0.006"/>
+  <system-out><![CDATA[02:35:51.097 [Test worker] INFO  org.jabref.logic.auxparser.AuxParser - Cannot locate input file
 java.io.FileNotFoundException: unknownfile.bib (Arquivo ou diretório não encontrado)
 	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_111]
 	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_111]

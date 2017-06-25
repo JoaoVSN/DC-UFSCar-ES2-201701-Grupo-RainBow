@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.layout.LayoutTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:39:05" hostname="jessicadias-VPCEH40EB" time="0.036">
+<testsuite name="org.jabref.logic.layout.LayoutTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:31" hostname="jessicadias-VPCEH40EB" time="0.049">
   <properties/>
-  <testcase name="testHTMLCharDoubleLineBreak" classname="org.jabref.logic.layout.LayoutTest" time="0.002"/>
-  <testcase name="testWrapFileLinksLayout" classname="org.jabref.logic.layout.LayoutTest" time="0.026"/>
+  <testcase name="testHTMLCharDoubleLineBreak" classname="org.jabref.logic.layout.LayoutTest" time="0.003"/>
+  <testcase name="testWrapFileLinksLayout" classname="org.jabref.logic.layout.LayoutTest" time="0.037"/>
   <testcase name="testHTMLChar" classname="org.jabref.logic.layout.LayoutTest" time="0.002"/>
   <testcase name="testPluginLoading" classname="org.jabref.logic.layout.LayoutTest" time="0.002"/>
   <testcase name="testLayout" classname="org.jabref.logic.layout.LayoutTest" time="0.002"/>

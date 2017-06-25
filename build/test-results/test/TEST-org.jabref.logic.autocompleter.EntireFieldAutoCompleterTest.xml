@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:42" hostname="jessicadias-VPCEH40EB" time="0.017">
+<testsuite name="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:28" hostname="jessicadias-VPCEH40EB" time="0.021">
   <properties/>
   <testcase name="completeBeginnigOfSecondWordReturnsNothing" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.003"/>
   <testcase name="completeValueReturnsValue" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.001"/>
   <testcase name="completePartOfWordReturnsNothing" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.001"/>
   <testcase name="completeLowercaseValueReturnsValue" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.001"/>
   <testcase name="completeAfterAddingNullReturnsNothing" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.0"/>
-  <testcase name="initAutoCompleterWithNullFieldThrowsException" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.0"/>
-  <testcase name="completeAfterAddingEntryWithoutFieldReturnsNothing" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.001"/>
+  <testcase name="initAutoCompleterWithNullFieldThrowsException" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.001"/>
+  <testcase name="completeAfterAddingEntryWithoutFieldReturnsNothing" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.0"/>
   <testcase name="completeReturnsWholeFieldValue" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.001"/>
-  <testcase name="completeShortStringReturnsNothing" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.0"/>
+  <testcase name="completeShortStringReturnsNothing" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.001"/>
   <testcase name="completeTooShortInputReturnsNothing" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.001"/>
   <testcase name="completeAfterAddingEmptyEntryReturnsNothing" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.0"/>
-  <testcase name="completeWithoutAddingAnythingReturnsNothing" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.001"/>
-  <testcase name="completeReturnsMultipleResults" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.001"/>
+  <testcase name="completeWithoutAddingAnythingReturnsNothing" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.0"/>
+  <testcase name="completeReturnsMultipleResults" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.002"/>
   <testcase name="completeEmptyStringReturnsNothing" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.001"/>
-  <testcase name="completeBeginnigOfValueReturnsValue" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.001"/>
+  <testcase name="completeBeginnigOfValueReturnsValue" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.002"/>
   <testcase name="initAutoCompleterWithNullPreferenceThrowsException" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.0"/>
   <testcase name="completeNullReturnsNothing" classname="org.jabref.logic.autocompleter.EntireFieldAutoCompleterTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

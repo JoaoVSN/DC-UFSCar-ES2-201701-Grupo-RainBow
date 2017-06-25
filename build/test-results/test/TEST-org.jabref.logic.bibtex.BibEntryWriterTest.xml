@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.bibtex.BibEntryWriterTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:41:04" hostname="jessicadias-VPCEH40EB" time="0.026">
+<testsuite name="org.jabref.logic.bibtex.BibEntryWriterTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:38:08" hostname="jessicadias-VPCEH40EB" time="0.026">
   <properties/>
-  <testcase name="multipleWritesWithoutModification" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.003"/>
+  <testcase name="multipleWritesWithoutModification" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.002"/>
   <testcase name="testSerialization" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.001"/>
-  <testcase name="writeThrowsErrorIfFieldContainsUnbalancedBraces" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.001"/>
+  <testcase name="writeThrowsErrorIfFieldContainsUnbalancedBraces" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.0"/>
   <testcase name="monthFieldSpecialSyntax" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.001"/>
   <testcase name="doNotWriteEmptyFields" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.001"/>
-  <testcase name="roundTripTest" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.002"/>
-  <testcase name="roundTripWithPrecedingCommentAndModificationTest" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.001"/>
-  <testcase name="roundTripWithModification" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.001"/>
+  <testcase name="roundTripTest" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.001"/>
+  <testcase name="roundTripWithPrecedingCommentAndModificationTest" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.002"/>
+  <testcase name="roundTripWithModification" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.002"/>
   <testcase name="trimFieldContents" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.001"/>
   <testcase name="roundTripWithCamelCasingInTheOriginalEntryAndResultInLowerCase" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.002"/>
   <testcase name="roundTripWithPrecedingCommentTest" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.002"/>
@@ -16,7 +16,7 @@
   <testcase name="addFieldWithLongerLength" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.002"/>
   <testcase name="testEntryTypeChange" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.002"/>
   <testcase name="roundTripWithAppendedNewlines" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.001"/>
-  <testcase name="writeOtherTypeTest" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.002"/>
+  <testcase name="writeOtherTypeTest" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.001"/>
   <testcase name="writeReallyunknownTypeTest" classname="org.jabref.logic.bibtex.BibEntryWriterTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

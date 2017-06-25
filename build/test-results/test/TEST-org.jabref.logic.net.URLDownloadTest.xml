@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.net.URLDownloadTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:05" hostname="jessicadias-VPCEH40EB" time="11.041">
+<testsuite name="org.jabref.logic.net.URLDownloadTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:51" hostname="jessicadias-VPCEH40EB" time="12.549">
   <properties/>
-  <testcase name="testDetermineMimeType" classname="org.jabref.logic.net.URLDownloadTest" time="0.907"/>
-  <testcase name="downloadToTemporaryFileKeepsName" classname="org.jabref.logic.net.URLDownloadTest" time="1.191"/>
-  <testcase name="testStringDownload" classname="org.jabref.logic.net.URLDownloadTest" time="0.675"/>
-  <testcase name="downloadOfFTPSucceeds" classname="org.jabref.logic.net.URLDownloadTest" time="5.341"/>
-  <testcase name="downloadOfHttpSucceeds" classname="org.jabref.logic.net.URLDownloadTest" time="0.366"/>
-  <testcase name="downloadToTemporaryFilePathWithoutFileSavesAsTmpFile" classname="org.jabref.logic.net.URLDownloadTest" time="0.821"/>
-  <testcase name="downloadOfHttpsSucceeds" classname="org.jabref.logic.net.URLDownloadTest" time="0.745"/>
-  <testcase name="testStringDownloadWithSetEncoding" classname="org.jabref.logic.net.URLDownloadTest" time="0.507"/>
-  <testcase name="testFileDownload" classname="org.jabref.logic.net.URLDownloadTest" time="0.485"/>
+  <testcase name="testDetermineMimeType" classname="org.jabref.logic.net.URLDownloadTest" time="1.103"/>
+  <testcase name="downloadToTemporaryFileKeepsName" classname="org.jabref.logic.net.URLDownloadTest" time="1.171"/>
+  <testcase name="testStringDownload" classname="org.jabref.logic.net.URLDownloadTest" time="0.771"/>
+  <testcase name="downloadOfFTPSucceeds" classname="org.jabref.logic.net.URLDownloadTest" time="6.129"/>
+  <testcase name="downloadOfHttpSucceeds" classname="org.jabref.logic.net.URLDownloadTest" time="0.527"/>
+  <testcase name="downloadToTemporaryFilePathWithoutFileSavesAsTmpFile" classname="org.jabref.logic.net.URLDownloadTest" time="0.748"/>
+  <testcase name="downloadOfHttpsSucceeds" classname="org.jabref.logic.net.URLDownloadTest" time="0.837"/>
+  <testcase name="testStringDownloadWithSetEncoding" classname="org.jabref.logic.net.URLDownloadTest" time="0.645"/>
+  <testcase name="testFileDownload" classname="org.jabref.logic.net.URLDownloadTest" time="0.617"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

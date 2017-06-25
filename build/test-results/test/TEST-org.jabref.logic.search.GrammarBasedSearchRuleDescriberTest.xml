@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.search.GrammarBasedSearchRuleDescriberTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:41:04" hostname="jessicadias-VPCEH40EB" time="0.042">
+<testsuite name="org.jabref.logic.search.GrammarBasedSearchRuleDescriberTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:38:08" hostname="jessicadias-VPCEH40EB" time="0.014">
   <properties/>
-  <testcase name="testSimpleQuery" classname="org.jabref.logic.search.GrammarBasedSearchRuleDescriberTest" time="0.009"/>
-  <testcase name="testComplexQuery" classname="org.jabref.logic.search.GrammarBasedSearchRuleDescriberTest" time="0.032"/>
+  <testcase name="testSimpleQuery" classname="org.jabref.logic.search.GrammarBasedSearchRuleDescriberTest" time="0.004"/>
+  <testcase name="testComplexQuery" classname="org.jabref.logic.search.GrammarBasedSearchRuleDescriberTest" time="0.01"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

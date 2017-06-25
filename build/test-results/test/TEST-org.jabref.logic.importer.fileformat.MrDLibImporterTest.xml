@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.importer.fileformat.MrDLibImporterTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:30" hostname="jessicadias-VPCEH40EB" time="0.028">
+<testsuite name="org.jabref.logic.importer.fileformat.MrDLibImporterTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:14" hostname="jessicadias-VPCEH40EB" time="0.017">
   <properties/>
-  <testcase name="testImportDatabaseIsHtmlSetCorrectly" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.01"/>
-  <testcase name="testGetName" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.0"/>
-  <testcase name="testImportDatabaseMin" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.005"/>
-  <testcase name="testGetDescription" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.0"/>
+  <testcase name="testImportDatabaseIsHtmlSetCorrectly" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.006"/>
+  <testcase name="testGetName" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.001"/>
+  <testcase name="testImportDatabaseMin" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.001"/>
+  <testcase name="testGetDescription" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.001"/>
   <testcase name="testGetFileExtention" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.0"/>
-  <testcase name="testImportDatabaseIsYearSetCorrectly" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.006"/>
-  <testcase name="testImportDatabaseIsTitleSetCorrectly" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.006"/>
+  <testcase name="testImportDatabaseIsYearSetCorrectly" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.003"/>
+  <testcase name="testImportDatabaseIsTitleSetCorrectly" classname="org.jabref.logic.importer.fileformat.MrDLibImporterTest" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

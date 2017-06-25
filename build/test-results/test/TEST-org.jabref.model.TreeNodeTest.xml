@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.model.TreeNodeTest" tests="69" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:23" hostname="jessicadias-VPCEH40EB" time="0.152">
+<testsuite name="org.jabref.model.TreeNodeTest" tests="69" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:22" hostname="jessicadias-VPCEH40EB" time="0.058">
   <properties/>
-  <testcase name="addChildSomewhereInTreeInvokesChangeEvent" classname="org.jabref.model.TreeNodeTest" time="0.005"/>
-  <testcase name="removeChildSomewhereInTreeInvokesChangeEvent" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
+  <testcase name="addChildSomewhereInTreeInvokesChangeEvent" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
+  <testcase name="removeChildSomewhereInTreeInvokesChangeEvent" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="moveToInSameLevelAddsAtEnd" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="getChildCountInSimpleTree" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="getChildAtReturnsCorrect" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="getRootReturnsTrueForRoot" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
-  <testcase name="getNextSiblingForRootReturnsEmpty" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
+  <testcase name="getNextSiblingForRootReturnsEmpty" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
   <testcase name="removeChildSetsParentToEmpty" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="getPathFromRootInComplexTree" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
-  <testcase name="removeFromParentRemovesNodeFromChildrenCollection" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
+  <testcase name="removeFromParentRemovesNodeFromChildrenCollection" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="getDescendantComplexPath" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="moveNodeSomewhereInTreeInvokesChangeEvent" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
   <testcase name="getChildCountInComplexTree" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
@@ -18,13 +18,13 @@
   <testcase name="getParentForRootReturnsEmpty" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="addThrowsExceptionIfNodeHasParent" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
   <testcase name="isAncestorOfInSimpleTree" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
-  <testcase name="getParentReturnsCorrect" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
-  <testcase name="getRootReturnsFalseForChild" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
-  <testcase name="isAncestorOfInComplexTree" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
-  <testcase name="getChildAtInvalidIndexReturnsEmpty" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
+  <testcase name="getParentReturnsCorrect" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
+  <testcase name="getRootReturnsFalseForChild" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
+  <testcase name="isAncestorOfInComplexTree" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
+  <testcase name="getChildAtInvalidIndexReturnsEmpty" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="getPreviousSiblingForNonexistentReturnsEmpty" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="getPositionInParentForRootThrowsException" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
-  <testcase name="getFirstChildAtReturnsCorrect" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
+  <testcase name="getFirstChildAtReturnsCorrect" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="getChildrenReturnsAllChildren" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="getIndexedPathFromRootComplexPath" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="isLeafIsCorrectForRootWithoutChildren" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
@@ -34,42 +34,42 @@
   <testcase name="getIndexedPathFromRootSimplePath" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="copySubtreeCopiesChildren" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="getPositionInParentSimpleTree" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
-  <testcase name="getNextSiblingForNonexistentReturnsEmpty" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
+  <testcase name="getNextSiblingForNonexistentReturnsEmpty" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
   <testcase name="getDescendantSimplePath" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="moveAllChildrenToDescendantThrowsException" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="getDescendantNonExistentReturnsEmpty" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="getIndexedPathFromRootReturnsEmptyListForRoot" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="nodeIsAncestorOfItself" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
-  <testcase name="removeFromParentSetsParentToEmpty" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
-  <testcase name="sortChildrenRecursiveSortsInDeeperLevel" classname="org.jabref.model.TreeNodeTest" time="0.002"/>
+  <testcase name="removeFromParentSetsParentToEmpty" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
+  <testcase name="sortChildrenRecursiveSortsInDeeperLevel" classname="org.jabref.model.TreeNodeTest" time="0.008"/>
   <testcase name="isNodeDescendantInComplex" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
   <testcase name="getIndexOfChild" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
-  <testcase name="constructorChecksThatClassImplementsCorrectInterface" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
+  <testcase name="constructorChecksThatClassImplementsCorrectInterface" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="getRootInComplexTree" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
-  <testcase name="removeChildIndexSetsParentToEmpty" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
+  <testcase name="removeChildIndexSetsParentToEmpty" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="removeChildIndexRemovesNodeFromChildrenCollection" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
-  <testcase name="newTreeNodeHasNoParentOrChildren" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
+  <testcase name="newTreeNodeHasNoParentOrChildren" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="getIndexOfNonExistentChildReturnsEmpty" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="moveToAddsAsLastChildInSimpleTree" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
-  <testcase name="sortChildrenSortsInFirstLevel" classname="org.jabref.model.TreeNodeTest" time="0.002"/>
-  <testcase name="removeAllChildrenSetsParentOfChildToEmpty" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
-  <testcase name="getLevelOfRoot" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
+  <testcase name="sortChildrenSortsInFirstLevel" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
+  <testcase name="removeAllChildrenSetsParentOfChildToEmpty" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
+  <testcase name="getLevelOfRoot" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="moveAllChildrenToChangesParent" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
-  <testcase name="removeChildIndexSomewhereInTreeInvokesChangeEvent" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
-  <testcase name="moveToChangesParent" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
-  <testcase name="getPreviousSiblingForRootReturnsEmpty" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
+  <testcase name="removeChildIndexSomewhereInTreeInvokesChangeEvent" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
+  <testcase name="moveToChangesParent" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
+  <testcase name="getPreviousSiblingForRootReturnsEmpty" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="moveToAddsAsLastChildInComplexTree" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
   <testcase name="getLevelInComplexTree" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
-  <testcase name="getFirstChildAtLeafReturnsEmpty" classname="org.jabref.model.TreeNodeTest" time="0.003"/>
+  <testcase name="getFirstChildAtLeafReturnsEmpty" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="getRootInSimpleTree" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="removeChildRemovesNodeFromChildrenCollection" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
-  <testcase name="getNextSiblingReturnsCorrect" classname="org.jabref.model.TreeNodeTest" time="0.003"/>
+  <testcase name="getNextSiblingReturnsCorrect" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="getPreviousSiblingReturnsCorrect" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="getRootOfSingleNode" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="removeAllChildrenRemovesAllNodesFromChildrenCollection" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
   <testcase name="constructorExceptsCorrectImplementation" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
-  <testcase name="moveToInSameLevelWhenNodeWasBeforeTargetIndex" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
-  <testcase name="isNodeDescendantInFirstLevel" classname="org.jabref.model.TreeNodeTest" time="0.0"/>
+  <testcase name="moveToInSameLevelWhenNodeWasBeforeTargetIndex" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
+  <testcase name="isNodeDescendantInFirstLevel" classname="org.jabref.model.TreeNodeTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

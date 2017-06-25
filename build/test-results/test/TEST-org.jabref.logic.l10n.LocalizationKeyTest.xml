@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.l10n.LocalizationKeyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:34" hostname="jessicadias-VPCEH40EB" time="0.0">
+<testsuite name="org.jabref.logic.l10n.LocalizationKeyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:25" hostname="jessicadias-VPCEH40EB" time="0.001">
   <properties/>
-  <testcase name="testConversionToPropertiesKey" classname="org.jabref.logic.l10n.LocalizationKeyTest" time="0.0"/>
+  <testcase name="testConversionToPropertiesKey" classname="org.jabref.logic.l10n.LocalizationKeyTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

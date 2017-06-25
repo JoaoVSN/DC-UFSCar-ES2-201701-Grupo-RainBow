@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.layout.format.HTMLCharsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:39:05" hostname="jessicadias-VPCEH40EB" time="0.002">
+<testsuite name="org.jabref.logic.layout.format.HTMLCharsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:31" hostname="jessicadias-VPCEH40EB" time="0.001">
   <properties/>
-  <testcase name="testLaTeXHighlighting" classname="org.jabref.logic.layout.format.HTMLCharsTest" time="0.001"/>
-  <testcase name="testBasicFormat" classname="org.jabref.logic.layout.format.HTMLCharsTest" time="0.0"/>
+  <testcase name="testLaTeXHighlighting" classname="org.jabref.logic.layout.format.HTMLCharsTest" time="0.0"/>
+  <testcase name="testBasicFormat" classname="org.jabref.logic.layout.format.HTMLCharsTest" time="0.001"/>
   <testcase name="unknownCommandKeepsArgument" classname="org.jabref.logic.layout.format.HTMLCharsTest" time="0.0"/>
   <testcase name="unknownCommandWithEmptyArgumentIsKept" classname="org.jabref.logic.layout.format.HTMLCharsTest" time="0.0"/>
   <testcase name="unknownCommandIsKept" classname="org.jabref.logic.layout.format.HTMLCharsTest" time="0.0"/>

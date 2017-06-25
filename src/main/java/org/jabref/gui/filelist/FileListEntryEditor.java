@@ -45,7 +45,6 @@ import org.jabref.gui.util.FileDialogConfiguration;
 import org.jabref.logic.l10n.Localization;
 import org.jabref.logic.util.io.FileUtil;
 import org.jabref.model.database.BibDatabaseContext;
-import org.jabref.model.entry.LinkedFile;
 import org.jabref.model.util.FileHelper;
 import org.jabref.preferences.JabRefPreferences;
 
@@ -80,15 +79,15 @@ public class FileListEntryEditor {
     private JabRefFrame frame;
     private boolean showSaveDialog;
     private ConfirmCloseFileListEntryEditor externalConfirm;
-    private LinkedFile entry;
+    private FileListEntry entry;
     //Do not make this variable final, as then the lambda action listener will fail on compiöe
     private BibDatabaseContext databaseContext;
     private final ActionListener browsePressed = e -> {
         String fileText = link.getText().trim();
         Optional<Path> file = FileHelper.expandFilename(this.databaseContext, fileText,
                 Globals.prefs.getFileDirectoryPreferences());
-
         Path workingDir = file.orElse(Paths.get(Globals.prefs.get(JabRefPreferences.WORKING_DIRECTORY)));
+
         String fileName = Paths.get(fileText).getFileName().toString();
 
         FileDialogConfiguration fileDialogConfiguration = new FileDialogConfiguration.Builder()
@@ -123,14 +122,15 @@ public class FileListEntryEditor {
 
     private boolean dontOpenBrowseUntilDisposed;
 
-    public FileListEntryEditor(LinkedFile entry, boolean showProgressBar, boolean showOpenButton,
-                               BibDatabaseContext databaseContext, boolean showSaveDialog) {
-        this(entry, showProgressBar, showOpenButton, databaseContext);
+    public FileListEntryEditor(JabRefFrame frame, FileListEntry entry, boolean showProgressBar, boolean showOpenButton,
+            BibDatabaseContext databaseContext, boolean showSaveDialog) {
+        this(frame, entry, showProgressBar, showOpenButton, databaseContext);
+
         this.showSaveDialog = showSaveDialog;
     }
 
-    public FileListEntryEditor(LinkedFile entry, boolean showProgressBar, boolean showOpenButton,
-                               BibDatabaseContext databaseContext) {
+    public FileListEntryEditor(JabRefFrame frame, FileListEntry entry, boolean showProgressBar, boolean showOpenButton,
+            BibDatabaseContext databaseContext) {
         this.entry = entry;
         this.databaseContext = databaseContext;
 
@@ -233,12 +233,11 @@ public class FileListEntryEditor {
 
         });
 
-        diag = new JDialog();
-        diag.setTitle(Localization.lang("Select files"));
-        diag.setModal(true);
+        diag = new JDialog(frame, Localization.lang("Select files"), true);
         diag.getContentPane().add(builder.getPanel(), BorderLayout.CENTER);
         diag.getContentPane().add(bb.getPanel(), BorderLayout.SOUTH);
         diag.pack();
+        diag.setLocationRelativeTo(frame);
         diag.addWindowListener(new WindowAdapter() {
 
             @Override
@@ -303,7 +302,7 @@ public class FileListEntryEditor {
         return downloadLabel;
     }
 
-    public void setEntry(LinkedFile entry) {
+    public void setEntry(FileListEntry entry) {
         this.entry = entry;
         setValues(entry);
     }
@@ -327,7 +326,7 @@ public class FileListEntryEditor {
         return (diag != null) && diag.isVisible();
     }
 
-    private void setValues(LinkedFile entry) {
+    private void setValues(FileListEntry entry) {
         description.setText(entry.getDescription());
         link.setText(entry.getLink());
 
@@ -336,15 +335,14 @@ public class FileListEntryEditor {
         types.setModel(new DefaultComboBoxModel<>(list.toArray(new ExternalFileType[list.size()])));
         types.setSelectedIndex(-1);
         // See what is a reasonable selection for the type combobox:
-        Optional<ExternalFileType> fileType = ExternalFileTypes.getInstance().fromLinkedFile(entry, false);
-        if (fileType.isPresent() && !(fileType.get() instanceof UnknownExternalFileType)) {
-            types.setSelectedItem(fileType.get());
+        if ((entry.getType().isPresent()) && !(entry.getType().get() instanceof UnknownExternalFileType)) {
+            types.setSelectedItem(entry.getType().get());
         } else if ((entry.getLink() != null) && (!entry.getLink().isEmpty())) {
             checkExtension();
         }
     }
 
-    private void storeSettings(LinkedFile listEntry) {
+    private void storeSettings(FileListEntry listEntry) {
         String descriptionText = this.description.getText().trim();
         String fileLink = "";
         // See if we should trim the file link to be relative to the file directory:
@@ -378,7 +376,7 @@ public class FileListEntryEditor {
         ExternalFileType type = (ExternalFileType) types.getSelectedItem();
 
         listEntry.setDescription(descriptionText);
-        listEntry.setFileType(type.getName());
+        listEntry.setType(Optional.ofNullable(type));
         listEntry.setLink(fileLink);
     }
 

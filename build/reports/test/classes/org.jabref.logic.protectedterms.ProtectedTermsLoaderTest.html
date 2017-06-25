@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.175s</div>
+<div class="counter">0.088s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">testAddNewTermListAddsList</td>
-<td>0.004s</td>
+<td>0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -89,7 +89,7 @@
 </tr>
 <tr>
 <td class="success">testAddNewTermListSetsCorrectDescription</td>
-<td>0.004s</td>
+<td>0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -99,32 +99,32 @@
 </tr>
 <tr>
 <td class="success">testAllDisabledNoWords</td>
-<td>0.003s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">testDoNotLoadTheSameInternalListTwice</td>
-<td>0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">testGetProtectedTerms</td>
-<td>0.017s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">testInitalizedAllInternalDisabled</td>
 <td>0.006s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">testDoNotLoadTheSameInternalListTwice</td>
+<td>0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetProtectedTerms</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInitalizedAllInternalDisabled</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">testNewListsAreEnabled</td>
-<td>0.008s</td>
+<td>0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testNewListsAreIncluded</td>
-<td>0.005s</td>
+<td>0.007s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -134,7 +134,7 @@
 </tr>
 <tr>
 <td class="success">testReadProtectedTermsListFromFileEnabledWorks</td>
-<td>0.002s</td>
+<td>0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -144,17 +144,17 @@
 </tr>
 <tr>
 <td class="success">testReadProtectedTermsListFromFileNoDescriptionGivesDefaultDescription</td>
-<td>0.002s</td>
+<td>0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testReadProtectedTermsListFromFileReadsDescription</td>
-<td>0.032s</td>
+<td>0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testRemoveTermList</td>
-<td>0.048s</td>
+<td>0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -164,7 +164,7 @@
 </tr>
 <tr>
 <td class="success">testUnknownExternalFileWillNotLoad</td>
-<td>0.033s</td>
+<td>0.039s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -172,10 +172,10 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>00:37:42.686 [JavaFX Application Thread] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/months_weekdays.terms' is available and enabled by default.
-00:37:42.688 [JavaFX Application Thread] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/countries_territories.terms' is available and enabled by default.
-00:37:42.690 [JavaFX Application Thread] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/electrical_engineering.terms' is available and enabled by default.
-00:37:42.696 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - Cannot find protected terms file someUnlikelyNameThatNeverWillExist
+<pre>02:35:29.134 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/months_weekdays.terms' is available and enabled by default.
+02:35:29.135 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/countries_territories.terms' is available and enabled by default.
+02:35:29.136 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/electrical_engineering.terms' is available and enabled by default.
+02:35:29.139 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - Cannot find protected terms file someUnlikelyNameThatNeverWillExist
 java.io.FileNotFoundException: someUnlikelyNameThatNeverWillExist (Arquivo ou diretório não encontrado)
 	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_111]
 	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_111]
@@ -232,9 +232,9 @@ java.io.FileNotFoundException: someUnlikelyNameThatNeverWillExist (Arquivo ou di
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
-00:37:42.736 [JavaFX Application Thread] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/months_weekdays.terms' is available and enabled by default.
-00:37:42.737 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/countries_territories.terms' is available and enabled by default.
-00:37:42.738 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/electrical_engineering.terms' is available and enabled by default.
+02:35:29.195 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/months_weekdays.terms' is available and enabled by default.
+02:35:29.197 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/countries_territories.terms' is available and enabled by default.
+02:35:29.198 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/electrical_engineering.terms' is available and enabled by default.
 </pre>
 </span>
 </div>
@@ -246,7 +246,7 @@ java.io.FileNotFoundException: someUnlikelyNameThatNeverWillExist (Arquivo ou di
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 3.5</a> at 23/06/2017 00:41:06</p>
+<a href="http://www.gradle.org">Gradle 3.5</a> at 25/06/2017 02:38:09</p>
 </div>
 </div>
 </body>

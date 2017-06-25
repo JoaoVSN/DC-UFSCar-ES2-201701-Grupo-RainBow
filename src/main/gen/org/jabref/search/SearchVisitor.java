@@ -1,4 +1,4 @@
-// Generated from /home/jessicadias/Documentos/Github/jabref-master/src/main/antlr4/org/jabref/search/Search.g4 by ANTLR 4.7
+// Generated from /home/jessicadias/Documentos/Github/DC-UFSCar-ES2-201701-Grupo-RainBow/src/main/antlr4/org/jabref/search/Search.g4 by ANTLR 4.7
 package org.jabref.search;
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.model.entry.IdGeneratorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:24" hostname="jessicadias-VPCEH40EB" time="0.09">
+<testsuite name="org.jabref.model.entry.IdGeneratorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:22" hostname="jessicadias-VPCEH40EB" time="0.064">
   <properties/>
-  <testcase name="testCreateNeutralId" classname="org.jabref.model.entry.IdGeneratorTest" time="0.09"/>
+  <testcase name="testCreateNeutralId" classname="org.jabref.model.entry.IdGeneratorTest" time="0.064"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

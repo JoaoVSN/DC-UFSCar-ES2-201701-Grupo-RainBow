@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.remote.RemoteTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:39:07" hostname="jessicadias-VPCEH40EB" time="0.154">
+<testsuite name="org.jabref.logic.remote.RemoteTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:32" hostname="jessicadias-VPCEH40EB" time="0.118">
   <properties/>
-  <testcase name="testGoodCase" classname="org.jabref.logic.remote.RemoteTest" time="0.014"/>
-  <testcase name="testGoodCaseWithAllLifecycleMethods" classname="org.jabref.logic.remote.RemoteTest" time="0.002"/>
-  <testcase name="testPortAlreadyInUse" classname="org.jabref.logic.remote.RemoteTest" time="0.031"/>
-  <testcase name="testClientTimeout" classname="org.jabref.logic.remote.RemoteTest" time="0.001"/>
-  <testcase name="testClientConnectingToWrongServer" classname="org.jabref.logic.remote.RemoteTest" time="0.106"/>
-  <system-out><![CDATA[00:39:07.681 [Test worker] WARN  org.jabref.logic.remote.server.RemoteListenerServerLifecycle - Port is blocked
+  <testcase name="testGoodCase" classname="org.jabref.logic.remote.RemoteTest" time="0.008"/>
+  <testcase name="testGoodCaseWithAllLifecycleMethods" classname="org.jabref.logic.remote.RemoteTest" time="0.001"/>
+  <testcase name="testPortAlreadyInUse" classname="org.jabref.logic.remote.RemoteTest" time="0.005"/>
+  <testcase name="testClientTimeout" classname="org.jabref.logic.remote.RemoteTest" time="0.0"/>
+  <testcase name="testClientConnectingToWrongServer" classname="org.jabref.logic.remote.RemoteTest" time="0.102"/>
+  <system-out><![CDATA[02:36:32.744 [Test worker] WARN  org.jabref.logic.remote.server.RemoteListenerServerLifecycle - Port is blocked
 java.net.BindException: Endereço já em uso (Bind failed)
 	at java.net.PlainSocketImpl.socketBind(Native Method) ~[?:1.8.0_111]
 	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[?:1.8.0_111]

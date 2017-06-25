@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.integrity.NoBibTexFieldCheckerTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:21" hostname="jessicadias-VPCEH40EB" time="0.019">
+<testsuite name="org.jabref.logic.integrity.NoBibTexFieldCheckerTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:08" hostname="jessicadias-VPCEH40EB" time="0.027">
   <properties/>
-  <testcase name="locationIsRecognizedAsBiblatexOnlyField" classname="org.jabref.logic.integrity.NoBibTexFieldCheckerTest" time="0.007"/>
+  <testcase name="locationIsRecognizedAsBiblatexOnlyField" classname="org.jabref.logic.integrity.NoBibTexFieldCheckerTest" time="0.006"/>
   <testcase name="journalIsNotRecognizedAsBiblatexOnlyField" classname="org.jabref.logic.integrity.NoBibTexFieldCheckerTest" time="0.001"/>
-  <testcase name="abstractIsNotRecognizedAsBiblatexOnlyField" classname="org.jabref.logic.integrity.NoBibTexFieldCheckerTest" time="0.001"/>
-  <testcase name="addressIsNotRecognizedAsBiblatexOnlyField" classname="org.jabref.logic.integrity.NoBibTexFieldCheckerTest" time="0.001"/>
+  <testcase name="abstractIsNotRecognizedAsBiblatexOnlyField" classname="org.jabref.logic.integrity.NoBibTexFieldCheckerTest" time="0.002"/>
+  <testcase name="addressIsNotRecognizedAsBiblatexOnlyField" classname="org.jabref.logic.integrity.NoBibTexFieldCheckerTest" time="0.002"/>
   <testcase name="instituationIsNotRecognizedAsBiblatexOnlyField" classname="org.jabref.logic.integrity.NoBibTexFieldCheckerTest" time="0.001"/>
-  <testcase name="commentIsNotRecognizedAsBiblatexOnlyField" classname="org.jabref.logic.integrity.NoBibTexFieldCheckerTest" time="0.001"/>
+  <testcase name="commentIsNotRecognizedAsBiblatexOnlyField" classname="org.jabref.logic.integrity.NoBibTexFieldCheckerTest" time="0.002"/>
   <testcase name="keywordsNotRecognizedAsBiblatexOnlyField" classname="org.jabref.logic.integrity.NoBibTexFieldCheckerTest" time="0.001"/>
   <testcase name="journaltitleIsRecognizedAsBiblatexOnlyField" classname="org.jabref.logic.integrity.NoBibTexFieldCheckerTest" time="0.001"/>
   <testcase name="arbitraryNonBiblatexFieldIsNotRecognizedAsBiblatexOnlyField" classname="org.jabref.logic.integrity.NoBibTexFieldCheckerTest" time="0.001"/>

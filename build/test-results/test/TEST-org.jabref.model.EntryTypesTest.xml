@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.model.EntryTypesTest" tests="28" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:23" hostname="jessicadias-VPCEH40EB" time="0.061">
+<testsuite name="org.jabref.model.EntryTypesTest" tests="28" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:22" hostname="jessicadias-VPCEH40EB" time="0.039">
   <properties/>
-  <testcase name="assertDefaultValuesBibtex[0]" classname="org.jabref.model.EntryTypesTest" time="0.012"/>
-  <testcase name="standardTypeIsStillAcessibleIfOverwritten[0]" classname="org.jabref.model.EntryTypesTest" time="0.0"/>
-  <testcase name="standardTypeCannotBeRemoved[0]" classname="org.jabref.model.EntryTypesTest" time="0.001"/>
+  <testcase name="assertDefaultValuesBibtex[0]" classname="org.jabref.model.EntryTypesTest" time="0.01"/>
+  <testcase name="standardTypeIsStillAcessibleIfOverwritten[0]" classname="org.jabref.model.EntryTypesTest" time="0.001"/>
+  <testcase name="standardTypeCannotBeRemoved[0]" classname="org.jabref.model.EntryTypesTest" time="0.0"/>
   <testcase name="unknownTypeIsNotFound[0]" classname="org.jabref.model.EntryTypesTest" time="0.0"/>
   <testcase name="registerCustomEntryTypeDoesNotAffectOtherMode[0]" classname="org.jabref.model.EntryTypesTest" time="0.0"/>
   <testcase name="assertDefaultValuesBiblatex[0]" classname="org.jabref.model.EntryTypesTest" time="0.001"/>
   <testcase name="unknownTypeIsConvertedToMiscByGetTypeOrDefault[0]" classname="org.jabref.model.EntryTypesTest" time="0.0"/>
-  <testcase name="registeredCustomizedStandardEntryTypeIsContainedInListOfCustomizedEntryTypes[0]" classname="org.jabref.model.EntryTypesTest" time="0.002"/>
-  <testcase name="standardTypeIsRestoredAfterDeletionOfOverwrittenType[0]" classname="org.jabref.model.EntryTypesTest" time="0.001"/>
+  <testcase name="registeredCustomizedStandardEntryTypeIsContainedInListOfCustomizedEntryTypes[0]" classname="org.jabref.model.EntryTypesTest" time="0.003"/>
+  <testcase name="standardTypeIsRestoredAfterDeletionOfOverwrittenType[0]" classname="org.jabref.model.EntryTypesTest" time="0.0"/>
   <testcase name="registerCustomEntryType[0]" classname="org.jabref.model.EntryTypesTest" time="0.0"/>
   <testcase name="overwriteStandardTypeRequiredFieldsDoesNotAffectOtherMode[0]" classname="org.jabref.model.EntryTypesTest" time="0.0"/>
   <testcase name="overwriteStandardTypeRequiredFields[0]" classname="org.jabref.model.EntryTypesTest" time="0.001"/>
-  <testcase name="registeredCustomEntryTypeIsContainedInListOfCustomizedEntryTypes[0]" classname="org.jabref.model.EntryTypesTest" time="0.006"/>
-  <testcase name="overwriteCustomEntryTypeFields[0]" classname="org.jabref.model.EntryTypesTest" time="0.0"/>
-  <testcase name="assertDefaultValuesBibtex[1]" classname="org.jabref.model.EntryTypesTest" time="0.0"/>
-  <testcase name="standardTypeIsStillAcessibleIfOverwritten[1]" classname="org.jabref.model.EntryTypesTest" time="0.02"/>
-  <testcase name="standardTypeCannotBeRemoved[1]" classname="org.jabref.model.EntryTypesTest" time="0.002"/>
-  <testcase name="unknownTypeIsNotFound[1]" classname="org.jabref.model.EntryTypesTest" time="0.0"/>
-  <testcase name="registerCustomEntryTypeDoesNotAffectOtherMode[1]" classname="org.jabref.model.EntryTypesTest" time="0.001"/>
+  <testcase name="registeredCustomEntryTypeIsContainedInListOfCustomizedEntryTypes[0]" classname="org.jabref.model.EntryTypesTest" time="0.004"/>
+  <testcase name="overwriteCustomEntryTypeFields[0]" classname="org.jabref.model.EntryTypesTest" time="0.001"/>
+  <testcase name="assertDefaultValuesBibtex[1]" classname="org.jabref.model.EntryTypesTest" time="0.001"/>
+  <testcase name="standardTypeIsStillAcessibleIfOverwritten[1]" classname="org.jabref.model.EntryTypesTest" time="0.001"/>
+  <testcase name="standardTypeCannotBeRemoved[1]" classname="org.jabref.model.EntryTypesTest" time="0.001"/>
+  <testcase name="unknownTypeIsNotFound[1]" classname="org.jabref.model.EntryTypesTest" time="0.001"/>
+  <testcase name="registerCustomEntryTypeDoesNotAffectOtherMode[1]" classname="org.jabref.model.EntryTypesTest" time="0.0"/>
   <testcase name="assertDefaultValuesBiblatex[1]" classname="org.jabref.model.EntryTypesTest" time="0.0"/>
-  <testcase name="unknownTypeIsConvertedToMiscByGetTypeOrDefault[1]" classname="org.jabref.model.EntryTypesTest" time="0.001"/>
+  <testcase name="unknownTypeIsConvertedToMiscByGetTypeOrDefault[1]" classname="org.jabref.model.EntryTypesTest" time="0.0"/>
   <testcase name="registeredCustomizedStandardEntryTypeIsContainedInListOfCustomizedEntryTypes[1]" classname="org.jabref.model.EntryTypesTest" time="0.0"/>
   <testcase name="standardTypeIsRestoredAfterDeletionOfOverwrittenType[1]" classname="org.jabref.model.EntryTypesTest" time="0.0"/>
   <testcase name="registerCustomEntryType[1]" classname="org.jabref.model.EntryTypesTest" time="0.0"/>
-  <testcase name="overwriteStandardTypeRequiredFieldsDoesNotAffectOtherMode[1]" classname="org.jabref.model.EntryTypesTest" time="0.0"/>
-  <testcase name="overwriteStandardTypeRequiredFields[1]" classname="org.jabref.model.EntryTypesTest" time="0.0"/>
-  <testcase name="registeredCustomEntryTypeIsContainedInListOfCustomizedEntryTypes[1]" classname="org.jabref.model.EntryTypesTest" time="0.005"/>
+  <testcase name="overwriteStandardTypeRequiredFieldsDoesNotAffectOtherMode[1]" classname="org.jabref.model.EntryTypesTest" time="0.001"/>
+  <testcase name="overwriteStandardTypeRequiredFields[1]" classname="org.jabref.model.EntryTypesTest" time="0.001"/>
+  <testcase name="registeredCustomEntryTypeIsContainedInListOfCustomizedEntryTypes[1]" classname="org.jabref.model.EntryTypesTest" time="0.003"/>
   <testcase name="overwriteCustomEntryTypeFields[1]" classname="org.jabref.model.EntryTypesTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

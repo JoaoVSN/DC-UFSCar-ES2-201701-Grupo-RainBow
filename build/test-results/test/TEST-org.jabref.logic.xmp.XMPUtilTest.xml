@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.xmp.XMPUtilTest" tests="29" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:39:05" hostname="jessicadias-VPCEH40EB" time="1.36">
+<testsuite name="org.jabref.logic.xmp.XMPUtilTest" tests="29" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:31" hostname="jessicadias-VPCEH40EB" time="0.723">
   <properties/>
-  <testcase name="testReadXMPEntryType" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.033"/>
-  <testcase name="expectedEncryptionNotSupportedExceptionAtRead" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.035"/>
-  <testcase name="testReadRawXMP" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.067"/>
-  <testcase name="testPrivacyFilter2" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.033"/>
-  <testcase name="testEmpty" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.004"/>
-  <testcase name="testPrivacyFilter" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.028"/>
-  <testcase name="testResolveStrings" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.021"/>
-  <testcase name="testReadXMPSeq" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.012"/>
-  <testcase name="testWriteSingleUpdatesDCAndInfo" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.125"/>
-  <testcase name="testReadProtectedPDFHasCorrectMetaData" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.068"/>
-  <testcase name="testReadXMPSimple" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.011"/>
-  <testcase name="testCommandLineSeveral" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.148"/>
-  <testcase name="testResolveStrings2" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.053"/>
-  <testcase name="testSimpleUpdate" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.08"/>
-  <testcase name="testXMPreadString" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.014"/>
-  <testcase name="testReadXMPUTF8" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.01"/>
-  <testcase name="testCommandLineByKey" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.049"/>
-  <testcase name="testReadWriteDC" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.301"/>
-  <testcase name="testReadMultiple" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.02"/>
-  <testcase name="testXMLEscape" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.076"/>
+  <testcase name="testReadXMPEntryType" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.04"/>
+  <testcase name="expectedEncryptionNotSupportedExceptionAtRead" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.007"/>
+  <testcase name="testReadRawXMP" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.033"/>
+  <testcase name="testPrivacyFilter2" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.022"/>
+  <testcase name="testEmpty" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.003"/>
+  <testcase name="testPrivacyFilter" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.024"/>
+  <testcase name="testResolveStrings" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.026"/>
+  <testcase name="testReadXMPSeq" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.01"/>
+  <testcase name="testWriteSingleUpdatesDCAndInfo" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.048"/>
+  <testcase name="testReadProtectedPDFHasCorrectMetaData" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.028"/>
+  <testcase name="testReadXMPSimple" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.01"/>
+  <testcase name="testCommandLineSeveral" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.061"/>
+  <testcase name="testResolveStrings2" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.033"/>
+  <testcase name="testSimpleUpdate" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.079"/>
+  <testcase name="testXMPreadString" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.013"/>
+  <testcase name="testReadXMPUTF8" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.011"/>
+  <testcase name="testCommandLineByKey" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.044"/>
+  <testcase name="testReadWriteDC" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.029"/>
+  <testcase name="testReadMultiple" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.01"/>
+  <testcase name="testXMLEscape" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.024"/>
   <testcase name="testAttributeRead" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.009"/>
   <testcase name="testWriteMultiple" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.013"/>
-  <testcase name="testCommandLineSingleBib" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.011"/>
-  <testcase name="testCommandLineSinglePdf" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.051"/>
+  <testcase name="testCommandLineSingleBib" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.014"/>
+  <testcase name="testCommandLineSinglePdf" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.053"/>
   <testcase name="testReadProtectedPDFHasMetaData" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.023"/>
-  <testcase name="testNewlineHandling" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.007"/>
+  <testcase name="testNewlineHandling" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.009"/>
   <testcase name="expectedEncryptionNotSupportedExceptionAtWrite" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.004"/>
-  <testcase name="testWriteReadManually" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.031"/>
-  <testcase name="testReadWriteXMP" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.018"/>
-  <system-out><![CDATA[00:39:05.443 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - Cannot handle encrypted PDF: Error: The supplied password does not match either the owner or user password in the document.
+  <testcase name="testWriteReadManually" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.015"/>
+  <testcase name="testReadWriteXMP" classname="org.jabref.logic.xmp.XMPUtilTest" time="0.02"/>
+  <system-out><![CDATA[02:36:31.547 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - Cannot handle encrypted PDF: Error: The supplied password does not match either the owner or user password in the document.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

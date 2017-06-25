@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.importer.util.JSONEntryParserTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:52" hostname="jessicadias-VPCEH40EB" time="0.007">
+<testsuite name="org.jabref.logic.importer.util.JSONEntryParserTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:28" hostname="jessicadias-VPCEH40EB" time="0.005">
   <properties/>
   <testcase name="testBibJSONConverter" classname="org.jabref.logic.importer.util.JSONEntryParserTest" time="0.002"/>
-  <testcase name="testSpringerJSONToBibtex" classname="org.jabref.logic.importer.util.JSONEntryParserTest" time="0.005"/>
-  <system-out><![CDATA[00:38:52.392 [JavaFX Application Thread] INFO  org.jabref.logic.importer.util.JSONEntryParser - No author found.
+  <testcase name="testSpringerJSONToBibtex" classname="org.jabref.logic.importer.util.JSONEntryParserTest" time="0.003"/>
+  <system-out><![CDATA[02:36:28.808 [Test worker] INFO  org.jabref.logic.importer.util.JSONEntryParser - No author found.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.msbib.MsBibAuthorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:21" hostname="jessicadias-VPCEH40EB" time="0.002">
+<testsuite name="org.jabref.logic.msbib.MsBibAuthorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:08" hostname="jessicadias-VPCEH40EB" time="0.002">
   <properties/>
   <testcase name="testGetNoFirstName" classname="org.jabref.logic.msbib.MsBibAuthorTest" time="0.001"/>
-  <testcase name="testGetLastName" classname="org.jabref.logic.msbib.MsBibAuthorTest" time="0.0"/>
+  <testcase name="testGetLastName" classname="org.jabref.logic.msbib.MsBibAuthorTest" time="0.001"/>
   <testcase name="testGetMiddleName" classname="org.jabref.logic.msbib.MsBibAuthorTest" time="0.0"/>
   <testcase name="testGetFirstName" classname="org.jabref.logic.msbib.MsBibAuthorTest" time="0.0"/>
   <testcase name="testGetNoMiddleName" classname="org.jabref.logic.msbib.MsBibAuthorTest" time="0.0"/>

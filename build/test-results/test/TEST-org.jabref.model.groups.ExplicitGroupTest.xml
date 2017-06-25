@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.model.groups.ExplicitGroupTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:23" hostname="jessicadias-VPCEH40EB" time="0.009">
+<testsuite name="org.jabref.model.groups.ExplicitGroupTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:22" hostname="jessicadias-VPCEH40EB" time="0.007">
   <properties/>
-  <testcase name="containsMatchesPhraseWithBrackets" classname="org.jabref.model.groups.ExplicitGroupTest" time="0.002"/>
+  <testcase name="containsMatchesPhraseWithBrackets" classname="org.jabref.model.groups.ExplicitGroupTest" time="0.001"/>
   <testcase name="addSingleGroupToNonemptyBibEntryAppendsToGroupsField" classname="org.jabref.model.groups.ExplicitGroupTest" time="0.001"/>
   <testcase name="removeDoesNotChangeFieldIfContainsNameAsPart" classname="org.jabref.model.groups.ExplicitGroupTest" time="0.0"/>
-  <testcase name="removeDoesNotChangeFieldIfContainsNameAsWord" classname="org.jabref.model.groups.ExplicitGroupTest" time="0.001"/>
+  <testcase name="removeDoesNotChangeFieldIfContainsNameAsWord" classname="org.jabref.model.groups.ExplicitGroupTest" time="0.0"/>
   <testcase name="containsOnlyMatchesCompletePhraseWithWhitespace" classname="org.jabref.model.groups.ExplicitGroupTest" time="0.001"/>
-  <testcase name="containsOnlyMatchesCompletePhraseWithSlash" classname="org.jabref.model.groups.ExplicitGroupTest" time="0.0"/>
+  <testcase name="containsOnlyMatchesCompletePhraseWithSlash" classname="org.jabref.model.groups.ExplicitGroupTest" time="0.001"/>
   <testcase name="addSingleGroupToEmptyBibEntryChangesGroupsField" classname="org.jabref.model.groups.ExplicitGroupTest" time="0.0"/>
   <testcase name="addTwoGroupsToBibEntryChangesGroupsField" classname="org.jabref.model.groups.ExplicitGroupTest" time="0.0"/>
   <testcase name="addDuplicateGroupDoesNotChangeGroupsField" classname="org.jabref.model.groups.ExplicitGroupTest" time="0.001"/>

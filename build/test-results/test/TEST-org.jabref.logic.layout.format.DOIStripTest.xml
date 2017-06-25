@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.layout.format.DOIStripTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:39:05" hostname="jessicadias-VPCEH40EB" time="0.001">
+<testsuite name="org.jabref.logic.layout.format.DOIStripTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:31" hostname="jessicadias-VPCEH40EB" time="0.003">
   <properties/>
-  <testcase name="testFormat" classname="org.jabref.logic.layout.format.DOIStripTest" time="0.001"/>
+  <testcase name="testFormat" classname="org.jabref.logic.layout.format.DOIStripTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

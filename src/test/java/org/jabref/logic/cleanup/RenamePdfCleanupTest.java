@@ -27,7 +27,8 @@ import static org.mockito.Mockito.when;
 
 public class RenamePdfCleanupTest {
 
-    @Rule public TemporaryFolder testFolder = new TemporaryFolder();
+    @Rule
+    public TemporaryFolder testFolder = new TemporaryFolder();
     private BibDatabaseContext context;
     private BibEntry entry;
 
@@ -42,6 +43,7 @@ public class RenamePdfCleanupTest {
 
         fileDirPrefs = mock(FileDirectoryPreferences.class);
         when(fileDirPrefs.isBibLocationAsPrimary()).thenReturn(true); //Set Biblocation as Primary Directory, otherwise the tmp folders won't be cleaned up correctly
+
         entry = new BibEntry();
         entry.setCiteKey("Toot");
         layoutFormatterPreferences = mock(LayoutFormatterPreferences.class, Answers.RETURNS_DEEP_STUBS);
@@ -79,7 +81,8 @@ public class RenamePdfCleanupTest {
         cleanup.cleanup(entry);
 
         assertEquals(
-                Optional.of(FileFieldWriter.getStringRepresentation(new LinkedFile("", "Toot - test title.tmp", ""))),
+                Optional.of(FileFieldWriter.getStringRepresentation(Arrays.asList(new LinkedFile("", "", ""),
+                        new LinkedFile("", "Toot - test title.tmp", ""), new LinkedFile("", "", "")))),
                 entry.getField("file"));
     }
 

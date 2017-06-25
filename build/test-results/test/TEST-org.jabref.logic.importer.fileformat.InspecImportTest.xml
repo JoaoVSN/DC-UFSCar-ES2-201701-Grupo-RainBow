@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.importer.fileformat.InspecImportTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:35" hostname="jessicadias-VPCEH40EB" time="0.012">
+<testsuite name="org.jabref.logic.importer.fileformat.InspecImportTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:18" hostname="jessicadias-VPCEH40EB" time="0.006">
   <properties/>
   <testcase name="importConferencePaperGivesInproceedings" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.001"/>
   <testcase name="importMiscGivesMisc" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.001"/>
@@ -7,8 +7,8 @@
   <testcase name="testCompleteBibtexEntryOnJournalPaperImport" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.001"/>
   <testcase name="testsGetExtensions" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.0"/>
   <testcase name="testGetDescription" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.0"/>
-  <testcase name="testIsRecognizedFormatAccept" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.002"/>
-  <testcase name="testIsRecognizedFormatReject" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.005"/>
+  <testcase name="testIsRecognizedFormatAccept" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.0"/>
+  <testcase name="testIsRecognizedFormatReject" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.002"/>
   <testcase name="testGetFormatName" classname="org.jabref.logic.importer.fileformat.InspecImportTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:39:04" hostname="jessicadias-VPCEH40EB" time="0.144">
+<testsuite name="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:30" hostname="jessicadias-VPCEH40EB" time="0.147">
   <properties/>
-  <testcase name="testImportUnknownFormat[0: ris]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.016"/>
+  <testcase name="testImportUnknownFormat[0: ris]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.018"/>
   <testcase name="testImportFormatFromFile[0: ris]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.002"/>
-  <testcase name="testImportUnknownFormat[1: isi]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.014"/>
+  <testcase name="testImportUnknownFormat[1: isi]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.022"/>
   <testcase name="testImportFormatFromFile[1: isi]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.001"/>
-  <testcase name="testImportUnknownFormat[2: silverplatter]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.013"/>
-  <testcase name="testImportFormatFromFile[2: silverplatter]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.002"/>
+  <testcase name="testImportUnknownFormat[2: silverplatter]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.012"/>
+  <testcase name="testImportFormatFromFile[2: silverplatter]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.001"/>
   <testcase name="testImportUnknownFormat[3: repecnep]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.015"/>
   <testcase name="testImportFormatFromFile[3: repecnep]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.002"/>
   <testcase name="testImportUnknownFormat[4: ovid]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.018"/>
-  <testcase name="testImportFormatFromFile[4: ovid]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.007"/>
-  <testcase name="testImportUnknownFormat[5: refer]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.019"/>
-  <testcase name="testImportFormatFromFile[5: refer]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.003"/>
-  <testcase name="testImportUnknownFormat[6: msbib]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.019"/>
-  <testcase name="testImportFormatFromFile[6: msbib]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.004"/>
+  <testcase name="testImportFormatFromFile[4: ovid]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.002"/>
+  <testcase name="testImportUnknownFormat[5: refer]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.017"/>
+  <testcase name="testImportFormatFromFile[5: refer]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.002"/>
+  <testcase name="testImportUnknownFormat[6: msbib]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.021"/>
+  <testcase name="testImportFormatFromFile[6: msbib]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.003"/>
   <testcase name="testImportUnknownFormat[7: bibtex]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.002"/>
   <testcase name="testImportFormatFromFile[7: bibtex]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.002"/>
-  <system-out><![CDATA[00:39:04.927 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
+  <system-out><![CDATA[02:36:30.918 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
 java.io.IOException: Error: End-of-File, expected line
 	at org.apache.pdfbox.pdfparser.BaseParser.readLine(BaseParser.java:1519) ~[pdfbox-1.8.13.jar:1.8.13]
 	at org.apache.pdfbox.pdfparser.PDFParser.parseHeader(PDFParser.java:372) ~[pdfbox-1.8.13.jar:1.8.13]
@@ -83,7 +83,7 @@ java.io.IOException: Error: End-of-File, expected line
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
-00:39:04.945 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
+02:36:30.935 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
 java.io.IOException: Error: End-of-File, expected line
 	at org.apache.pdfbox.pdfparser.BaseParser.readLine(BaseParser.java:1519) ~[pdfbox-1.8.13.jar:1.8.13]
 	at org.apache.pdfbox.pdfparser.PDFParser.parseHeader(PDFParser.java:372) ~[pdfbox-1.8.13.jar:1.8.13]
@@ -149,7 +149,7 @@ java.io.IOException: Error: End-of-File, expected line
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
-00:39:04.960 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
+02:36:30.958 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
 java.io.IOException: Error: End-of-File, expected line
 	at org.apache.pdfbox.pdfparser.BaseParser.readLine(BaseParser.java:1519) ~[pdfbox-1.8.13.jar:1.8.13]
 	at org.apache.pdfbox.pdfparser.PDFParser.parseHeader(PDFParser.java:372) ~[pdfbox-1.8.13.jar:1.8.13]
@@ -215,7 +215,7 @@ java.io.IOException: Error: End-of-File, expected line
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
-00:39:04.977 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
+02:36:30.975 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
 java.io.IOException: Error: Header doesn't contain versioninfo
 	at org.apache.pdfbox.pdfparser.PDFParser.parseHeader(PDFParser.java:379) ~[pdfbox-1.8.13.jar:1.8.13]
 	at org.apache.pdfbox.pdfparser.PDFParser.parse(PDFParser.java:186) ~[pdfbox-1.8.13.jar:1.8.13]
@@ -280,7 +280,7 @@ java.io.IOException: Error: Header doesn't contain versioninfo
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
-00:39:04.993 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
+02:36:30.993 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
 java.io.IOException: Error: End-of-File, expected line
 	at org.apache.pdfbox.pdfparser.BaseParser.readLine(BaseParser.java:1519) ~[pdfbox-1.8.13.jar:1.8.13]
 	at org.apache.pdfbox.pdfparser.PDFParser.parseHeader(PDFParser.java:372) ~[pdfbox-1.8.13.jar:1.8.13]
@@ -346,7 +346,7 @@ java.io.IOException: Error: End-of-File, expected line
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
-00:39:05.022 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
+02:36:31.013 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
 java.io.IOException: Error: End-of-File, expected line
 	at org.apache.pdfbox.pdfparser.BaseParser.readLine(BaseParser.java:1519) ~[pdfbox-1.8.13.jar:1.8.13]
 	at org.apache.pdfbox.pdfparser.PDFParser.parseHeader(PDFParser.java:372) ~[pdfbox-1.8.13.jar:1.8.13]
@@ -412,7 +412,7 @@ java.io.IOException: Error: End-of-File, expected line
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
-00:39:05.044 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
+02:36:31.035 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
 java.io.IOException: Error: End-of-File, expected line
 	at org.apache.pdfbox.pdfparser.BaseParser.readLine(BaseParser.java:1519) ~[pdfbox-1.8.13.jar:1.8.13]
 	at org.apache.pdfbox.pdfparser.PDFParser.parseHeader(PDFParser.java:372) ~[pdfbox-1.8.13.jar:1.8.13]

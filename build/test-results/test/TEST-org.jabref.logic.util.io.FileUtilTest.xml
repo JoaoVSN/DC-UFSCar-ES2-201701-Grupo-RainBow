@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.util.io.FileUtilTest" tests="40" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:39:06" hostname="jessicadias-VPCEH40EB" time="0.496">
+<testsuite name="org.jabref.logic.util.io.FileUtilTest" tests="40" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:32" hostname="jessicadias-VPCEH40EB" time="0.202">
   <properties/>
-  <testcase name="testGetFileExtensionLowerCaseAndTrimmingFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.002"/>
+  <testcase name="testGetFileExtensionLowerCaseAndTrimmingFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
   <testcase name="testGetLinkedFileNameGetDefaultIfEmptyFieldNoKey" classname="org.jabref.logic.util.io.FileUtilTest" time="0.002"/>
-  <testcase name="testGetLinkedFileNameBibTeXKey" classname="org.jabref.logic.util.io.FileUtilTest" time="0.035"/>
+  <testcase name="testGetLinkedFileNameBibTeXKey" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
   <testcase name="getFileExtensionTrimsAndReturnsInLowercase" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
-  <testcase name="testGetFileExtensionMultipleDotsFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.079"/>
-  <testcase name="testGetFileExtensionNoExtension2File" classname="org.jabref.logic.util.io.FileUtilTest" time="0.028"/>
-  <testcase name="testCopyFileFromExistSourcePathToExistDestinationPathWithOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.025"/>
-  <testcase name="testRenameFileWithFromFileExistAndOtherToFileExist" classname="org.jabref.logic.util.io.FileUtilTest" time="0.037"/>
-  <testcase name="testCopyFileFromEmptySourcePathToExistDestinationPathWithOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.012"/>
-  <testcase name="testRenameFileWithFromFileExistAndToFileIsNull" classname="org.jabref.logic.util.io.FileUtilTest" time="0.015"/>
-  <testcase name="testGetDefaultFileNameNoPatternNoBibTeXKey" classname="org.jabref.logic.util.io.FileUtilTest" time="0.015"/>
-  <testcase name="testGetLinkedFileNameGetKeyIfEmptyField" classname="org.jabref.logic.util.io.FileUtilTest" time="0.016"/>
-  <testcase name="testRenameFileWithFromFileExistAndToFileExist" classname="org.jabref.logic.util.io.FileUtilTest" time="0.021"/>
-  <testcase name="getFileExtensionWithMultipleDotsString" classname="org.jabref.logic.util.io.FileUtilTest" time="0.01"/>
-  <testcase name="testCopyFileSuccessfulWithoutOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.017"/>
-  <testcase name="extensionBakAddedCorrectly" classname="org.jabref.logic.util.io.FileUtilTest" time="0.024"/>
-  <testcase name="getFileExtensionWithSimpleString" classname="org.jabref.logic.util.io.FileUtilTest" time="0.016"/>
-  <testcase name="extensionBakAddedCorrectlyToAFileContainedInTmpDirectory" classname="org.jabref.logic.util.io.FileUtilTest" time="0.025"/>
+  <testcase name="testGetFileExtensionMultipleDotsFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
+  <testcase name="testGetFileExtensionNoExtension2File" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
+  <testcase name="testCopyFileFromExistSourcePathToExistDestinationPathWithOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
+  <testcase name="testRenameFileWithFromFileExistAndOtherToFileExist" classname="org.jabref.logic.util.io.FileUtilTest" time="0.01"/>
+  <testcase name="testCopyFileFromEmptySourcePathToExistDestinationPathWithOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.016"/>
+  <testcase name="testRenameFileWithFromFileExistAndToFileIsNull" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
+  <testcase name="testGetDefaultFileNameNoPatternNoBibTeXKey" classname="org.jabref.logic.util.io.FileUtilTest" time="0.0"/>
+  <testcase name="testGetLinkedFileNameGetKeyIfEmptyField" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
+  <testcase name="testRenameFileWithFromFileExistAndToFileExist" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
+  <testcase name="getFileExtensionWithMultipleDotsString" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
+  <testcase name="testCopyFileSuccessfulWithoutOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.002"/>
+  <testcase name="extensionBakAddedCorrectly" classname="org.jabref.logic.util.io.FileUtilTest" time="0.012"/>
+  <testcase name="getFileExtensionWithSimpleString" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
+  <testcase name="extensionBakAddedCorrectlyToAFileContainedInTmpDirectory" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
   <testcase name="testGetFileExtensionNoExtensionFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
   <testcase name="testCopyFileFromExistSourcePathToExistDestinationPathWithoutOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.003"/>
   <testcase name="testRenameFileWithFromFileExistAndToFileNotExist" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
   <testcase name="testRenameFileWithFromFileIsNullAndToFileExist" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
-  <testcase name="testRenameFileWithFromFileNotExistAndToFileNotExist" classname="org.jabref.logic.util.io.FileUtilTest" time="0.007"/>
+  <testcase name="testRenameFileWithFromFileNotExistAndToFileNotExist" classname="org.jabref.logic.util.io.FileUtilTest" time="0.024"/>
   <testcase name="testCopyFileFromEmptySourcePathToEmptyDestinationPathWithoutOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.002"/>
-  <testcase name="testRenameFileWithFromFileNotExistAndToFileExist" classname="org.jabref.logic.util.io.FileUtilTest" time="0.007"/>
+  <testcase name="testRenameFileWithFromFileNotExistAndToFileExist" classname="org.jabref.logic.util.io.FileUtilTest" time="0.028"/>
   <testcase name="testCopyFileSuccessfulWithOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
-  <testcase name="testRenameFileWithFromFileIsNullAndToFileIsNull" classname="org.jabref.logic.util.io.FileUtilTest" time="0.016"/>
+  <testcase name="testRenameFileWithFromFileIsNullAndToFileIsNull" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
   <testcase name="getFileNameWithMultipleDotsString" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
-  <testcase name="uniquePathSubstrings" classname="org.jabref.logic.util.io.FileUtilTest" time="0.027"/>
-  <testcase name="testGetFileExtensionSimpleFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
-  <testcase name="getFileExtensionWithDotAtStartReturnsEmptyExtension" classname="org.jabref.logic.util.io.FileUtilTest" time="0.002"/>
+  <testcase name="uniquePathSubstrings" classname="org.jabref.logic.util.io.FileUtilTest" time="0.003"/>
+  <testcase name="testGetFileExtensionSimpleFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.029"/>
+  <testcase name="getFileExtensionWithDotAtStartReturnsEmptyExtension" classname="org.jabref.logic.util.io.FileUtilTest" time="0.004"/>
   <testcase name="getFileNameWithSimpleString" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
   <testcase name="testCopyFileFromExistSourcePathToOtherExistDestinationPathWithOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
   <testcase name="testCopyFileFromEmptySourcePathToEmptyDestinationPathWithOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.003"/>
-  <testcase name="testRenameFileSuccessful" classname="org.jabref.logic.util.io.FileUtilTest" time="0.002"/>
+  <testcase name="testRenameFileSuccessful" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
   <testcase name="testGetLinkedFileNameNoPattern" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
-  <testcase name="testCopyFileFromExistSourcePathToOtherExistDestinationPathWithoutOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.003"/>
-  <testcase name="testGetLinkedFileNameDefault" classname="org.jabref.logic.util.io.FileUtilTest" time="0.002"/>
+  <testcase name="testCopyFileFromExistSourcePathToOtherExistDestinationPathWithoutOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.024"/>
+  <testcase name="testGetLinkedFileNameDefault" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
   <testcase name="testCopyFileFromEmptySourcePathToExistDestinationPathWithoutOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.003"/>
-  <testcase name="getFileExtensionWithNoDotReturnsEmptyExtension" classname="org.jabref.logic.util.io.FileUtilTest" time="0.023"/>
-  <system-out><![CDATA[00:39:06.993 [Test worker] ERROR org.jabref.logic.util.io.FileUtil - Renaming Files failed
-java.nio.file.FileAlreadyExistsException: /tmp/junit8719472521124676217/otherExistingTestFile.txt
+  <testcase name="getFileExtensionWithNoDotReturnsEmptyExtension" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001"/>
+  <system-out><![CDATA[02:36:32.259 [Test worker] ERROR org.jabref.logic.util.io.FileUtil - Renaming Files failed
+java.nio.file.FileAlreadyExistsException: /tmp/junit4445781683385657577/otherExistingTestFile.txt
 	at sun.nio.fs.UnixCopyFile.move(UnixCopyFile.java:429) ~[?:1.8.0_111]
 	at sun.nio.fs.UnixFileSystemProvider.move(UnixFileSystemProvider.java:262) ~[?:1.8.0_111]
 	at java.nio.file.Files.move(Files.java:1395) ~[?:1.8.0_111]
@@ -95,10 +95,10 @@ java.nio.file.FileAlreadyExistsException: /tmp/junit8719472521124676217/otherExi
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
-00:39:07.009 [Test worker] ERROR org.jabref.logic.util.io.FileUtil - Path to the source file doesn't exist.
-00:39:07.103 [Test worker] ERROR org.jabref.logic.util.io.FileUtil - Path to the destination file is not exists and the file shouldn't be replace.
-00:39:07.173 [Test worker] ERROR org.jabref.logic.util.io.FileUtil - Path to the destination file is not exists and the file shouldn't be replace.
-00:39:07.178 [Test worker] ERROR org.jabref.logic.util.io.FileUtil - Renaming Files failed
+02:36:32.284 [Test worker] ERROR org.jabref.logic.util.io.FileUtil - Path to the source file doesn't exist.
+02:36:32.291 [Test worker] ERROR org.jabref.logic.util.io.FileUtil - Path to the destination file is not exists and the file shouldn't be replace.
+02:36:32.309 [Test worker] ERROR org.jabref.logic.util.io.FileUtil - Path to the destination file is not exists and the file shouldn't be replace.
+02:36:32.333 [Test worker] ERROR org.jabref.logic.util.io.FileUtil - Renaming Files failed
 java.nio.file.NoSuchFileException: nonExistingTestPath
 	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86) ~[?:1.8.0_111]
 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:1.8.0_111]
@@ -155,8 +155,8 @@ java.nio.file.NoSuchFileException: nonExistingTestPath
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
-00:39:07.186 [Test worker] ERROR org.jabref.logic.util.io.FileUtil - Path to the source file doesn't exist.
-00:39:07.188 [Test worker] ERROR org.jabref.logic.util.io.FileUtil - Renaming Files failed
+02:36:32.341 [Test worker] ERROR org.jabref.logic.util.io.FileUtil - Path to the source file doesn't exist.
+02:36:32.344 [Test worker] ERROR org.jabref.logic.util.io.FileUtil - Renaming Files failed
 java.nio.file.NoSuchFileException: nonExistingTestPath
 	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86) ~[?:1.8.0_111]
 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:1.8.0_111]
@@ -213,10 +213,10 @@ java.nio.file.NoSuchFileException: nonExistingTestPath
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
-00:39:07.248 [Test worker] ERROR org.jabref.logic.util.io.FileUtil - Path to the source file doesn't exist.
-org.junit.rules.TemporaryFolder@786f3fb0
-00:39:07.254 [JavaFX Application Thread] ERROR org.jabref.logic.util.io.FileUtil - Path to the destination file is not exists and the file shouldn't be replace.
-00:39:07.259 [JavaFX Application Thread] ERROR org.jabref.logic.util.io.FileUtil - Path to the source file doesn't exist.
+02:36:32.416 [JavaFX Application Thread] ERROR org.jabref.logic.util.io.FileUtil - Path to the source file doesn't exist.
+org.junit.rules.TemporaryFolder@8245816
+02:36:32.445 [Test worker] ERROR org.jabref.logic.util.io.FileUtil - Path to the destination file is not exists and the file shouldn't be replace.
+02:36:32.450 [Test worker] ERROR org.jabref.logic.util.io.FileUtil - Path to the source file doesn't exist.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

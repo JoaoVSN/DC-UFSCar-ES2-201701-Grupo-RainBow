@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.openoffice.OOPreFormatterTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:33" hostname="jessicadias-VPCEH40EB" time="0.025">
+<testsuite name="org.jabref.logic.openoffice.OOPreFormatterTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:24" hostname="jessicadias-VPCEH40EB" time="0.017">
   <properties/>
-  <testcase name="testUnsupportedSpecialCommands" classname="org.jabref.logic.openoffice.OOPreFormatterTest" time="0.022"/>
-  <testcase name="testFormatting" classname="org.jabref.logic.openoffice.OOPreFormatterTest" time="0.002"/>
-  <testcase name="testPlainFormat" classname="org.jabref.logic.openoffice.OOPreFormatterTest" time="0.0"/>
+  <testcase name="testUnsupportedSpecialCommands" classname="org.jabref.logic.openoffice.OOPreFormatterTest" time="0.015"/>
+  <testcase name="testFormatting" classname="org.jabref.logic.openoffice.OOPreFormatterTest" time="0.0"/>
+  <testcase name="testPlainFormat" classname="org.jabref.logic.openoffice.OOPreFormatterTest" time="0.001"/>
   <testcase name="testFormatStripLatexCommands" classname="org.jabref.logic.openoffice.OOPreFormatterTest" time="0.0"/>
-  <testcase name="testSpecialCommands" classname="org.jabref.logic.openoffice.OOPreFormatterTest" time="0.001"/>
+  <testcase name="testSpecialCommands" classname="org.jabref.logic.openoffice.OOPreFormatterTest" time="0.0"/>
   <testcase name="testEquations" classname="org.jabref.logic.openoffice.OOPreFormatterTest" time="0.0"/>
-  <testcase name="testFormatAccents" classname="org.jabref.logic.openoffice.OOPreFormatterTest" time="0.0"/>
+  <testcase name="testFormatAccents" classname="org.jabref.logic.openoffice.OOPreFormatterTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

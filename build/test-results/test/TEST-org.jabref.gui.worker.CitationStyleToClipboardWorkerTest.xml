@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:36:51" hostname="jessicadias-VPCEH40EB" time="0.173">
+<testsuite name="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:34:54" hostname="jessicadias-VPCEH40EB" time="0.085">
   <properties/>
-  <testcase name="processText" classname="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" time="0.066"/>
+  <testcase name="processText" classname="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" time="0.005"/>
   <testcase name="processRtf" classname="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" time="0.001"/>
-  <testcase name="processPreviewHtml" classname="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" time="0.077"/>
-  <testcase name="processPreviewText" classname="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" time="0.002"/>
-  <testcase name="processHtmlAsHtml" classname="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" time="0.024"/>
-  <testcase name="processHtmlAsText" classname="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" time="0.0"/>
+  <testcase name="processPreviewHtml" classname="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" time="0.054"/>
+  <testcase name="processPreviewText" classname="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" time="0.003"/>
+  <testcase name="processHtmlAsHtml" classname="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" time="0.018"/>
+  <testcase name="processHtmlAsText" classname="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" time="0.001"/>
   <testcase name="processXslFo" classname="org.jabref.gui.worker.CitationStyleToClipboardWorkerTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

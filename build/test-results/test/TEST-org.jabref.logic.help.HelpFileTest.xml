@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.help.HelpFileTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:42" hostname="jessicadias-VPCEH40EB" time="21.878">
+<testsuite name="org.jabref.logic.help.HelpFileTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:29" hostname="jessicadias-VPCEH40EB" time="21.828">
   <properties/>
-  <testcase name="referToValidPage" classname="org.jabref.logic.help.HelpFileTest" time="21.878"/>
+  <testcase name="referToValidPage" classname="org.jabref.logic.help.HelpFileTest" time="21.828"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

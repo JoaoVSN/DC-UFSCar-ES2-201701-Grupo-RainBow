@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.bibtex.FieldContentParserTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:41:04" hostname="jessicadias-VPCEH40EB" time="0.002">
+<testsuite name="org.jabref.logic.bibtex.FieldContentParserTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:38:08" hostname="jessicadias-VPCEH40EB" time="0.001">
   <properties/>
-  <testcase name="unifiesLineBreaks" classname="org.jabref.logic.bibtex.FieldContentParserTest" time="0.0"/>
+  <testcase name="unifiesLineBreaks" classname="org.jabref.logic.bibtex.FieldContentParserTest" time="0.001"/>
   <testcase name="retainsWhitespaceForMultiLineFields" classname="org.jabref.logic.bibtex.FieldContentParserTest" time="0.0"/>
-  <testcase name="removeWhitespaceFromNonMultiLineFields" classname="org.jabref.logic.bibtex.FieldContentParserTest" time="0.001"/>
+  <testcase name="removeWhitespaceFromNonMultiLineFields" classname="org.jabref.logic.bibtex.FieldContentParserTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

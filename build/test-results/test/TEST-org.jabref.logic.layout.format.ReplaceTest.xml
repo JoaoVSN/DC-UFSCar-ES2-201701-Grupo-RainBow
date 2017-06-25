@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.layout.format.ReplaceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:39:05" hostname="jessicadias-VPCEH40EB" time="0.001">
+<testsuite name="org.jabref.logic.layout.format.ReplaceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:31" hostname="jessicadias-VPCEH40EB" time="0.001">
   <properties/>
-  <testcase name="testSimpleText" classname="org.jabref.logic.layout.format.ReplaceTest" time="0.001"/>
+  <testcase name="testSimpleText" classname="org.jabref.logic.layout.format.ReplaceTest" time="0.0"/>
   <testcase name="testFormatNull" classname="org.jabref.logic.layout.format.ReplaceTest" time="0.0"/>
   <testcase name="testNoProperArgument" classname="org.jabref.logic.layout.format.ReplaceTest" time="0.0"/>
   <testcase name="testFormatEmpty" classname="org.jabref.logic.layout.format.ReplaceTest" time="0.0"/>

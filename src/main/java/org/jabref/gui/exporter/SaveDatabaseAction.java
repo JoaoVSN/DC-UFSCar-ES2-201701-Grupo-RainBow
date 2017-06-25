@@ -129,6 +129,9 @@ public class SaveDatabaseAction extends AbstractWorker {
         }
 
         try {
+            // Make sure the current edit is stored
+            panel.storeCurrentEdit();
+
             // If set in preferences, generate missing BibTeX keys
             panel.autoGenerateKeysBeforeSaving();
 

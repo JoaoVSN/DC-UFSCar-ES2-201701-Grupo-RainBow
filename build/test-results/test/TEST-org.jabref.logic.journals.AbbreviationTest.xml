@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.journals.AbbreviationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:40:27" hostname="jessicadias-VPCEH40EB" time="0.0">
+<testsuite name="org.jabref.logic.journals.AbbreviationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:37:37" hostname="jessicadias-VPCEH40EB" time="0.001">
   <properties/>
   <testcase name="testAbbreviationsWithUnusedElements" classname="org.jabref.logic.journals.AbbreviationTest" time="0.0"/>
-  <testcase name="testGetNextElementWithTrailingSpaces" classname="org.jabref.logic.journals.AbbreviationTest" time="0.0"/>
+  <testcase name="testGetNextElementWithTrailingSpaces" classname="org.jabref.logic.journals.AbbreviationTest" time="0.001"/>
   <testcase name="testIsoAndMedlineAbbreviationsAreSame" classname="org.jabref.logic.journals.AbbreviationTest" time="0.0"/>
   <testcase name="testAbbreviationsWithTrailingSpaces" classname="org.jabref.logic.journals.AbbreviationTest" time="0.0"/>
   <testcase name="testGetNextElement" classname="org.jabref.logic.journals.AbbreviationTest" time="0.0"/>

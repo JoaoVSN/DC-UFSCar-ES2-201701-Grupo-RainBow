@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.importer.FulltextFetchersTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:46" hostname="jessicadias-VPCEH40EB" time="5.891">
+<testsuite name="org.jabref.logic.importer.FulltextFetchersTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:23" hostname="jessicadias-VPCEH40EB" time="4.983">
   <properties/>
-  <testcase name="rejectNonPdfUrls" classname="org.jabref.logic.importer.FulltextFetchersTest" time="3.128"/>
-  <testcase name="acceptPdfUrls" classname="org.jabref.logic.importer.FulltextFetchersTest" time="2.763"/>
-  <system-out><![CDATA[00:38:49.497 [Test worker] WARN  org.apache.http.client.protocol.ResponseProcessCookies - Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Tue, 23 Jun 2037 03:38:49 -0000; secure; HttpOnly". Invalid 'expires' attribute: Tue, 23 Jun 2037 03:38:49 -0000
+  <testcase name="rejectNonPdfUrls" classname="org.jabref.logic.importer.FulltextFetchersTest" time="2.978"/>
+  <testcase name="acceptPdfUrls" classname="org.jabref.logic.importer.FulltextFetchersTest" time="2.005"/>
+  <system-out><![CDATA[02:36:26.714 [Test worker] WARN  org.apache.http.client.protocol.ResponseProcessCookies - Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Thu, 25 Jun 2037 05:36:26 -0000; secure; HttpOnly". Invalid 'expires' attribute: Thu, 25 Jun 2037 05:36:26 -0000
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

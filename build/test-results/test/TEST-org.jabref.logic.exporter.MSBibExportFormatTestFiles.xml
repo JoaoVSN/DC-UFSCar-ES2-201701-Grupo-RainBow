@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.exporter.MSBibExportFormatTestFiles" tests="17" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:41:01" hostname="jessicadias-VPCEH40EB" time="0.255">
+<testsuite name="org.jabref.logic.exporter.MSBibExportFormatTestFiles" tests="17" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:38:05" hostname="jessicadias-VPCEH40EB" time="0.224">
   <properties/>
-  <testcase name="testPerformExport[MsBibLCID.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.032"/>
+  <testcase name="testPerformExport[MsBibLCID.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.02"/>
   <testcase name="testPerformExport[MsBibLocationTest.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.012"/>
-  <testcase name="testPerformExport[MsBibExportFormatTestCorporateAuthor.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.011"/>
-  <testcase name="testPerformExport[MsBibExportFormatTest1.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.028"/>
-  <testcase name="testPerformExport[MsBibExportFormatTest2.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.02"/>
-  <testcase name="testPerformExport[MsBibExportFormatTest6.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.015"/>
-  <testcase name="testPerformExport[MsBibExportFormatTest4.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.015"/>
-  <testcase name="testPerformExport[MsBibPatent.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.012"/>
-  <testcase name="testPerformExport[MsBibExportFormatTestDateAcessed.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.01"/>
-  <testcase name="testPerformExport[MsBibKeyTest.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.012"/>
+  <testcase name="testPerformExport[MsBibExportFormatTestCorporateAuthor.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.012"/>
+  <testcase name="testPerformExport[MsBibExportFormatTest1.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.022"/>
+  <testcase name="testPerformExport[MsBibExportFormatTest2.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.014"/>
+  <testcase name="testPerformExport[MsBibExportFormatTest6.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.013"/>
+  <testcase name="testPerformExport[MsBibExportFormatTest4.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.012"/>
+  <testcase name="testPerformExport[MsBibPatent.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.01"/>
+  <testcase name="testPerformExport[MsBibExportFormatTestDateAcessed.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.014"/>
+  <testcase name="testPerformExport[MsBibKeyTest.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.011"/>
   <testcase name="testPerformExport[MsBibExportFormatTest3.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.014"/>
-  <testcase name="testPerformExport[MsBibMultiAddressTest.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.011"/>
-  <testcase name="testPerformExport[MsBibExportFormatTest7.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.015"/>
-  <testcase name="testPerformExport[MsBibShorttitle.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.009"/>
-  <testcase name="testPerformExport[MsBibExportFormatTest5.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.014"/>
-  <testcase name="testPerformExport[MsBibExportFormatUmlauts.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.01"/>
-  <testcase name="testPerformExport[MsBibExportFormatTestDay.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.011"/>
+  <testcase name="testPerformExport[MsBibMultiAddressTest.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.012"/>
+  <testcase name="testPerformExport[MsBibExportFormatTest7.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.013"/>
+  <testcase name="testPerformExport[MsBibShorttitle.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.008"/>
+  <testcase name="testPerformExport[MsBibExportFormatTest5.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.016"/>
+  <testcase name="testPerformExport[MsBibExportFormatUmlauts.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.009"/>
+  <testcase name="testPerformExport[MsBibExportFormatTestDay.bib]" classname="org.jabref.logic.exporter.MSBibExportFormatTestFiles" time="0.01"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -63,9 +63,9 @@ public class GroupsParserTest {
     }
 
     @Test
-    public void fromStringParsesExplicitGroupWithIconAndDescription() throws Exception {
+    public void fromStringParsesExplicitGroupWithIconAndDesrcitpion() throws Exception {
         ExplicitGroup expected = new ExplicitGroup("myExplicitGroup", GroupHierarchyType.INDEPENDENT, ',');
-        expected.setIconName("test icon");
+        expected.setIconCode("test icon");
         expected.setExpanded(true);
         expected.setColor(Color.ALICEBLUE);
         expected.setDescription("test description");

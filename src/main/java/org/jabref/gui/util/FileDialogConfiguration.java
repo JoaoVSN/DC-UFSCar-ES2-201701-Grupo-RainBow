@@ -47,7 +47,7 @@ public class FileDialogConfiguration {
 
     public static class Builder {
 
-        private final List<FileChooser.ExtensionFilter> extensionFilter = new ArrayList<>();
+        List<FileChooser.ExtensionFilter> extensionFilter = new ArrayList<>();
         private Path initialDirectory;
         private FileChooser.ExtensionFilter defaultExtension;
         private String initialFileName;
@@ -72,28 +72,22 @@ public class FileDialogConfiguration {
         }
 
         public Builder withInitialDirectory(Path directory) {
-            if (directory == null) { //It could be that somehow the path is null, for example if it got deleted in the meantime
-                initialDirectory = null;
-            } else { //Dir must be a folder, not a file
-                if (!Files.isDirectory(directory)) {
-                    directory = directory.getParent();
-                }
-                //The lines above work also if the dir does not exist at all!
-                //NULL is accepted by the filechooser as no inital path
-                if (!Files.exists(directory)) {
-                    directory = null;
-                }
-                initialDirectory = directory;
+
+            //Dir must be a folder, not a file
+            if (!Files.isDirectory(directory)) {
+                directory = directory.getParent();
             }
+            //The lines above work also if the dir does not exist at all!
+            //NULL is accepted by the filechooser as no inital path
+            if (!Files.exists(directory)) {
+                directory = null;
+            }
+            initialDirectory = directory;
             return this;
         }
 
         public Builder withInitialDirectory(String directory) {
-            if (directory != null) {
-                withInitialDirectory(Paths.get(directory));
-            } else {
-                initialDirectory = null;
-            }
+            withInitialDirectory(Paths.get(directory));
             return this;
         }
 

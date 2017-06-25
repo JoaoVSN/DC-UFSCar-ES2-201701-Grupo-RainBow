@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.importer.fileformat.PdfContentImporterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:30" hostname="jessicadias-VPCEH40EB" time="0.04">
+<testsuite name="org.jabref.logic.importer.fileformat.PdfContentImporterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:14" hostname="jessicadias-VPCEH40EB" time="0.016">
   <properties/>
   <testcase name="testsGetExtensions" classname="org.jabref.logic.importer.fileformat.PdfContentImporterTest" time="0.0"/>
-  <testcase name="testGetDescription" classname="org.jabref.logic.importer.fileformat.PdfContentImporterTest" time="0.001"/>
-  <testcase name="doesNotHandleEncryptedPdfs" classname="org.jabref.logic.importer.fileformat.PdfContentImporterTest" time="0.039"/>
-  <system-out><![CDATA[00:38:30.399 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - Cannot handle encrypted PDF: Error: The supplied password does not match either the owner or user password in the document.
+  <testcase name="testGetDescription" classname="org.jabref.logic.importer.fileformat.PdfContentImporterTest" time="0.0"/>
+  <testcase name="doesNotHandleEncryptedPdfs" classname="org.jabref.logic.importer.fileformat.PdfContentImporterTest" time="0.016"/>
+  <system-out><![CDATA[02:36:14.303 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - Cannot handle encrypted PDF: Error: The supplied password does not match either the owner or user password in the document.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

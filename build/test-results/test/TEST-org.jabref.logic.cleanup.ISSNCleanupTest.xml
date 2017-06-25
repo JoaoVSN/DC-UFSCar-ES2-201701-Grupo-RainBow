@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.cleanup.ISSNCleanupTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:20" hostname="jessicadias-VPCEH40EB" time="0.117">
+<testsuite name="org.jabref.logic.cleanup.ISSNCleanupTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:07" hostname="jessicadias-VPCEH40EB" time="0.115">
   <properties/>
-  <testcase name="cleanupISSNAddsMissingDash" classname="org.jabref.logic.cleanup.ISSNCleanupTest" time="0.115"/>
+  <testcase name="cleanupISSNAddsMissingDash" classname="org.jabref.logic.cleanup.ISSNCleanupTest" time="0.114"/>
   <testcase name="cleanupISSNJunkStaysJunk" classname="org.jabref.logic.cleanup.ISSNCleanupTest" time="0.001"/>
-  <testcase name="cleanupISSNReturnsCorrectISSN" classname="org.jabref.logic.cleanup.ISSNCleanupTest" time="0.001"/>
+  <testcase name="cleanupISSNReturnsCorrectISSN" classname="org.jabref.logic.cleanup.ISSNCleanupTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

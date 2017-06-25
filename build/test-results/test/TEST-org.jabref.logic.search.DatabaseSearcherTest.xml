@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.search.DatabaseSearcherTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:41:04" hostname="jessicadias-VPCEH40EB" time="0.011">
+<testsuite name="org.jabref.logic.search.DatabaseSearcherTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:38:08" hostname="jessicadias-VPCEH40EB" time="0.013">
   <properties/>
-  <testcase name="testNoMatchesFromDatabaseWithArticleTypeEntry" classname="org.jabref.logic.search.DatabaseSearcherTest" time="0.002"/>
+  <testcase name="testNoMatchesFromDatabaseWithArticleTypeEntry" classname="org.jabref.logic.search.DatabaseSearcherTest" time="0.003"/>
   <testcase name="testNoMatchFromDatabaseWithEmptyEntry" classname="org.jabref.logic.search.DatabaseSearcherTest" time="0.001"/>
-  <testcase name="testGetDatabaseFromMatchesDatabaseWithEmptyEntries" classname="org.jabref.logic.search.DatabaseSearcherTest" time="0.0"/>
+  <testcase name="testGetDatabaseFromMatchesDatabaseWithEmptyEntries" classname="org.jabref.logic.search.DatabaseSearcherTest" time="0.001"/>
   <testcase name="testNoMatchesFromEmptyDatabaseWithInvalidSearchExpression" classname="org.jabref.logic.search.DatabaseSearcherTest" time="0.0"/>
   <testcase name="testCorrectMatchFromDatabaseWithArticleTypeEntry" classname="org.jabref.logic.search.DatabaseSearcherTest" time="0.001"/>
   <testcase name="testNoMatchesFromEmptyDatabaseWithInvalidQuery" classname="org.jabref.logic.search.DatabaseSearcherTest" time="0.001"/>
-  <testcase name="testNoMatchesFromDabaseWithIncollectionTypeEntry" classname="org.jabref.logic.search.DatabaseSearcherTest" time="0.001"/>
+  <testcase name="testNoMatchesFromDabaseWithIncollectionTypeEntry" classname="org.jabref.logic.search.DatabaseSearcherTest" time="0.002"/>
   <testcase name="testCorrectMatchFromDatabaseWithIncollectionTypeEntry" classname="org.jabref.logic.search.DatabaseSearcherTest" time="0.001"/>
   <testcase name="testNoMatchesFromEmptyDatabase" classname="org.jabref.logic.search.DatabaseSearcherTest" time="0.001"/>
   <testcase name="testNoMatchesFromDatabaseWithTwoEntries" classname="org.jabref.logic.search.DatabaseSearcherTest" time="0.001"/>

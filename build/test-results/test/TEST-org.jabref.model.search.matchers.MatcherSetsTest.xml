@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.model.search.matchers.MatcherSetsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:25" hostname="jessicadias-VPCEH40EB" time="0.006">
+<testsuite name="org.jabref.model.search.matchers.MatcherSetsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:23" hostname="jessicadias-VPCEH40EB" time="0.003">
   <properties/>
   <testcase name="testBuildNotWithTrue" classname="org.jabref.model.search.matchers.MatcherSetsTest" time="0.001"/>
-  <testcase name="testBuildAnd" classname="org.jabref.model.search.matchers.MatcherSetsTest" time="0.0"/>
-  <testcase name="testBuildOr" classname="org.jabref.model.search.matchers.MatcherSetsTest" time="0.001"/>
+  <testcase name="testBuildAnd" classname="org.jabref.model.search.matchers.MatcherSetsTest" time="0.001"/>
+  <testcase name="testBuildOr" classname="org.jabref.model.search.matchers.MatcherSetsTest" time="0.0"/>
   <testcase name="testBuildNotWithFalse" classname="org.jabref.model.search.matchers.MatcherSetsTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

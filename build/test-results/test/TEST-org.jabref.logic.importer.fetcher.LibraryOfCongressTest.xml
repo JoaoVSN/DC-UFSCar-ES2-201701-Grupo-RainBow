@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.importer.fetcher.LibraryOfCongressTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:41" hostname="jessicadias-VPCEH40EB" time="4.669">
+<testsuite name="org.jabref.logic.importer.fetcher.LibraryOfCongressTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:21" hostname="jessicadias-VPCEH40EB" time="1.701">
   <properties/>
-  <testcase name="performSearchById" classname="org.jabref.logic.importer.fetcher.LibraryOfCongressTest" time="4.669"/>
+  <testcase name="performSearchById" classname="org.jabref.logic.importer.fetcher.LibraryOfCongressTest" time="1.701"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

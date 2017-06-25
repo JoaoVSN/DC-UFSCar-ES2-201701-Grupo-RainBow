@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.exporter.CsvExportFormatTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:40:56" hostname="jessicadias-VPCEH40EB" time="0.205">
+<testsuite name="org.jabref.logic.exporter.CsvExportFormatTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:38:01" hostname="jessicadias-VPCEH40EB" time="0.115">
   <properties/>
-  <testcase name="testPerformExportForMultipleAuthors" classname="org.jabref.logic.exporter.CsvExportFormatTest" time="0.185"/>
-  <testcase name="testPerformExportForSingleAuthor" classname="org.jabref.logic.exporter.CsvExportFormatTest" time="0.006"/>
-  <testcase name="testPerformExportForSingleEditor" classname="org.jabref.logic.exporter.CsvExportFormatTest" time="0.007"/>
-  <testcase name="testPerformExportForMultipleEditors" classname="org.jabref.logic.exporter.CsvExportFormatTest" time="0.007"/>
+  <testcase name="testPerformExportForMultipleAuthors" classname="org.jabref.logic.exporter.CsvExportFormatTest" time="0.099"/>
+  <testcase name="testPerformExportForSingleAuthor" classname="org.jabref.logic.exporter.CsvExportFormatTest" time="0.004"/>
+  <testcase name="testPerformExportForSingleEditor" classname="org.jabref.logic.exporter.CsvExportFormatTest" time="0.005"/>
+  <testcase name="testPerformExportForMultipleEditors" classname="org.jabref.logic.exporter.CsvExportFormatTest" time="0.006"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

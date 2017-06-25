@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.layout.format.AuthorLastFirstAbbreviatorTester" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:39:05" hostname="jessicadias-VPCEH40EB" time="0.002">
+<testsuite name="org.jabref.logic.layout.format.AuthorLastFirstAbbreviatorTester" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:31" hostname="jessicadias-VPCEH40EB" time="0.001">
   <properties/>
-  <testcase name="testTwoAuthorsCommonName" classname="org.jabref.logic.layout.format.AuthorLastFirstAbbreviatorTester" time="0.001"/>
+  <testcase name="testTwoAuthorsCommonName" classname="org.jabref.logic.layout.format.AuthorLastFirstAbbreviatorTester" time="0.0"/>
   <testcase name="testOneAuthorCommonName" classname="org.jabref.logic.layout.format.AuthorLastFirstAbbreviatorTester" time="0.0"/>
   <testcase name="testJrAuthor" classname="org.jabref.logic.layout.format.AuthorLastFirstAbbreviatorTester" time="0.001"/>
   <testcase name="testFormat" classname="org.jabref.logic.layout.format.AuthorLastFirstAbbreviatorTester" time="0.0"/>

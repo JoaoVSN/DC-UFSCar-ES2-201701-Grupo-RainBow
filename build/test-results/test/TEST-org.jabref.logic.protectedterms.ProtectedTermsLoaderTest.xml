@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:42" hostname="jessicadias-VPCEH40EB" time="0.179">
+<testsuite name="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:29" hostname="jessicadias-VPCEH40EB" time="0.104">
   <properties/>
-  <testcase name="testGetProtectedTerms" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.017"/>
-  <testcase name="testInitalizedAllInternalDisabled" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.006"/>
-  <testcase name="testNewListsAreEnabled" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.008"/>
-  <testcase name="testUnknownExternalFileWillNotLoad" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.033"/>
-  <testcase name="testAddNewTermListAddsList" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.004"/>
-  <testcase name="testAllDisabledNoWords" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.003"/>
-  <testcase name="testReadProtectedTermsListFromFileEnabledWorks" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.002"/>
-  <testcase name="testNewListsAreIncluded" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.005"/>
-  <testcase name="testDoNotLoadTheSameInternalListTwice" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.001"/>
-  <testcase name="testRemoveTermList" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.048"/>
-  <testcase name="testReadProtectedTermsListFromFileReadsDescription" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.032"/>
-  <testcase name="testAddNewTermListSetsCorrectDescription" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.004"/>
+  <testcase name="testGetProtectedTerms" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.002"/>
+  <testcase name="testInitalizedAllInternalDisabled" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.002"/>
+  <testcase name="testNewListsAreEnabled" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.004"/>
+  <testcase name="testUnknownExternalFileWillNotLoad" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.039"/>
+  <testcase name="testAddNewTermListAddsList" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.003"/>
+  <testcase name="testAllDisabledNoWords" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.006"/>
+  <testcase name="testReadProtectedTermsListFromFileEnabledWorks" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.004"/>
+  <testcase name="testNewListsAreIncluded" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.007"/>
+  <testcase name="testDoNotLoadTheSameInternalListTwice" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.003"/>
+  <testcase name="testRemoveTermList" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.002"/>
+  <testcase name="testReadProtectedTermsListFromFileReadsDescription" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.002"/>
+  <testcase name="testAddNewTermListSetsCorrectDescription" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.003"/>
   <testcase name="testReadProtectedTermsListFromFileIsNotInternalList" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.002"/>
   <testcase name="testAddNewTermListNewListInList" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.002"/>
   <testcase name="testRemoveTermListReduceTheCount" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.003"/>
   <testcase name="testAddProtectedTermsListFromFile" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.002"/>
   <testcase name="testReadProtectedTermsListFromFileDisabledWorks" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.001"/>
-  <testcase name="testReadProtectedTermsListFromFileNoDescriptionGivesDefaultDescription" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.002"/>
-  <system-out><![CDATA[00:37:42.686 [JavaFX Application Thread] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/months_weekdays.terms' is available and enabled by default.
-00:37:42.688 [JavaFX Application Thread] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/countries_territories.terms' is available and enabled by default.
-00:37:42.690 [JavaFX Application Thread] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/electrical_engineering.terms' is available and enabled by default.
-00:37:42.696 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - Cannot find protected terms file someUnlikelyNameThatNeverWillExist
+  <testcase name="testReadProtectedTermsListFromFileNoDescriptionGivesDefaultDescription" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.001"/>
+  <system-out><![CDATA[02:35:29.134 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/months_weekdays.terms' is available and enabled by default.
+02:35:29.135 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/countries_territories.terms' is available and enabled by default.
+02:35:29.136 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/electrical_engineering.terms' is available and enabled by default.
+02:35:29.139 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - Cannot find protected terms file someUnlikelyNameThatNeverWillExist
 java.io.FileNotFoundException: someUnlikelyNameThatNeverWillExist (Arquivo ou diretório não encontrado)
 	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_111]
 	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_111]
@@ -79,9 +79,9 @@ java.io.FileNotFoundException: someUnlikelyNameThatNeverWillExist (Arquivo ou di
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
-00:37:42.736 [JavaFX Application Thread] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/months_weekdays.terms' is available and enabled by default.
-00:37:42.737 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/countries_territories.terms' is available and enabled by default.
-00:37:42.738 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/electrical_engineering.terms' is available and enabled by default.
+02:35:29.195 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/months_weekdays.terms' is available and enabled by default.
+02:35:29.197 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/countries_territories.terms' is available and enabled by default.
+02:35:29.198 [Test worker] WARN  org.jabref.logic.protectedterms.ProtectedTermsLoader - New protected terms resource '/protectedterms/electrical_engineering.terms' is available and enabled by default.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

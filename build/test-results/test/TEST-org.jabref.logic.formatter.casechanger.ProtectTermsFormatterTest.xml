@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:42" hostname="jessicadias-VPCEH40EB" time="0.079">
+<testsuite name="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:29" hostname="jessicadias-VPCEH40EB" time="0.088">
   <properties/>
-  <testcase name="testCorrectOrderingOfTerms" classname="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" time="0.01"/>
+  <testcase name="testCorrectOrderingOfTerms" classname="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" time="0.008"/>
   <testcase name="testDoNotProtectAlreadyProtected" classname="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" time="0.008"/>
-  <testcase name="testCaseSensitivity" classname="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" time="0.008"/>
-  <testcase name="test" classname="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" time="0.032"/>
-  <testcase name="formatExample" classname="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" time="0.009"/>
-  <testcase name="testSingleWord" classname="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" time="0.011"/>
+  <testcase name="testCaseSensitivity" classname="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" time="0.009"/>
+  <testcase name="test" classname="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" time="0.039"/>
+  <testcase name="formatExample" classname="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" time="0.012"/>
+  <testcase name="testSingleWord" classname="org.jabref.logic.formatter.casechanger.ProtectTermsFormatterTest" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

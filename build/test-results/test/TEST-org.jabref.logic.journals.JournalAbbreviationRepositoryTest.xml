@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.journals.JournalAbbreviationRepositoryTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:39:07" hostname="jessicadias-VPCEH40EB" time="0.002">
+<testsuite name="org.jabref.logic.journals.JournalAbbreviationRepositoryTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:32" hostname="jessicadias-VPCEH40EB" time="0.003">
   <properties/>
   <testcase name="testDuplicates" classname="org.jabref.logic.journals.JournalAbbreviationRepositoryTest" time="0.001"/>
-  <testcase name="oneElement" classname="org.jabref.logic.journals.JournalAbbreviationRepositoryTest" time="0.0"/>
-  <testcase name="testDuplicatesIsoOnly" classname="org.jabref.logic.journals.JournalAbbreviationRepositoryTest" time="0.001"/>
+  <testcase name="oneElement" classname="org.jabref.logic.journals.JournalAbbreviationRepositoryTest" time="0.001"/>
+  <testcase name="testDuplicatesIsoOnly" classname="org.jabref.logic.journals.JournalAbbreviationRepositoryTest" time="0.0"/>
   <testcase name="empty" classname="org.jabref.logic.journals.JournalAbbreviationRepositoryTest" time="0.0"/>
   <testcase name="testDuplicateKeys" classname="org.jabref.logic.journals.JournalAbbreviationRepositoryTest" time="0.0"/>
   <testcase name="testSorting" classname="org.jabref.logic.journals.JournalAbbreviationRepositoryTest" time="0.0"/>
-  <system-out><![CDATA[00:39:07.795 [Test worker] INFO  org.jabref.logic.journals.JournalAbbreviationRepository - Duplicate journal abbreviation - old one will be overwritten by new one
+  <system-out><![CDATA[02:36:32.854 [Test worker] INFO  org.jabref.logic.journals.JournalAbbreviationRepository - Duplicate journal abbreviation - old one will be overwritten by new one
 OLD: Abbreviation{name=Long Name, iso=L. N., medline=L N}
 NEW: Abbreviation{name=Long Name, iso=L. N., medline=L N}
-00:39:07.797 [Test worker] INFO  org.jabref.logic.journals.JournalAbbreviationRepository - Duplicate journal abbreviation - old one will be overwritten by new one
+02:36:32.857 [Test worker] INFO  org.jabref.logic.journals.JournalAbbreviationRepository - Duplicate journal abbreviation - old one will be overwritten by new one
 OLD: Abbreviation{name=Long Name, iso=L. N., medline=L N}
 NEW: Abbreviation{name=Long Name, iso=LA. N., medline=LA N}
 ]]></system-out>

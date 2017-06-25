@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.importer.fileformat.PdfXmpImporterTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:38:28" hostname="jessicadias-VPCEH40EB" time="0.576">
+<testsuite name="org.jabref.logic.importer.fileformat.PdfXmpImporterTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:10" hostname="jessicadias-VPCEH40EB" time="0.647">
   <properties/>
-  <testcase name="testImportEntries" classname="org.jabref.logic.importer.fileformat.PdfXmpImporterTest" time="0.049"/>
-  <testcase name="testIsRecognizedFormat" classname="org.jabref.logic.importer.fileformat.PdfXmpImporterTest" time="0.006"/>
+  <testcase name="testImportEntries" classname="org.jabref.logic.importer.fileformat.PdfXmpImporterTest" time="0.065"/>
+  <testcase name="testIsRecognizedFormat" classname="org.jabref.logic.importer.fileformat.PdfXmpImporterTest" time="0.004"/>
   <testcase name="testsGetExtensions" classname="org.jabref.logic.importer.fileformat.PdfXmpImporterTest" time="0.0"/>
-  <testcase name="importEncryptedFileReturnsError" classname="org.jabref.logic.importer.fileformat.PdfXmpImporterTest" time="0.482"/>
+  <testcase name="importEncryptedFileReturnsError" classname="org.jabref.logic.importer.fileformat.PdfXmpImporterTest" time="0.519"/>
   <testcase name="testGetDescription" classname="org.jabref.logic.importer.fileformat.PdfXmpImporterTest" time="0.0"/>
-  <testcase name="testIsRecognizedFormatReject" classname="org.jabref.logic.importer.fileformat.PdfXmpImporterTest" time="0.039"/>
+  <testcase name="testIsRecognizedFormatReject" classname="org.jabref.logic.importer.fileformat.PdfXmpImporterTest" time="0.058"/>
   <testcase name="testGetFormatName" classname="org.jabref.logic.importer.fileformat.PdfXmpImporterTest" time="0.0"/>
   <testcase name="testGetCommandLineId" classname="org.jabref.logic.importer.fileformat.PdfXmpImporterTest" time="0.0"/>
-  <system-out><![CDATA[00:38:29.424 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - Cannot handle encrypted PDF: Error: The supplied password does not match either the owner or user password in the document.
-00:38:29.427 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
+  <system-out><![CDATA[02:36:11.525 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - Cannot handle encrypted PDF: Error: The supplied password does not match either the owner or user password in the document.
+02:36:11.528 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
 java.io.IOException: Error: End-of-File, expected line
 	at org.apache.pdfbox.pdfparser.BaseParser.readLine(BaseParser.java:1519) ~[pdfbox-1.8.13.jar:1.8.13]
 	at org.apache.pdfbox.pdfparser.PDFParser.parseHeader(PDFParser.java:372) ~[pdfbox-1.8.13.jar:1.8.13]
@@ -67,7 +67,7 @@ java.io.IOException: Error: End-of-File, expected line
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
-00:38:29.432 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
+02:36:11.534 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
 java.io.IOException: Error: End-of-File, expected line
 	at org.apache.pdfbox.pdfparser.BaseParser.readLine(BaseParser.java:1519) ~[pdfbox-1.8.13.jar:1.8.13]
 	at org.apache.pdfbox.pdfparser.PDFParser.parseHeader(PDFParser.java:372) ~[pdfbox-1.8.13.jar:1.8.13]
@@ -124,7 +124,7 @@ java.io.IOException: Error: End-of-File, expected line
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
-00:38:29.438 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
+02:36:11.542 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
 java.io.IOException: Error: End-of-File, expected line
 	at org.apache.pdfbox.pdfparser.BaseParser.readLine(BaseParser.java:1519) ~[pdfbox-1.8.13.jar:1.8.13]
 	at org.apache.pdfbox.pdfparser.PDFParser.parseHeader(PDFParser.java:372) ~[pdfbox-1.8.13.jar:1.8.13]
@@ -181,7 +181,7 @@ java.io.IOException: Error: End-of-File, expected line
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
-00:38:29.444 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
+02:36:11.554 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
 java.io.IOException: Error: End-of-File, expected line
 	at org.apache.pdfbox.pdfparser.BaseParser.readLine(BaseParser.java:1519) ~[pdfbox-1.8.13.jar:1.8.13]
 	at org.apache.pdfbox.pdfparser.PDFParser.parseHeader(PDFParser.java:372) ~[pdfbox-1.8.13.jar:1.8.13]
@@ -238,7 +238,7 @@ java.io.IOException: Error: End-of-File, expected line
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
-00:38:29.450 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
+02:36:11.565 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
 java.io.IOException: Error: End-of-File, expected line
 	at org.apache.pdfbox.pdfparser.BaseParser.readLine(BaseParser.java:1519) ~[pdfbox-1.8.13.jar:1.8.13]
 	at org.apache.pdfbox.pdfparser.PDFParser.parseHeader(PDFParser.java:372) ~[pdfbox-1.8.13.jar:1.8.13]
@@ -295,7 +295,7 @@ java.io.IOException: Error: End-of-File, expected line
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
-00:38:29.457 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
+02:36:11.571 [Test worker] ERROR org.jabref.logic.xmp.XMPUtil - XMP reading failed
 java.io.IOException: Error: End-of-File, expected line
 	at org.apache.pdfbox.pdfparser.BaseParser.readLine(BaseParser.java:1519) ~[pdfbox-1.8.13.jar:1.8.13]
 	at org.apache.pdfbox.pdfparser.PDFParser.parseHeader(PDFParser.java:372) ~[pdfbox-1.8.13.jar:1.8.13]

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.model.database.KeyChangeListenerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:25" hostname="jessicadias-VPCEH40EB" time="0.032">
+<testsuite name="org.jabref.model.database.KeyChangeListenerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:23" hostname="jessicadias-VPCEH40EB" time="0.02">
   <properties/>
   <testcase name="testRelatedAllEntriesRemoved" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.003"/>
-  <testcase name="testRelatedEntryRemoved" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.005"/>
-  <testcase name="testRelatedChangedInSameEntry" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.009"/>
-  <testcase name="testCrossrefEntryRemoved" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.003"/>
-  <testcase name="testCrossrefChanged" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.003"/>
-  <testcase name="testCrossrefRemoved" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.004"/>
-  <testcase name="testRelatedChanged" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.003"/>
+  <testcase name="testRelatedEntryRemoved" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.003"/>
+  <testcase name="testRelatedChangedInSameEntry" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.002"/>
+  <testcase name="testCrossrefEntryRemoved" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.002"/>
+  <testcase name="testCrossrefChanged" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.002"/>
+  <testcase name="testCrossrefRemoved" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.002"/>
+  <testcase name="testRelatedChanged" classname="org.jabref.model.database.KeyChangeListenerTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

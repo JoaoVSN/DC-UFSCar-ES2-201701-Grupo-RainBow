@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.exporter.ModsExportFormatTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:41:02" hostname="jessicadias-VPCEH40EB" time="0.077">
+<testsuite name="org.jabref.logic.exporter.ModsExportFormatTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:38:05" hostname="jessicadias-VPCEH40EB" time="0.071">
   <properties/>
-  <testcase name="testPerformExportEmptyEntry" classname="org.jabref.logic.exporter.ModsExportFormatTest" time="0.001"/>
-  <testcase name="testPerformExportTrowsSaveException" classname="org.jabref.logic.exporter.ModsExportFormatTest" time="0.075"/>
+  <testcase name="testPerformExportEmptyEntry" classname="org.jabref.logic.exporter.ModsExportFormatTest" time="0.002"/>
+  <testcase name="testPerformExportTrowsSaveException" classname="org.jabref.logic.exporter.ModsExportFormatTest" time="0.069"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

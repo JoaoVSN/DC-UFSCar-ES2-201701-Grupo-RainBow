@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:39:07" hostname="jessicadias-VPCEH40EB" time="0.021">
+<testsuite name="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:36:32" hostname="jessicadias-VPCEH40EB" time="0.051">
   <properties/>
-  <testcase name="findFilesByExtensionInNonExistingDirectoryFindsNothing" classname="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" time="0.008"/>
-  <testcase name="testFindAssociatedFiles" classname="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" time="0.009"/>
-  <testcase name="findFilesByExtensionWithNullThrowsException" classname="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" time="0.002"/>
-  <system-out><![CDATA[00:39:07.330 [Test worker] ERROR org.jabref.logic.util.io.CiteKeyBasedFileFinder - Problem in finding files
-java.nio.file.NoSuchFileException: /tmp/junit96986599045160173/asdfasdf/asdfasdf
+  <testcase name="findFilesByExtensionInNonExistingDirectoryFindsNothing" classname="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" time="0.039"/>
+  <testcase name="testFindAssociatedFiles" classname="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" time="0.006"/>
+  <testcase name="findFilesByExtensionWithNullThrowsException" classname="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" time="0.004"/>
+  <system-out><![CDATA[02:36:32.489 [Test worker] ERROR org.jabref.logic.util.io.CiteKeyBasedFileFinder - Problem in finding files
+java.nio.file.NoSuchFileException: /tmp/junit6863646070354119719/asdfasdf/asdfasdf
 	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86) ~[?:1.8.0_111]
 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:1.8.0_111]
 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:1.8.0_111]
@@ -40,10 +40,10 @@ java.nio.file.NoSuchFileException: /tmp/junit96986599045160173/asdfasdf/asdfasdf
 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
-	at org.mockito.internal.runners.DefaultInternalRunner$1.run(DefaultInternalRunner.java:78) [mockito-core-2.8.47.jar:?]
-	at org.mockito.internal.runners.DefaultInternalRunner.run(DefaultInternalRunner.java:84) [mockito-core-2.8.47.jar:?]
-	at org.mockito.internal.runners.StrictRunner.run(StrictRunner.java:39) [mockito-core-2.8.47.jar:?]
-	at org.mockito.junit.MockitoJUnitRunner.run(MockitoJUnitRunner.java:161) [mockito-core-2.8.47.jar:?]
+	at org.mockito.internal.runners.DefaultInternalRunner$1.run(DefaultInternalRunner.java:78) [mockito-core-2.8.9.jar:?]
+	at org.mockito.internal.runners.DefaultInternalRunner.run(DefaultInternalRunner.java:84) [mockito-core-2.8.9.jar:?]
+	at org.mockito.internal.runners.StrictRunner.run(StrictRunner.java:39) [mockito-core-2.8.9.jar:?]
+	at org.mockito.junit.MockitoJUnitRunner.run(MockitoJUnitRunner.java:161) [mockito-core-2.8.9.jar:?]
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-3.5.jar:3.5]
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-3.5.jar:3.5]
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-3.5.jar:3.5]

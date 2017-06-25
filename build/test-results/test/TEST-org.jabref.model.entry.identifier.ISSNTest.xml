@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jabref.model.entry.identifier.ISSNTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2017-06-23T03:37:24" hostname="jessicadias-VPCEH40EB" time="0.004">
+<testsuite name="org.jabref.model.entry.identifier.ISSNTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2017-06-25T05:35:22" hostname="jessicadias-VPCEH40EB" time="0.018">
   <properties/>
   <testcase name="testIsValidFormatCorrect" classname="org.jabref.model.entry.identifier.ISSNTest" time="0.001"/>
   <testcase name="testIsValidChecksumCorrect" classname="org.jabref.model.entry.identifier.ISSNTest" time="0.0"/>
-  <testcase name="testIsCanBeCleaned" classname="org.jabref.model.entry.identifier.ISSNTest" time="0.0"/>
+  <testcase name="testIsCanBeCleaned" classname="org.jabref.model.entry.identifier.ISSNTest" time="0.001"/>
   <testcase name="testIsValidFormatIncorrect" classname="org.jabref.model.entry.identifier.ISSNTest" time="0.0"/>
-  <testcase name="testIsCanBeCleanedIncorrectRubbish" classname="org.jabref.model.entry.identifier.ISSNTest" time="0.001"/>
-  <testcase name="testGetCleanedISSNDashAlreadyThere" classname="org.jabref.model.entry.identifier.ISSNTest" time="0.0"/>
+  <testcase name="testIsCanBeCleanedIncorrectRubbish" classname="org.jabref.model.entry.identifier.ISSNTest" time="0.0"/>
+  <testcase name="testGetCleanedISSNDashAlreadyThere" classname="org.jabref.model.entry.identifier.ISSNTest" time="0.001"/>
   <testcase name="testIsCanBeCleanedDashAlreadyThere" classname="org.jabref.model.entry.identifier.ISSNTest" time="0.0"/>
   <testcase name="testIsValidChecksumIncorrect" classname="org.jabref.model.entry.identifier.ISSNTest" time="0.0"/>
   <testcase name="testGetCleanedISSNDashRubbish" classname="org.jabref.model.entry.identifier.ISSNTest" time="0.0"/>
-  <testcase name="testGetCleanedISSN" classname="org.jabref.model.entry.identifier.ISSNTest" time="0.0"/>
+  <testcase name="testGetCleanedISSN" classname="org.jabref.model.entry.identifier.ISSNTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
